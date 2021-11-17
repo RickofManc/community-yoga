@@ -1,3 +1,16 @@
-p {
-    color: blue;
+body {
+    font-family: 'Roboto', sans-serif;
 }
+
+#main-header-div {
+    display: block
+}
+
+.main-header {
+    font-size: 300%;
+    font-weight: 700;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
