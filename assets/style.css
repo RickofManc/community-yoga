@@ -7,14 +7,13 @@ body {
     border: none;
 }
 
+/* Site header */
+
 #main-header {
     display: block
-    font-size: 300%;
-    font-weight: 700;
     background-color: #fff;
-    text-align: center;
     padding: 5px;
-    margin: 5px;
+    margin: 10px 10px 30px 10px;
 }
 
 #main-header a {
@@ -23,13 +22,20 @@ body {
 }
 
 #main-header h1 {
-    margin: 5px 0px 5px 0px;
+    font-size: 300%;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px;
 }
 
 #main-header h5 {
-    margin: 0px;
+    font-size: 100%;
+    font-weight:700;
+    text-align: center;
+    margin: 5px;
 }
 
+/* Navigation Menu*/
 
 #nav-menu {
     background-color: black;
@@ -64,11 +70,14 @@ body {
     color: black;
 }
 
-
-
+/* Footer */
 
 footer {
     height: 200px;
     background-color: black;
     color: #fff;
+}
+
+footer div {
+    display: inline-block;
 }
