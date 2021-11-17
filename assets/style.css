@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    margin: 0;
+    min-height: 100vh;
+    margin: 0 auto;
     padding: 0;
     border: none;
 }
@@ -16,17 +17,28 @@ body {
     margin: 5px;
 }
 
+#main-header a {
+    text-decoration: none;
+    color: black;
+}
+
 #main-header h1 {
     margin: 5px 0px 5px 0px;
 }
 
 #main-header h5 {
-    margin:0px;
+    margin: 0px;
 }
+
 
 #nav-menu {
     background-color: black;
-    margin: 5px 0px 5px 0px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: table;
+    margin: 0 auto;
 }
 
 .nav-list li {
@@ -35,21 +47,28 @@ body {
     font-size: 100%;
     font-weight: 700;
     color: #fff;
-    margin: 5px 20px 5px 20px;
-    padding: 2px;
-    text-align: center;
-    position: center;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    width: fit-content;
 }
 
 .nav-list a {
     text-decoration: none;
     color: #fff;
-    text-align: inherit;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav-list li:hover {
+    background-color: chartreuse;
+    color: black;
 }
 
 
+
+
 footer {
+    height: 200px;
     background-color: black;
     color: #fff;
-    padding: 15px;
 }
