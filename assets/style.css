@@ -53,8 +53,8 @@ body {
     font-size: 100%;
     font-weight: 700;
     color: #fff;
-    margin: 0px 20px 0px 20px;
-    padding: 0px 20px 0px 20px;
+    margin: 0px 30px 0px 30px;
+    padding: 0px 30px 0px 30px;
     width: fit-content;
 }
 
@@ -70,6 +70,44 @@ body {
     color: black;
 }
 
+/* Homepage Hero Image Section */
+
+.homepage-hero-image-section {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage-hero-image-div {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url(https://i.imgur.com/YI0t8Py.jpg) no-repeat center center;
+    background-size: cover;
+    }
+
+
+.homepage-hero-image-cover-text {
+    font-size: 100%;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    padding: 0px 15px 0px 15px;
+    width: 150px;
+    height: 75px;
+    bottom: 120px;
+    left: 60px;
+    background-color: rgba(17, 15, 17, .21);
+    position: absolute;
+}
+
+.homepage-hero-image-cover-text h2 {
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 auto; 
+}
+    
 /* Footer */
 
 footer {
