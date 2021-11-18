@@ -40,11 +40,13 @@ body {
 #nav-menu {
     background-color: black;
     margin: 0 auto;
+    width: 100%;
 }
 
 .nav-list {
     display: table;
     margin: 0 auto;
+    padding: 0;
 }
 
 .nav-list li {
@@ -149,28 +151,46 @@ body {
 /* Footer */
 
 footer {
-    height: 200px;
+    height: 260px;
     width: 100%;
     background-color: black;
     color: #fff;
-    text-align: center;
     display: table;
+    text-align: center;
 }
 
 .contact {
     width: 40%;
-    height: 150px;
-    background-color: darkturquoise;
+    height: 230px;
+    /*background-color: darkturquoise;*/
     margin: 20px 20px 20px 20px;
     display: inline-block;
     vertical-align: middle;
+    text-align: left;
+}
 
+.contact h3 {
+    font-size: 175%;
+    margin-left: 30px;
+}
+
+.contact a {
+    font-size: 125%;
+    margin-left: 35px;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff
+}
+
+.contact p {
+    font-weight: 500;
+    font-size: 110%;
 }
 
 .social {
     width: 40%;
-    height: 150px;
-    background-color: rgb(228, 35, 35);
+    height: 230px;
+    /*background-color: rgb(228, 35, 35);*/
     margin: 20px 20px 20px 20px;
     display: inline-block;
     vertical-align: middle;
