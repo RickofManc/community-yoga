@@ -82,18 +82,27 @@ body {
 
 .homepage-hero-image-section {
     width: 100%;
-    height: 350px;
+    height: 400px;
     position: relative;
     overflow: hidden;
 }
 
 .homepage-hero-image-div {
     width: 100%;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
-    background: url(https://i.imgur.com/YI0t8Py.jpg) no-repeat center center;
-    background-size: cover;
-    }
+    background-color:#50CB93;
+}
+
+ 
+.homepage-hero-image-div img {
+    max-width: 100%;
+    height: auto;
+    background: no-repeat center;
+    background-size: contain;
+    overflow: hidden;
+    top: -400px;
+}
 
 
 .homepage-hero-image-cover-text {
@@ -119,30 +128,48 @@ body {
 
 /* Homepage Class & Venue Info */
 
-
 .main-info-section {
     width: 100%;
-    height: 450px;
+    height: 525px;
     display: table;
     text-align: center;
+    margin: 0 auto;
 }
 
-.class-info {
+.info-sections {
     display: inline-block;
-    width: 50%;
-    height: 375px;
-    margin: 20px 0px 20px 0px;
-    padding: 20px 0px 20px 0px;
-    background-color: sandybrown;
 }
 
-.venue-info {
+#info-header h2 {
+    font-size: 250%;
+    font-weight: 800;
+}
+
+#class-info {
     display: inline-block;
     width: 50%;
-    height: 375px;
+    height: 525px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+}
+
+
+.class-info-content {
+    display: inline-block;
+    width: 45%;
+    height: 525px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    background-color: rgba(172, 255, 173, .7);
+}
+
+.venue-info-content {
+    display: inline-block;
+    width: 45%;
+    height: 525px;
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px;
-    background-color: sienna;
+    background-color: #ACFFAD;
 }
 
 /* Student Quotes */
@@ -150,7 +177,6 @@ body {
 .student-quotes-section {
     width: 100%;
     height: 250px;
-    background-color: #fff;
 }
 
 /* Footer */
