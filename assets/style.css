@@ -108,21 +108,26 @@ body {
 .homepage-hero-image-cover-text {
     font-size: 100%;
     text-align: center;
-    margin: 0px 15px 0px 15px;
-    padding: 0px 15px 0px 15px;
-    width: 150px;
-    height: 75px;
+    margin: 15px;
+    padding: 0;
+    width: 200px;
+    height: 90px;
     bottom: 120px;
     left: 60px;
     background-color: rgba(17, 15, 17, .21);
     position: absolute;
+    border: 2px solid #50CB93;
+    border-radius: 25px;    
 }
 
 .homepage-hero-image-cover-text h2 {
-    display: block;
-    color: #fff;
+    font-size: 150%;
+    font-weight: 700;
+    color: #fafafa;
     margin: 0 auto;
-    padding: 0 auto; 
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
