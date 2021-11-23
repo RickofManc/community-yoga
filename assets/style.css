@@ -76,31 +76,24 @@ body {
 
 /* Homepage Hero Image Section */
 
-.homepage-hero-image-section {
-    width: 100%;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-}
-
 .homepage-hero-image-div {
     width: 100%;
-    height: 400px;
-    margin: 0 auto;
+    height: 30em;
+    position: relative;
+    overflow: hidden;
     background-color: #ACFFAD;
 }
 
- 
 .homepage-hero-image-div img {
+    position: relative;
     max-width: 100%;
-    height: auto;
-    background: no-repeat center;
-    background-size: contain;
-    overflow: hidden;
-    top: -400px; 
+    top: -25rem;
+    background: no-repeat center center;
+    object-fit: fill;    
 }
 
 
+/*
 .homepage-hero-image-cover-text {
     font-size: 100%;
     text-align: center;
@@ -111,8 +104,9 @@ body {
     bottom: 120px;
     left: 75px;
     background-color: #ACFFAD;
-    position: absolute; 
+    position: relative; 
 }
+
 
 .homepage-hero-image-cover-text h2 {
     font-size: 150%;
@@ -122,7 +116,7 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-
+*/
 
 /* Homepage Class & Venue Info */
 
