@@ -43,9 +43,7 @@ body {
 
 #nav-menu {
     background-color: #000000;
-    /*margin: 0 auto;*/
     width: 100%;
-    /*height: 90px;*/
 }
 
 .nav-list {
@@ -56,16 +54,16 @@ body {
 .nav-list li {
     display: inline-block;
     list-style-type: none;
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 700;
-    margin: 1rem 2.5rem 1rem 2.5rem;
 }
 
 .nav-list a {
+    margin: 1rem 2.5rem 1rem 2.5rem;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    /*line-height: 90px;*/
+    line-height: 4rem;
 }
 
 .nav-list li:hover {
@@ -78,18 +76,17 @@ body {
 
 .homepage-hero-image-div {
     width: 100%;
-    height: 30em;
+    height: 650px;
     position: relative;
     overflow: hidden;
     background-color: #ACFFAD;
 }
 
 .homepage-hero-image-div img {
-    position: relative;
     max-width: 100%;
-    top: -25rem;
+    bottom: 50rem;
     background: no-repeat center center;
-    object-fit: fill;    
+    
 }
 
 
@@ -122,29 +119,29 @@ body {
 
 
 .class-info-content {
-    display: inline-block;
-    width: 35%;
-    height: 800px;
-    margin: 10px;
-    }
+    width: 100%;
+    height: 1200px;
+    margin: 2rem 0 2rem 0;
+    background-color: aqua;
+}
 
 .class-info-content h2 {
     font-size: 175%;
     text-align: center;
-}
-
-.class-info-content h3 {
-    font-size: 150%;
-    font-weight: 700;
-    margin: 5px 35px 2px 250px;
-
+    margin: 2rem 0 2rem 0;
 }
 
 .class-info-content p {
     font-size: 125%;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
-    margin: 10px 0px 35px 0px;
+    margin: 2rem 0 2rem 0;
+}
+
+.class-info-content h3 {
+    font-size: 150%;
+    font-weight: 500;
+    margin: 1rem 0 2rem 0;
 }
 
 .class-info-content ul {
@@ -159,6 +156,10 @@ body {
     padding: 2px;
 }
 
+#button-div {
+    text-align: center;
+}
+
 .button {
     font-weight: 700;
     font-size: 135%;
@@ -167,9 +168,8 @@ body {
     text-decoration: none;
     text-overflow: hidden;
     vertical-align: middle;
-    border: 0;
-    padding: 15px;
-    margin: 60px 0px 35px 0px;
+    padding: 1rem;
+    margin: 2.5rem;
     background-color: #ACFFAD;
 }
 
