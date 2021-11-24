@@ -80,12 +80,13 @@ body {
     position: relative;
     overflow: hidden;
     object-fit: contain;
-    background: #ACFFAD url"https://i.imgur.com/6vBwJiL.jpg" no-repeat center;
+    background-color: #ACFFAD;
 }
 
 .homepage-hero-image-div img {
     max-width: 100%;
-    bottom: 100rem;
+    background-repeat: no-repeat;
+    top: -30px;
 }
 
 /*
@@ -120,38 +121,37 @@ body {
     display: inline-flex
 }
 
-.class-info-content {
+.main-info {
     width: 50%;
     margin: 2rem 0rem 0rem 0rem;
 }
 
-.class-info-content h2 {
+.main-info h2 {
     font-size: 175%;
     text-align: center;
     margin: 2rem 0 2rem 0;
 }
 
-.class-info-content p {
+.main-info p {
     font-size: 125%;
     font-weight: 300;
     text-align: center;
     margin: 2rem 0 2rem 0;
-    
 }
 
-.class-info-content h3 {
+.main-info h3 {
     font-size: 150%;
     font-weight: 500;
     text-align: center;
     margin: 2rem 0rem 0.5rem 0rem;
 }
 
-.class-info-content ul {
+.main-info ul {
     margin: 0rem 0rem 2rem 0rem;
     padding: 0rem;
 }
 
-.class-info-content li {
+.main-info li {
     font-size: 115%;
     font-weight: 500;
     text-align: center;
@@ -181,16 +181,6 @@ body {
     color: #fff;
 }
 
-.venue-info-content {
-    width: 50%;
-    margin: 2rem 0rem 0rem 0rem;
-}
-
-.venue-info-content h2 {
-    font-size: 175%;
-    text-align: center;
-    margin: 2rem 0 2rem 0;
-}
 
 /* Student Quotes */
 
@@ -202,53 +192,48 @@ body {
 /* Footer */
 
 footer {
-    height: 260px;
     width: 100%;
-    background-color: black;
-    color: #fff;
-    display: table;
+    background-color: #000000;
+    display: inline-flex;
     text-align: center;
 }
 
 .contact {
-    width: 40%;
-    height: 230px;
-    /*background-color: darkturquoise;*/
-    margin: 20px 20px 20px 20px;
-    display: inline-block;
+    width: 50%;
     vertical-align: middle;
     text-align: left;
+    margin: 2rem 0rem 2rem 0rem;
 }
 
 .contact h3 {
-    font-size: 175%;
-    margin-left: 30px;
+    font-size: 150%;
+    font-weight: 500;
+    margin: 2rem 0rem 0.5rem 2rem;
+    color: #fff;
+}
+
+.contact p {
+    font-size: 125%;
+    font-weight: 300;
+    text-align: left;
+    margin: 0.5rem 0rem 0.5rem 2rem;
+    color: #fff;
 }
 
 .contact a {
     font-size: 125%;
-    margin-left: 35px;
     margin-right: 1rem;
     text-decoration: none;
     color: #fff
 }
 
-.contact p {
-    font-weight: 500;
-    font-size: 125%;
-}
-
-.social {
-    width: 40%;
-    height: 230px;
-    /*background-color: rgb(228, 35, 35);*/
-    margin: 20px 20px 20px 20px;
-    display: inline-block;
+.social-media {
+    width: 50%;
     vertical-align: middle;
     text-align: center;
 }
 
-.social ul {
+.social-media ul {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -256,14 +241,14 @@ footer {
     padding: 0px;
 }
 
-.social li {
+.social-media li {
     display: inline-block;
     list-style-type: none;
     margin: 25px 15px 25px 15px;
     padding: 0 auto;
 }
 
-.social a {
+.social-media-icon {
     font-size: 300%;
     font-weight: 700;
     color: #fff;
