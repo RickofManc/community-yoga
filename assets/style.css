@@ -3,7 +3,7 @@ body {
     font-size: 1.6rem;
     font-weight: 300;
     /*min-height: 100vh;*/
-    margin: 0 auto;
+    margin: 0rem;
     padding: 0;
     border: none;
 }
@@ -79,16 +79,14 @@ body {
     height: 650px;
     position: relative;
     overflow: hidden;
-    background-color: #ACFFAD;
+    object-fit: contain;
+    background: #ACFFAD url"https://i.imgur.com/6vBwJiL.jpg" no-repeat center;
 }
 
 .homepage-hero-image-div img {
     max-width: 100%;
-    bottom: 50rem;
-    background: no-repeat center center;
-    
+    bottom: 100rem;
 }
-
 
 /*
 .homepage-hero-image-cover-text {
@@ -104,7 +102,6 @@ body {
     position: relative; 
 }
 
-
 .homepage-hero-image-cover-text h2 {
     font-size: 150%;
     font-weight: 700;
@@ -117,12 +114,15 @@ body {
 
 /* Homepage Class & Venue Info */
 
-
-.class-info-content {
+.main-info-section {
     width: 100%;
     height: 1200px;
-    margin: 2rem 0 2rem 0;
-    background-color: aqua;
+    display: inline-flex
+}
+
+.class-info-content {
+    width: 50%;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
 .class-info-content h2 {
@@ -133,31 +133,34 @@ body {
 
 .class-info-content p {
     font-size: 125%;
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
     margin: 2rem 0 2rem 0;
+    
 }
 
 .class-info-content h3 {
     font-size: 150%;
     font-weight: 500;
-    margin: 1rem 0 2rem 0;
+    text-align: center;
+    margin: 2rem 0rem 0.5rem 0rem;
 }
 
 .class-info-content ul {
-    margin: 2px 20px 35px 275px;
-    padding: 0;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0rem;
 }
 
 .class-info-content li {
     font-size: 115%;
     font-weight: 500;
-    text-align: left;
-    padding: 2px;
+    text-align: center;
+    text-decoration: none;
 }
 
 #button-div {
     text-align: center;
+    margin: 5rem;
 }
 
 .button {
@@ -179,12 +182,14 @@ body {
 }
 
 .venue-info-content {
-    display: inline-block;
-    width: 55%;
-    height: 800px;
-    margin: 0;
-    padding: 0;
-    background-color: #ACFFAD;
+    width: 50%;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.venue-info-content h2 {
+    font-size: 175%;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
 }
 
 /* Student Quotes */
