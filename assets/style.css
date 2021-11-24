@@ -11,9 +11,16 @@ body {
 /* Site header */
 
 #main-header {
-    display: block;
     background-color: #fff;
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+#main-header img {
+    width: 8%;
+    margin: 2rem 0rem 0rem 0rem;
+    background: #fff no-repeat center;
 }
 
 #main-header a {
@@ -25,7 +32,7 @@ body {
     font-size: 300%;
     font-weight: 700;
     text-align: center;
-    margin: 1rem;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 #main-header h1:hover {
@@ -117,7 +124,7 @@ body {
 
 .main-info-section {
     width: 100%;
-    height: 1200px;
+    height: 1100px;
     display: inline-flex
 }
 
@@ -186,15 +193,42 @@ body {
 
 .feedback-section {
     width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 .feedback-section h2 {
-    font-size: 175%;
+    font-size: 150%;
+    width: 100%;
     color: #fff;
     background-color: #000000;
     text-align: center;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    padding: 0.75rem;
 }
+
+.left-student {
+    display: inline-block;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    width: 25%;
+    background-color: aqua;
+}
+
+.centre-student {
+    display: inline-block;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    width: 25%;
+    background-color: aqua;
+}
+
+.right-student {
+    display: inline-block;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    width: 25%;
+    background-color: aqua;
+}
+
+
 
 
 
