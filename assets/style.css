@@ -131,6 +131,7 @@ body {
 .main-info {
     width: 50%;
     margin: 2rem 0rem 0rem 0rem;
+    text-align: center;
 }
 
 .main-info h2 {
@@ -186,6 +187,14 @@ body {
 .button:hover {
     background-color: #000000;
     color: #fff;
+    transition-duration: 0.5s;
+}
+
+.main-info iframe {
+    width: 60%;
+    height: 25rem;
+    border: #ACFFAD 0.2rem solid;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 
@@ -264,7 +273,7 @@ footer {
 }
 
 .contact a {
-    font-size: 125%;
+    font-size: 115%;
     margin-right: 1rem;
     text-decoration: none;
     color: #fff
@@ -294,5 +303,5 @@ footer {
 }
 
 footer i:hover {
-    color: #50CB93
+    color: #ACFFAD
 }
