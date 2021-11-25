@@ -2,9 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    /*min-height: 100vh;*/
     margin: 0rem;
-    padding: 0;
+    padding: 0rem;
     border: none;
 }
 
@@ -87,7 +86,7 @@ body {
     position: relative;
     overflow: hidden;
     object-fit: contain;
-    background-color: #ACFFAD;
+    background-color: #CCCCCC;
 }
 
 .homepage-hero-image-div img {
@@ -237,7 +236,55 @@ body {
     background-color: aqua;
 }
 
+/* About Marie Page */
 
+#about-marie {
+    width: 100%;
+    display: inline-flex;
+}
+
+.about-marie {
+    width: 50%;
+    margin: 4rem 4rem 4rem 4rem;
+    text-align: center;
+}
+
+.about-marie-photo {
+    width: 50%;
+    margin: 4rem 4rem 4rem 4rem;
+    text-align: center;
+}
+
+#marie-photo img {
+    width: 80%;
+    margin: 8rem 2rem 4rem 2rem;
+    background-repeat: #CCCCCC no-repeat center;
+}
+
+.about-marie p {
+    font-size: 115%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 2rem 0 1rem 0;
+}
+
+.about-marie h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+    margin: 3rem 0rem 0.5rem 0rem;
+}
+
+.about-marie ul {
+    margin: 0rem 0rem 2rem 3rem;
+    padding: 0rem;
+}
+
+.about-marie li {
+    font-size: 105%;
+    font-weight: 300;
+    text-align: left;
+}
 
 
 
@@ -258,14 +305,14 @@ footer {
 }
 
 .contact h3 {
-    font-size: 150%;
+    font-size: 125%;
     font-weight: 500;
     margin: 2rem 0.5rem 0.5rem 2rem;
     color: #fff;
 }
 
 .contact p {
-    font-size: 125%;
+    font-size: 105%;
     font-weight: 300;
     text-align: left;
     margin: 0.5rem 0rem 0.5rem 2rem;
@@ -297,7 +344,7 @@ footer {
 }
 
 .social-media-icon {
-    font-size: 300%;
+    font-size: 250%;
     font-weight: 700;
     color: #fff;
 }
