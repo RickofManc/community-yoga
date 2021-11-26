@@ -260,7 +260,7 @@ body {
     font-size: 115%;
     font-weight: 300;
     text-align: justify;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0rem 1rem 0rem;
 }
 
 .about-marie ul {
@@ -286,9 +286,6 @@ body {
 }
 
 
-
-}
-
 /* Yoga at Home Page */
 
 .yoga-at-home-sections {
@@ -302,17 +299,28 @@ body {
     text-align: center;
 }
 
+.yoga-at-home h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+    margin: 3rem 0rem 0.5rem 0rem;
+}
+
+.yoga-at-home p {
+    font-size: 115%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
 .marie-at-home-photo {
-    width: 50%;
-    margin: 4rem 0rem 0rem 0rem;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .marie-at-home-photo img {
-    width: 150%;
-    margin: 2rem 0rem 0rem 25rem;
+    width: 45%;
+    margin: 4rem;
     background: #CCCCCC no-repeat center;
 }
 
@@ -330,19 +338,6 @@ body {
     background: #fff no-repeat center;
 }
 
-.yoga-at-home p {
-    font-size: 115%;
-    font-weight: 300;
-    text-align: justify;
-    margin: 2rem 0 1rem 0;
-}
-
-.yoga-at-home h3 {
-    font-size: 150%;
-    font-weight: 500;
-    text-align: left;
-    margin: 3rem 0rem 0.5rem 0rem;
-}
 
 
 /* Footer */
