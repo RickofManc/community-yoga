@@ -238,34 +238,15 @@ body {
 
 /* About Marie Page */
 
-#about-marie {
+#about-marie-section {
     width: 100%;
     display: inline-flex;
 }
 
-.about-marie {
+.about-marie div {
     width: 50%;
     margin: 4rem 4rem 4rem 4rem;
     text-align: center;
-}
-
-.about-marie-photo {
-    width: 50%;
-    margin: 4rem 4rem 4rem 4rem;
-    text-align: center;
-}
-
-#marie-photo img {
-    width: 80%;
-    margin: 8rem 2rem 4rem 2rem;
-    background-repeat: #CCCCCC no-repeat center;
-}
-
-.about-marie p {
-    font-size: 115%;
-    font-weight: 300;
-    text-align: justify;
-    margin: 2rem 0 1rem 0;
 }
 
 .about-marie h3 {
@@ -273,6 +254,13 @@ body {
     font-weight: 500;
     text-align: left;
     margin: 3rem 0rem 0.5rem 0rem;
+}
+
+.about-marie p {
+    font-size: 115%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 2rem 0 1rem 0;
 }
 
 .about-marie ul {
@@ -286,6 +274,75 @@ body {
     text-align: left;
 }
 
+.marie-photo {
+    justify-content: center;
+    align-items: center;
+}
+
+.marie-photo img {
+    width: 175%;
+    margin: 4rem;
+    background: #CCCCCC no-repeat center;
+}
+
+
+
+}
+
+/* Yoga at Home Page */
+
+.yoga-at-home-sections {
+    width: 100%;
+    display: inline-flex;
+}
+
+.yoga-at-home div {
+    width: 50%;
+    margin: 4rem 4rem 4rem 4rem;
+    text-align: center;
+}
+
+.marie-at-home-photo {
+    width: 50%;
+    margin: 4rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marie-at-home-photo img {
+    width: 150%;
+    margin: 2rem 0rem 0rem 25rem;
+    background: #CCCCCC no-repeat center;
+}
+
+.recommended-instructor-photo {
+    width: 50%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-instructor-photo img {
+    width: 75%;
+    margin: 2rem;
+    background: #fff no-repeat center;
+}
+
+.yoga-at-home p {
+    font-size: 115%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 2rem 0 1rem 0;
+}
+
+.yoga-at-home h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+    margin: 3rem 0rem 0.5rem 0rem;
+}
 
 
 /* Footer */
