@@ -74,6 +74,10 @@ body {
 
 .nav-list li:hover {
     background-color: #ACFFAD;
+    transition-duration: 0.5s;
+}
+
+.nav-list a:hover {
     color: #000000;
     transition-duration: 0.5s;
 }
