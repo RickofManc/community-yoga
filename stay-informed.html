@@ -62,48 +62,54 @@
             <br>
             
             <fieldset>
-                <legend><h4>Required Fields</h4></legend>
+                <legend>Required Fields</legend>
                        
-                <label for="fname">First Name</label>
+                <label for="fname" class="form-label">First Name:</label>
                 <input type="text" id="fname" name="first_name" placeholder="Type first name" required>
-                <label for="lname">Last Name</label>
+                <br>
+                <label for="lname" class="form-label">Last Name:</label>
                 <input type="text" id="lname" name="last_name" placeholder="Type last name" required>
-                <label for="email">Email Address</label>
-                <input type="text" id="email" name="email_address" placeholder="Type email Address" required>
+                <br>
+                <label for="email" class="form-label">Email Address:</label>
+                <input type="email" id="email" name="email_address" placeholder="Type email Address" required>
                 </fieldset>            
                 
                 <br>
 
             <fieldset>
-                <legend><h4>Optional fields</h4></legend>
+                <legend>Optional Fields</legend>
                             
-                <p>What are your areas of interest</p>
-                <label for="yoga">Yoga</label>
+                <p>What are your areas of interest? (tick all that apply)</p>
                 <input type="radio" name="areas_of_interest" id="yoga" value="yoga">
-                <label for="pilates">Pilates</label>
+                <label for="yoga" class="form-label">Yoga</label>
+                <br>
                 <input type="radio" name="areas_of_interest" id="pilates" value="pilates">
-                <label for="meditation">Meditation</label>
+                <label for="pilates" class="form-label">Pilates</label>
+                <br>
                 <input type="radio" name="areas_of_interest" id="meditation" value="meditation">
-                <label for="mindfulness">Mindfulness</label>
+                <label for="meditation" class="form-label">Meditation</label>
+                <br>
                 <input type="radio" name="areas_of_interest" id="mindfulness" value="mindfulness">
+                <label for="mindfulness" class="form-label">Mindfulness</label>
                 <br>
 
                 <p>What is your current level of yoga?</p>
-                <label for="beginner">Beginner (approximately under 15 classes)</label>
-                <input type="radio" name="yoga_level" id="beginner" value="beginner" multiple>
-                <label for="intermediate">Intermediate (approximately 16-50 classes)</label>
-                <input type="radio" name="yoga_level" id="intermediate" value="intermediate" multiple>
-                <label for="expert">Expert (approximately +51 classes)</label>
-                <input type="radio" name="yoga_level" id="expert" value="expert" multiple>
+                <input type="radio" name="yoga_level" id="beginner" value="beginner">
+                <label for="beginner" class="form-label">Beginner (approximately under 15 classes)</label>
+                <br>
+                <input type="radio" name="yoga_level" id="intermediate" value="intermediate">
+                <label for="intermediate" class="form-label">Intermediate (approximately 16-50 classes)</label>
+                <br>
+                <input type="radio" name="yoga_level" id="expert" value="expert">
+                <label for="expert" class="form-label">Expert (approximately +51 classes)</label>
                 <br>
                 
                 <p>How old are you?</p>
-                <label for="age">Enter your age: </label>
                 <input type="number" id="age" name="age" placeholder="Age" step="2" min="16" max="99">
                 <br>
                 
                 <p>Please add any comments or questions in the box below:</p>
-                <textarea name="form_comments" id="form_comments" placeholder="Type text here" rows="5" cols="65"></textarea>
+                <textarea name="form_comments" id="form_comments" placeholder="Type text here"></textarea>
                 </fieldset>
                 <br>
 

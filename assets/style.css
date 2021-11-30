@@ -88,41 +88,15 @@ body {
 .homepage-hero-image-div {
     width: 100%;
     height: 650px;
-    position: relative;
     overflow: hidden;
-    object-fit: contain;
-    background-color: #CCCCCC;
+    position: relative;
 }
 
 .homepage-hero-image-div img {
-    max-width: 100%;
-    background-repeat: no-repeat;
-    top: -30px;
+    width: 115%;
+    position: absolute;
+    top: -150px;
 }
-
-/*
-.homepage-hero-image-cover-text {
-    font-size: 100%;
-    text-align: center;
-    margin: 15px;
-    padding: 0;
-    width: 200px;
-    height: 90px;
-    bottom: 120px;
-    left: 75px;
-    background-color: #ACFFAD;
-    position: relative; 
-}
-
-.homepage-hero-image-cover-text h2 {
-    font-size: 150%;
-    font-weight: 700;
-    margin: 0 auto;
-    padding: 15px 10px 15px 10px;
-    text-align: center;
-    vertical-align: middle;
-}
-*/
 
 /* Homepage Class & Venue Info */
 
@@ -424,27 +398,49 @@ body {
     text-align: left;
 }
 
-.XX-photo {
-    justify-content: center;
-    align-items: center;
+.sign-up fieldset {
+    width: 55%;
+    border: #ACFFAD 0.2rem solid;
 }
 
-.XX img {
-    width: 85%;
-    margin: 8rem 2rem 2rem 2rem;
-    background: #CCCCCC no-repeat center;
+.sign-up legend {
+    font-size: 115%;
+    font-weight: 500;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
-.XX photo {
-    justify-content: center;
-    align-items: center;
+.form-label {
+    font-size: 105%;
+    font-weight: 300;
+    margin: 1.5rem;
 }
 
-.XX img {
-    width: 30%;
-    margin: 2rem;
-    background: #fff no-repeat center;
+.sign-up fieldset p {
+    font-size: 110%;
+    font-weight: 300;
+    margin-left: 1.5rem;
 }
+
+.sign-up fieldset input[type=radio] {
+    margin: 0rem 0rem 0rem 3rem;
+    vertical-align: middle;
+}
+
+.sign-up fieldset input[type=number] {
+    margin: 0rem 0rem 0rem 3rem;
+    
+}
+
+.sign-up fieldset textarea {
+    width: 50%;
+    height: 7rem;
+    padding: 1rem;
+    margin: 0.5rem 0rem 2rem 3rem;
+    border: 2px #CCCCCC solid;
+    resize: none;
+    box-sizing: border-box;
+}
+
 
 
 /* Footer */
