@@ -420,6 +420,10 @@ body {
     margin: 2rem 0rem 1rem 0rem;
 }
 
+.sign-up form {
+    text-align: left;
+}
+
 .XX-photo {
     justify-content: center;
     align-items: center;
