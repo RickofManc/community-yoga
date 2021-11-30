@@ -54,7 +54,7 @@
     <div class="sign-up">
         <h3>Stay Informed!</h3>
             
-        <form method="post" action="https://formdata.otyoga.com">
+        <form method="post" action="https://formdata.ot-yoga.com">
             
             <p>
                 Please complete and submit the form below to stay informed on changes to classes and all things yoga!
@@ -64,13 +64,13 @@
             <fieldset>
                 <legend>Required Fields</legend>
                        
-                <label for="fname" class="form-label">First Name:</label>
+                <label for="fname" class="form-label-required">First Name:</label>
                 <input type="text" id="fname" name="first_name" placeholder="Type first name" required>
                 <br>
-                <label for="lname" class="form-label">Last Name:</label>
+                <label for="lname" class="form-label-required">Last Name:</label>
                 <input type="text" id="lname" name="last_name" placeholder="Type last name" required>
                 <br>
-                <label for="email" class="form-label">Email Address:</label>
+                <label for="email" class="form-label-required">Email Address:</label>
                 <input type="email" id="email" name="email_address" placeholder="Type email Address" required>
                 </fieldset>            
                 
@@ -80,36 +80,36 @@
                 <legend>Optional Fields</legend>
                             
                 <p>What are your areas of interest? (tick all that apply)</p>
-                <input type="radio" name="areas_of_interest" id="yoga" value="yoga">
-                <label for="yoga" class="form-label">Yoga</label>
+                <input type="checkbox" name="areas_of_interest" id="yoga" value="yoga">
+                <label for="yoga" class="form-label-option">Yoga</label>
                 <br>
-                <input type="radio" name="areas_of_interest" id="pilates" value="pilates">
-                <label for="pilates" class="form-label">Pilates</label>
+                <input type="checkbox" name="areas_of_interest" id="pilates" value="pilates">
+                <label for="pilates" class="form-label-option">Pilates</label>
                 <br>
-                <input type="radio" name="areas_of_interest" id="meditation" value="meditation">
-                <label for="meditation" class="form-label">Meditation</label>
+                <input type="checkbox" name="areas_of_interest" id="meditation" value="meditation">
+                <label for="meditation" class="form-label-option">Meditation</label>
                 <br>
-                <input type="radio" name="areas_of_interest" id="mindfulness" value="mindfulness">
-                <label for="mindfulness" class="form-label">Mindfulness</label>
+                <input type="checkbox" name="areas_of_interest" id="mindfulness" value="mindfulness">
+                <label for="mindfulness" class="form-label-option">Mindfulness</label>
                 <br>
 
                 <p>What is your current level of yoga?</p>
                 <input type="radio" name="yoga_level" id="beginner" value="beginner">
-                <label for="beginner" class="form-label">Beginner (approximately under 15 classes)</label>
+                <label for="beginner" class="form-label-option">Beginner (approximately under 15 classes)</label>
                 <br>
                 <input type="radio" name="yoga_level" id="intermediate" value="intermediate">
-                <label for="intermediate" class="form-label">Intermediate (approximately 16-50 classes)</label>
+                <label for="intermediate" class="form-label-option">Intermediate (approximately 16-50 classes)</label>
                 <br>
                 <input type="radio" name="yoga_level" id="expert" value="expert">
-                <label for="expert" class="form-label">Expert (approximately +51 classes)</label>
+                <label for="expert" class="form-label-option">Expert (approximately +51 classes)</label>
                 <br>
                 
                 <p>How old are you?</p>
-                <input type="number" id="age" name="age" placeholder="Age" step="2" min="16" max="99">
+                <input type="number" id="age" name="age" placeholder="Type age" step="1" min="16" max="99">
                 <br>
                 
                 <p>Please add any comments or questions in the box below:</p>
-                <textarea name="form_comments" id="form_comments" placeholder="Type text here"></textarea>
+                <textarea maxlength="250" name="form_comments" id="form_comments" placeholder="Type comments here"></textarea>
                 </fieldset>
                 <br>
 
@@ -125,22 +125,22 @@
         <h3>Old Trafford Yoga</h3>
         <p>
             <a href="https://goo.gl/maps/8CgDnvDHQMe3WeUj6" target="_blank" rel="noopener">
-            <i class="fas fa-map-marker-alt"></i>
-            </a>
-            St John’s Centre, St John’s Road, Old Trafford, M16 7GX
+                <i class="fas fa-map-marker-alt"></i>
+                </a>
+                St John’s Centre, St John’s Road, Old Trafford, M16 7GX
         </p>
         <p>
             <a href="tel:+441618727795">
-            <i class="fas fa-phone-alt"></i>
-            </a>
-            01618727795
+                <i class="fas fa-phone-alt"></i>
+                </a>
+                01618727795
         </p>
 
         <p>
-            <a href="mailto:marie@ityoga.com">
-            <i class="far fa-envelope"></i>
-            </a>
-            marie@otyoga.com
+            <a href="mailto:marie@ot-yoga.com">
+                <i class="far fa-envelope"></i>
+                </a>
+                marie@ot-yoga.com
         </p>
     </div>
 
