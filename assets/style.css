@@ -395,15 +395,13 @@ body {
 
 /* Stay Informed Sign Up Page */
 
-/* Yoga at Home Page */
-
 .stay-informed-section {
     width: 100%;
-    display: inline-flex;
+    display: block;
 }
 
 .sign-up {
-    width: 50%;
+    width: 100%;
     margin: 4rem 4rem 4rem 4rem;
     text-align: center;
 }

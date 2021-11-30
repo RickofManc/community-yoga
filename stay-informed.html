@@ -44,7 +44,7 @@
             <a href="yoga-at-home.html">Yoga at Home</a>
         </li>
         <li>
-            <a href="#">Stay Informed</a>
+            <a href="stay-informed.html">Stay Informed</a>
         </li>
     </ul>
 </nav>
@@ -53,9 +53,66 @@
 <section class="stay-informed-section">
     <div class="sign-up">
         <h3>Stay Informed!</h3>
+            
+        <form method="post" action="https://formdata.otyoga.com">
+            
             <p>
-                Fill out and submit the form below to keep updated on changes to classes and all things yoga!
+                Please complete and submit the form below to stay informed on changes to classes and all things yoga!
             </p>
+
+            <h5>Required Fields:</h5>
+         
+            <br>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email_address" required>
+            
+            <br>
+
+            <h5>Optional fields:</h5>
+            
+            <br>
+
+            <p>What are your areas of interest</p>
+
+            <label for="yoga">Yoga</label>
+            <input type="radio" name="areas_of_interest" id="yoga" value="yoga">
+            <label for="pilates">Pilates</label>
+            <input type="radio" name="areas_of_interest" id="pilates" value="pilates">
+            <label for="meditation">Meditation</label>
+            <input type="radio" name="areas_of_interest" id="meditation" value="meditation">
+            <label for="mindfulness">Mindfulness</label>
+            <input type="radio" name="areas_of_interest" id="mindfulness" value="mindfulness">
+            
+            <br>
+
+            <p>What is your current level of yoga?</p>
+
+            <label for="beginner">Beginner (approximately under 15 classes)</label>
+            <input type="radio" name="yoga_level" id="beginner" value="beginner">
+            <label for="intermediate">Intermediate (approximately 16-50 classes)</label>
+            <input type="radio" name="yoga_level" id="intermediate" value="intermediate">
+            <label for="expert">Expert (approximately +51 classes)</label>
+            <input type="radio" name="yoga_level" id="expert" value="expert">
+            
+            <br>
+
+            <p>Please add any comments or questions in the blow below:</p>
+            
+            <input type="text" name="form_comments" id="form_comments" value="form_comments">
+            <label for="search">Enter comments here</label>
+            
+            <br>
+            
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+        
+        </form>            
+        
     </div>    
 
 <footer>
