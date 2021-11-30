@@ -330,18 +330,17 @@ body {
 
 .faqs h4 {
     font-size: 100%;
-    font-weight: 100;
+    font-weight: 600;
     text-align: left;
     margin: 3rem 0rem 0.5rem 0rem;
 }
 
-.yoga-in-class p {
+.faqs p {
     font-size: 100%;
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
     margin: 2rem 0rem 1rem 0rem;
 }
-
 
 
 /* Yoga at Home Page */
@@ -393,6 +392,57 @@ body {
     background: #fff no-repeat center;
 }
 
+
+/* Stay Informed Sign Up Page */
+
+/* Yoga at Home Page */
+
+.stay-informed-section {
+    width: 100%;
+    display: inline-flex;
+}
+
+.sign-up {
+    width: 50%;
+    margin: 4rem 4rem 4rem 4rem;
+    text-align: center;
+}
+
+.sign-up h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+    margin: 3rem 0rem 0.5rem 0rem;
+}
+
+.sign-up p {
+    font-size: 115%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.XX-photo {
+    justify-content: center;
+    align-items: center;
+}
+
+.XX img {
+    width: 85%;
+    margin: 8rem 2rem 2rem 2rem;
+    background: #CCCCCC no-repeat center;
+}
+
+.XX photo {
+    justify-content: center;
+    align-items: center;
+}
+
+.XX img {
+    width: 30%;
+    margin: 2rem;
+    background: #fff no-repeat center;
+}
 
 
 /* Footer */
