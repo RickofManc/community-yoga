@@ -15,10 +15,9 @@ body {
     text-align: center;
 }
 
-
 #main-header img {
     width: 8%;
-    margin-top: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
     background: #fff no-repeat center;
 }
 
@@ -31,7 +30,7 @@ body {
     font-size: 300%;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 #main-header h1:hover {
@@ -191,29 +190,16 @@ body {
     color: #fff;
     background-color: #000;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0rem;
     padding: 0.75rem;
 }
 
-.left-student {
+.student-feedback {
     display: inline-block;
-    margin: 2rem 0.5rem;
+    margin: 2rem 2rem;
     width: 25%;
-    background-color: aqua;
-}
-
-.centre-student {
-    display: inline-block;
-    margin: 2rem 0.5rem;
-    width: 25%;
-    background-color: aqua;
-}
-
-.right-student {
-    display: inline-block;
-    margin: 2rem 0.5rem;
-    width: 25%;
-    background-color: aqua;
+    height: 20rem;
+    background-color: #acffad;
 }
 
 /* About Marie Page */
