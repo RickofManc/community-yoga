@@ -399,7 +399,7 @@ body {
 }
 
 .sign-up fieldset {
-    width: 55%;
+    width: 45%;
     border: #ACFFAD 0.2rem solid;
     margin-bottom: 2rem;
 }
@@ -434,13 +434,7 @@ body {
     height: 1.5rem;
     border: #CCCCCC 2px solid;
     margin: 0rem 0rem 0rem 3rem;
-}
-
-.sign-up fieldset input[type=checkbox]:hover {
-    background-color: #CCCCCC;
-}
-.sign-up fieldset input[type=checkbox]:checked {
-    background-color: #ACFFAD;
+    vertical-align: middle;
 }
 
 .sign-up fieldset input[type=radio] {
@@ -448,7 +442,7 @@ body {
     height: 1.5rem;
     margin: 0rem 0rem 0rem 3rem;
     border: 2px #CCCCCC solid;
-    
+    vertical-align: middle;
 }
 
 .sign-up fieldset input[type=number] {
@@ -477,10 +471,6 @@ body {
     text-indent: 0.5rem;
 }
 
-.sign-up fieldset input[type=text]:focus {
-    border: 3px #ACFFAD solid;
-}
-
 .sign-up fieldset input[type=email] {
     width: 45%;
     height: 2.5rem;
@@ -493,10 +483,6 @@ body {
     font-weight: 300;
     text-align: left;
     text-indent: 0.5rem;
-}
-
-.sign-up fieldset input[type=email]:focus {
-    border: 3px #ACFFAD solid;
 }
 
 .sign-up fieldset textarea {
@@ -513,8 +499,23 @@ body {
     text-indent: 0.5rem;
 }
 
-.sign-up fieldset textarea:focus {
-    border: 3px #ACFFAD solid;
+.sign-up-button {
+    font-weight: 500;
+    font-size: 110%;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 1rem;
+    margin: 0rem 1rem 2rem 3rem;
+    background-color: #ACFFAD;
+    border: none;
+}
+
+.sign-up-button:hover {
+    background-color: #000000;
+    color: #fff;
+    transition-duration: 0.5s;
 }
 
 /* Footer */
@@ -524,7 +525,6 @@ footer {
     background-color: #000000;
     display: inline-flex;
     text-align: center;
-    
 }
 
 .contact {
