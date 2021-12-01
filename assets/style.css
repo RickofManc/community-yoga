@@ -87,18 +87,18 @@ body {
 
 .homepage-hero-image-div {
     width: 100%;
-    height: 650px;
+    height: 550px;
     overflow: hidden;
     position: relative;
 }
 
 .homepage-hero-image-div img {
-    width: 115%;
+    width: 110%;
     position: absolute;
-    top: -150px;
+    top: -400px;
 }
 
-/* Homepage Class & Venue Info */
+/* Homepage Class & Location Info */
 
 .main-info-section {
     width: 100%;
@@ -210,7 +210,7 @@ body {
     display: inline-flex;
 }
 
-.about-marie div {
+.about-marie {
     width: 50%;
     margin: 4rem;
     text-align: center;
@@ -241,15 +241,9 @@ body {
     text-align: left;
 }
 
-.marie-photo {
-    justify-content: center;
-    align-items: center;
-}
-
 .marie-photo img {
-    width: 175%;
-    margin: 4rem;
-    background: #ccc no-repeat center;
+    margin-top: 3rem;
+    width: 90%;
 }
 
 /* Yoga in Class Page */
@@ -360,8 +354,7 @@ body {
 
 .stay-informed-section {
     width: 100%;
-    text-align: center;
-    display: inline;
+    display: inline-flex;
 }
 
 .sign-up {
@@ -390,25 +383,41 @@ body {
 .sign-up fieldset {
     width: 45%;
     border: #acffad 0.2rem solid;
-    margin-bottom: 2rem;
+    margin: 0 0.5rem 2rem 0.5rem;
 }
 
 .sign-up legend {
     font-size: 115%;
     font-weight: 500;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
 }
 
-.form-label-required {
+.form-label {
     font-size: 110%;
     font-weight: 300;
-    margin-left: 1.5rem;
+    display: inline-block;
+    margin: 2rem 0.5rem 0.5rem 1.5rem;
 }
 
-.form-label-option {
-    font-size: 105%;
+.form-answer {
+    font-size: 110%;
     font-weight: 300;
-    margin-left: 1.5rem;
+    display: inline-block;
+    margin: 0 0.5rem 0.5rem 1.5rem;
+}
+
+.required-input {
+    width: 65%;
+    height: 2.5rem;
+    margin: 0.5rem 1.5rem;
+    border: 2px #ccc solid;
+    resize: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 95%;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 0.5rem;
 }
 
 .sign-up fieldset p {
@@ -418,55 +427,20 @@ body {
     margin: 2.5rem 0 0.5rem 1.5rem;
 }
 
-.sign-up fieldset input[type=checkbox] {
-    width: 1.5rem;
-    height: 1.5rem;
-    border: #ccc 2px solid;
-    margin-left: 3rem;
-    vertical-align: middle;
-}
-
+.sign-up fieldset input[type=checkbox],
 .sign-up fieldset input[type=radio] {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 3rem;
-    border: 2px #ccc solid;
+    border: #ccc 2px solid;
+    margin: 0 0 0.5rem 3rem;
     vertical-align: middle;
 }
 
 .sign-up fieldset input[type=number] {
-    width: 15%;
+    width: 25%;
     height: 2.5rem;
-    margin-left: 3rem;
+    margin: 0 0 0 3rem;
     border: 2px #ccc solid;
-    font-family: Roboto;
-    font-size: 95%;
-    font-weight: 300;
-    text-align: left;
-    text-indent: 0.5rem;
-}
-
-.sign-up fieldset input[type=text] {
-    width: 45%;
-    height: 2.5rem;
-    margin: 1rem;
-    border: 2px #ccc solid;
-    resize: none;
-    box-sizing: border-box;
-    font-family: Roboto;
-    font-size: 95%;
-    font-weight: 300;
-    text-align: left;
-    text-indent: 0.5rem;
-}
-
-.sign-up fieldset input[type=email] {
-    width: 45%;
-    height: 2.5rem;
-    margin: 1rem;
-    border: 2px #ccc solid;
-    resize: none;
-    box-sizing: border-box;
     font-family: Roboto;
     font-size: 95%;
     font-weight: 300;
@@ -475,9 +449,9 @@ body {
 }
 
 .sign-up fieldset textarea {
-    width: 50%;
+    width: 65%;
     height: 7rem;
-    margin: 0.5rem 0 2rem 3rem;
+    margin: 0.5rem 0 0.5rem 3rem;
     border: 2px #ccc solid;
     resize: none;
     box-sizing: border-box;
@@ -496,7 +470,7 @@ body {
     text-decoration: none;
     vertical-align: middle;
     padding: 1rem;
-    margin: 0 1rem 2rem 3rem;
+    margin: 0rem 0.25rem 2rem 8.75rem;
     background-color: #acffad;
     border: none;
 }

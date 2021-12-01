@@ -20,7 +20,7 @@
     <header id="main-header">
         <div class="ot-yoga-logo">
             <a href="index.html" aria-label="Go to homepage">
-                <img src="https://i.imgur.com/8BH6ltK.png" alt="Old Trafford Yogo logo of a house joined in a loop at the bottom to represent togetherness">
+                <img src="assets/images/ot-yogo-b&w logo.png" alt="Old Trafford Yogo logo of a house joined in a loop at the bottom to represent togetherness">
             </a>
         </div>
         
@@ -44,7 +44,7 @@
                 <a href="yoga-at-home.html" aria-label="Learn about performing Yoga at Home">Yoga at Home</a>
             </li>
             <li>
-                <a href="stay-informed.html" aria-label="Sign-up to OT Yoga's news via email">Stay Informed</a>
+                <a href="stay-informed.html" aria-label="Sign-up to OT Yoga's news via email">Stay Informed!</a>
             </li>
         </ul>
     </nav>
@@ -64,14 +64,17 @@
                 <fieldset>
                     <legend>Required Fields</legend>
                         
-                    <label for="fname" class="form-label-required">First Name:</label>
-                    <input type="text" id="fname" name="first_name" placeholder="Type first name" required>
+                    <label for="fname" class="form-label">First Name:</label>
                     <br>
-                    <label for="lname" class="form-label-required">Last Name:</label>
-                    <input type="text" id="lname" name="last_name" placeholder="Type last name" required>
+                    <input type="text" id="fname" name="first_name" placeholder="Type first name" class="required-input" required>
                     <br>
-                    <label for="email" class="form-label-required">Email Address:</label>
-                    <input type="email" id="email" name="email_address" placeholder="Type email Address" required>
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <br>
+                    <input type="text" id="lname" name="last_name" placeholder="Type last name" class="required-input" required>
+                    <br>
+                    <label for="email" class="form-label">Email Address:</label>
+                    <br>
+                    <input type="email" id="email" name="email_address" placeholder="Type email Address" class="required-input" required>
                     </fieldset>            
                     
                     <br>
@@ -79,36 +82,40 @@
                 <fieldset>
                     <legend>Optional Fields</legend>
                                 
-                    <p>What are your areas of interest? (tick all that apply)</p>
+                    <label class="form-label">What are your areas of interest? (tick all that apply)</label>
+                    <br>
                     <input type="checkbox" name="areas_of_interest" id="yoga" value="yoga">
-                    <label for="yoga" class="form-label-option">Yoga</label>
+                    <label for="yoga" class="form-answer">Yoga</label>
                     <br>
                     <input type="checkbox" name="areas_of_interest" id="pilates" value="pilates">
-                    <label for="pilates" class="form-label-option">Pilates</label>
+                    <label for="pilates" class="form-answer">Pilates</label>
                     <br>
                     <input type="checkbox" name="areas_of_interest" id="meditation" value="meditation">
-                    <label for="meditation" class="form-label-option">Meditation</label>
+                    <label for="meditation" class="form-answer">Meditation</label>
                     <br>
                     <input type="checkbox" name="areas_of_interest" id="mindfulness" value="mindfulness">
-                    <label for="mindfulness" class="form-label-option">Mindfulness</label>
+                    <label for="mindfulness" class="form-answer">Mindfulness</label>
                     <br>
 
-                    <p>What is your current level of yoga?</p>
+                    <label class="form-label">What is your current level of yoga?</label>
+                    <br>
                     <input type="radio" name="yoga_level" id="beginner" value="beginner">
-                    <label for="beginner" class="form-label-option">Beginner (approximately under 15 classes)</label>
+                    <label for="beginner" class="form-answer">Beginner (i.e. under 15 classes)</label>
                     <br>
                     <input type="radio" name="yoga_level" id="intermediate" value="intermediate">
-                    <label for="intermediate" class="form-label-option">Intermediate (approximately 16-50 classes)</label>
+                    <label for="intermediate" class="form-answer">Intermediate (i.e. 16-50 classes)</label>
                     <br>
                     <input type="radio" name="yoga_level" id="expert" value="expert">
-                    <label for="expert" class="form-label-option">Expert (approximately +51 classes)</label>
+                    <label for="expert" class="form-answer">Expert (i.e. +51 classes)</label>
                     <br>
                     
-                    <p>How old are you?</p>
+                    <label class="form-label">How old are you?</label>
+                    <br>
                     <input type="number" id="age" name="age" placeholder="Type age" step="1" min="16" max="99">
                     <br>
                     
-                    <p>Please add any comments or questions in the box below:</p>
+                    <label class="form-label">Please add any comments or questions in the box below:</label>
+                    <br>
                     <textarea maxlength="250" name="form_comments" id="form_comments" placeholder="Type comments here"></textarea>
                     </fieldset>
                     <br>
