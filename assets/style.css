@@ -98,44 +98,44 @@ body {
 
 /* Homepage Class & Location Info */
 
-.main-info-section {
+.homepage-main-section {
     width: 100%;
     /*height: 1000px;*/
     display: inline-flex
 }
 
-.main-info {
+.homepage-main-info-div {
     width: 50%;
     margin-top: 2rem;
     text-align: center;
 }
 
-.main-info-h3 {
+.homepage-main-info-h3 {
     text-align: center;
     margin: 2rem 0rem;
 }
 
-.main-info-h4 {
+.homepage-main-info-h4 {
     font-weight: 500;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 0;
 }
 
-.main-info p {
+.homepage-main-info p {
     font-weight: 300;
     text-align: center;
     margin: 2rem 0;
 }
 
-.main-info ul {
+.homepage-main-info ul {
     margin-top: 0.5rem 0 2rem 0;
     padding-left: 0rem;
     list-style-type: none;
     text-align: center;
 }
 
-.main-info li {
+.homepage-main-info li {
     font-weight: 300;
     text-align: center;
 }
@@ -162,7 +162,7 @@ body {
     transition-duration: 0.5s;
 }
 
-.main-info iframe {
+.homepage-main-info iframe {
     width: 60%;
     height: 25rem;
     border: #acffad 0.2rem solid;
@@ -199,11 +199,10 @@ body {
     text-align: center;
 }
 
-.about-marie h3 {
-    font-size: 150%;
+.site-pages-h3 {
     font-weight: 500;
     text-align: left;
-    margin: 3rem 0 0.5rem 0;
+    margin: 3rem 0 0.5rem 0
 }
 
 .about-marie p {
@@ -473,45 +472,45 @@ footer {
     text-align: center;
 }
 
-.contact {
+.footer-contact-div {
     width: 50%;
     vertical-align: middle;
     text-align: left;
     margin: 2rem 1.5rem 2rem 10rem;
 }
 
-.contact h3 {
+.footer-contact-div h3 {
     font-weight: 500;
     margin: 0.5rem;
     color: #fff;
 }
 
-.contact p {
+.footer-contact-div p {
     font-weight: 300;
     text-align: left;
     margin: 0.5rem;
     color: #fff;
 }
 
-.contact a {
+.footer-contact-div a {
     margin-right: 1rem;
     text-decoration: none;
     color: #fff
 }
 
-.social-media {
+.footer-social-media-div {
     width: 50%;
     vertical-align: middle;
     text-align: right;
     margin: 2rem 10rem 2rem 1.5rem;
 }
 
-.social-media ul {
+.footer-social-media-div ul {
     vertical-align: middle;
     padding: 1rem 0;
 }
 
-.social-media li {
+.footer-social-media-div li {
     display: inline-block;
     list-style-type: none;
     margin-right: 2rem;
