@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: none;
 }
@@ -249,7 +249,8 @@ body {
 
 #faqs-section {
     width: 100%;
-    display: flex;
+    display: block;
+    margin-bottom: 4rem;
 }
 
 .faqs {
@@ -259,19 +260,81 @@ body {
 }
 
 
-.faqs h4 {
-    font-size: 100%;
-    font-weight: 600;
-    text-align: left;
-    margin: 3rem 0 0.5rem 0;
-}
+/* FAQs Vertical Accordian credited to Monica Wheeler on CodePen  */
 
-.faqs p {
-    font-size: 100%;
-    font-weight: 400;
-    text-align: justify;
-    margin: 2rem 0 1rem 0;
+details {
+    width: 75%;
+    min-height: 4rem;
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 45px 70px 45px 45px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    box-sizing: border-box;
+    transition: all .3s;
 }
+  
+details + details {
+    margin-top: 20px;
+}
+  
+details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+  
+details p {
+    color: #96999d;
+    font-weight: 300;
+}
+  
+summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+summary:focus {
+    outline: none;
+}
+  
+summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 5px rebeccapurple;
+}
+  
+summary::-webkit-details-marker {
+    display: none
+}
+  
+.control-icon {
+    fill: rebeccapurple;
+    transition: .3s ease;
+    pointer-events: none;
+}
+  
+.control-icon-close {
+    display: none;
+}
+  
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+  
+details[open] .control-icon-expand {
+    display: none;
+}
+  
 
 
 /* Yoga at Home Page */
@@ -317,7 +380,7 @@ body {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 4rem;
+    margin: 3rem 0rem 4rem 0rem;
 }
 
 .stay-informed-form-div form {
