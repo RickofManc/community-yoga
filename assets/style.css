@@ -259,41 +259,36 @@ body {
     text-align: left;
 }
 
-
 /* FAQs Vertical Accordian credited to Monica Wheeler on CodePen  */
 
 details {
     width: 75%;
-    min-height: 4rem;
-    max-width: 55rem;
+    min-height: 3rem;
+    max-width: 60rem;
     margin: 0 auto;
-    padding: 45px 70px 45px 45px;
+    padding: 2rem;
     position: relative;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 0.1rem solid #ccc;
     box-sizing: border-box;
     transition: all .3s;
 }
   
 details + details {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
   
 details[open] {
     min-height: 50px;
-    background-color: #f6f7f8;
-    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    background-color: #fff;
+    box-shadow: 0.35rem 0.35rem 0.35rem #ccc;
 }
-  
-details p {
-    color: #96999d;
-    font-weight: 300;
-}
+ 
   
 summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 }
   
@@ -309,7 +304,7 @@ summary:focus::after {
     position: absolute;
     top: 0;
     left: 0;
-    box-shadow: 0 0 0 5px rebeccapurple;
+    box-shadow: 0 0 0 0.35rem #acffad;
 }
   
 summary::-webkit-details-marker {
@@ -317,22 +312,30 @@ summary::-webkit-details-marker {
 }
   
 .control-icon {
-    fill: rebeccapurple;
+    fill: #acffad;
     transition: .3s ease;
     pointer-events: none;
+    height: 3rem;
+    width: 3rem;
 }
   
 .control-icon-close {
     display: none;
+    height: 3rem;
+    width: 3rem;
 }
   
 details[open] .control-icon-close {
     display: initial;
     transition: .3s ease;
+    height: 3rem;
+    width: 3rem;    
 }
   
 details[open] .control-icon-expand {
     display: none;
+    height: 3rem;
+    width: 3rem;
 }
   
 
