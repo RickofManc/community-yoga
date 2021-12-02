@@ -50,12 +50,12 @@
 
 
     <section class="stay-informed-section">
-        <div class="sign-up">
-            <h3>Stay Informed!</h3>
+        <div class="stay-informed-form-div">
+            <h3 class="site-pages-h3">Stay Informed!</h3>
                 
             <form method="post" action="https://formdata.ot-yoga.com">
                 
-                <p>
+                <p class="site-pages-p">
                     Please complete and submit the form below to stay informed on changes to classes and all things yoga!
                 </p>
                 <br>
@@ -63,17 +63,17 @@
                 <fieldset>
                     <legend>Required Fields</legend>
                         
-                    <label for="fname" class="form-label">First Name:</label>
+                    <label for="fname" class="form-question">First Name:</label>
                     <br>
                     <input type="text" id="fname" name="first_name" placeholder="Type first name" class="required-input" required>
                     <br>
-                    <label for="lname" class="form-label">Last Name:</label>
+                    <label for="lname" class="form-question">Last Name:</label>
                     <br>
                     <input type="text" id="lname" name="last_name" placeholder="Type last name" class="required-input" required>
                     <br>
-                    <label for="email" class="form-label">Email Address:</label>
+                    <label for="email" class="form-question">Email Address:</label>
                     <br>
-                    <input type="email" id="email" name="email_address" placeholder="Type email Address" class="required-input" required>
+                    <input type="email" id="email" name="email_address" placeholder="Type email address" class="required-input" required>
                     </fieldset>            
                     
                     <br>
@@ -81,7 +81,7 @@
                 <fieldset>
                     <legend>Optional Fields</legend>
                                 
-                    <label class="form-label">What are your areas of interest? (tick all that apply)</label>
+                    <label class="form-question">What are your areas of interest? (tick all that apply)</label>
                     <br>
                     <input type="checkbox" name="areas_of_interest" id="yoga" value="yoga">
                     <label for="yoga" class="form-answer">Yoga</label>
@@ -96,7 +96,7 @@
                     <label for="mindfulness" class="form-answer">Mindfulness</label>
                     <br>
 
-                    <label class="form-label">What is your current level of yoga?</label>
+                    <label class="form-question">What is your current level of yoga?</label>
                     <br>
                     <input type="radio" name="yoga_level" id="beginner" value="beginner">
                     <label for="beginner" class="form-answer">Beginner (i.e. under 15 classes)</label>
@@ -108,19 +108,19 @@
                     <label for="expert" class="form-answer">Expert (i.e. +51 classes)</label>
                     <br>
                     
-                    <label class="form-label">How old are you?</label>
+                    <label class="form-question">How old are you?</label>
                     <br>
                     <input type="number" id="age" name="age" placeholder="Type age" step="1" min="16" max="99">
                     <br>
                     
-                    <label class="form-label">Please add any comments or questions in the box below:</label>
+                    <label class="form-question">Please add any comments or questions in the box below:</label>
                     <br>
                     <textarea maxlength="250" name="form_comments" id="form_comments" placeholder="Type comments here"></textarea>
                     </fieldset>
                     <br>
 
-                <input type="submit" value="Submit Form" class="sign-up-button">
-                <input type="reset" value="Reset Form" class="sign-up-button">
+                <input type="submit" value="Submit Form" class="stay-informed-button">
+                <input type="reset" value="Reset Form" class="stay-informed-button">
             
             </form>            
         </div>  
