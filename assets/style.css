@@ -33,7 +33,8 @@ body {
 }
 
 .main-header-h1:hover {
-    color: #acffad
+    color: #acffad;
+    transition-duration: 0.4s;
 }
 
 .main-header-h2 {
@@ -64,8 +65,7 @@ body {
 .nav-list a {
     font-weight: 600;
     font-size: 1.8rem;
-    margin: 1rem 1.5rem 1rem 1.5rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -75,7 +75,7 @@ body {
 .nav-list a:hover {
     background-color: #acffad;
     color: #000;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 
 .current-nav-page {
