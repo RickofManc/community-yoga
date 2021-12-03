@@ -190,15 +190,15 @@ body {
     height: 20rem;
     background-color: #acffad;
 
-    
+
 /* About Marie Page */
 
-#about-marie-section {
+.about-marie-section {
     width: 100%;
     display: inline-flex;
 }
 
-.about-marie {
+.about-marie-div {
     width: 50%;
     margin: 4rem;
     text-align: center;
@@ -222,12 +222,12 @@ body {
     margin: 2rem 0 1rem 0;
 }
 
-.about-marie ul {
+.about-marie-div ul {
     margin: 0 0 2rem 3rem;
     padding: 0;
 }
 
-.about-marie li {
+.about-marie-div li {
     font-weight: 300;
     text-align: left;
 }
