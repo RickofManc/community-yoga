@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
+    color: #000;
     margin: 0 auto;
     padding: 0;
     border: none;
@@ -78,9 +79,9 @@ body {
     transition-duration: 0.4s;
 }
 
-.current-nav-page {
-    background-color: #acffad;
-    color: #000;
+.nav-list .current-nav-page {
+  color: #000;  
+  background-color: #acffad;
 }
 
 /* Homepage Hero Image Section */
