@@ -540,5 +540,6 @@ footer {
 }
 
 footer i:hover {
-    color: #acffad
+    color: #acffad;
+    transition-duration: 0.4s;
 }
