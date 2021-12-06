@@ -178,17 +178,18 @@ body {
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .student-feedback {
     display: inline-block;
     margin: 2rem 2rem;
     width: 25%;
-    height: 15rem;
 }
 
 .student-feedback img {
-    width: 80%;
+    width: 22rem;
+    height: 22rem;
     margin: 1rem;
     background: #fff no-repeat center;
     border: #acffad 0.2rem solid;
