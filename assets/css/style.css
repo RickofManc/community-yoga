@@ -195,20 +195,7 @@ body {
     border-radius: 50%;
 }
 
-
-
-/* About Marie Page */
-
-.about-marie-section {
-    width: 100%;
-    display: inline-flex;
-}
-
-.about-marie-div {
-    width: 50%;
-    margin: 4rem;
-    text-align: center;
-}
+/* Standard font sizing for site pages */
 
 .site-pages-h3 {
     font-weight: 500;
@@ -228,12 +215,26 @@ body {
     margin: 2rem 0 1rem 0;
 }
 
-.about-marie-div ul {
+/* About Marie Page */
+
+.about-marie-section {
+    width: 100%;
+    display: inline-flex;
+}
+
+.about-marie-div-1,
+.about-marie-div-2 {
+    width: 50%;
+    margin: 4rem;
+    text-align: center;
+}
+
+.about-marie-div-1 ul {
     margin: 0 0 2rem 3rem;
     padding: 0;
 }
 
-.about-marie-div li {
+.about-marie-div-1 li {
     font-weight: 300;
     text-align: left;
 }
@@ -577,8 +578,21 @@ footer i:hover {
     /* About Marie Page */
 
     .about-marie-section {
-        display: block;
+        display: flex;
+        flex-direction: column;
     } 
+
+    .about-marie-section:first-child {
+        order: 1;
+    }
+
+    .about-marie-div-1,
+    .about-marie-div-2 {
+        display: block;
+        width: auto;
+    }
+
+
     
     /* Yoga in Class Page */
 
@@ -586,10 +600,20 @@ footer i:hover {
         display: block;
     }
 
+    .yoga-in-class {
+        display: block;
+        width: auto;
+    }
+
     /* Yoga at Home Page */
 
     .yoga-at-home-sections {
         display: block;
+    }
+
+    .yoga-at-home {
+        display: block;
+        width: auto;
     }
 
     /* Stay Informed Sign Up Page */
