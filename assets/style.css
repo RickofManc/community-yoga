@@ -171,7 +171,6 @@ body {
     margin: 0 1rem 1rem 1rem;
 }
 
-
 /* Community Feedback Section of Homepage */
 
 .feedback-section {
@@ -185,16 +184,20 @@ body {
     display: inline-block;
     margin: 2rem 2rem;
     width: 25%;
+    overflow: hidden;
+    contain: content
 }
 
 .student-feedback img {
-    width: 22rem;
-    height: 22rem;
+    width 20rem;
+    height: 20rem;
     margin: 1rem;
     background: #fff no-repeat center;
     border: #acffad 0.2rem solid;
     border-radius: 50%;
 }
+
+
 
 /* About Marie Page */
 
