@@ -130,7 +130,7 @@ body {
 }
 
 .homepage-main-info ul {
-    margin-top: 0.5rem 0 2rem 0;
+    margin: 0.5rem 0 2rem 0;
     padding-left: 0rem;
     list-style-type: none;
     text-align: center;
@@ -643,10 +643,11 @@ footer i:hover {
 
     .feedback-section {
         display: block;
-        margin: 7rem 0rem;
+        margin: 7rem 0rem 4rem 0rem;
     }
 
     .student-feedback {
+        display: inline-block;
         width: 25%;
         margin: 2rem 4rem;
     }
