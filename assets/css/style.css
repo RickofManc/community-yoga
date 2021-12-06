@@ -357,12 +357,15 @@ details[open] .control-icon-expand {
   
 /* Yoga at Home Page */
 
-.yoga-at-home-sections {
+.yoga-at-home-section-1,
+.yoga-at-home-section-2 {
     width: 100%;
     display: inline-flex;
 }
 
-.yoga-at-home {
+.yoga-at-home,
+.yoga-at-home-1,
+.yoga-at-home-2 {
     width: 50%;
     margin: 4rem;
     text-align: center;
@@ -556,7 +559,6 @@ footer i:hover {
     transition-duration: 0.4s;
 }
 
-
 /* Media Queries */
 
 /* For medium to large screens up to 1200px wide */
@@ -566,15 +568,45 @@ footer i:hover {
     /* Homepage */
     .homepage-main-section {
         display: block;
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .homepage-main-info-div {
+        width: auto;
+        display: block;
+        margin: 2rem 4rem;
+    }
+
+    .homepage-main-info-div p {
+        margin: auto;
+    }
+
+    .homepage-main-info {
+        display: inline-block;
+        margin: 0rem 2rem;
+    }
+
+    .homepage-main-info-h3,
+    .main-info-h3 {
+        font-size: 2.5rem;
+    }
+
+    .homepage-hero-image-div {
+        height: 300px;
     }
 
     .feedback-section {
         display: block;
+        margin: 4rem 0rem;
     }
 
     .student-feedback {
         display: inherit;
     }
+
+
+
 
     /* Standard font sizing for site pages */
     .site-pages-h3 {
@@ -604,7 +636,6 @@ footer i:hover {
     }
    
     /* Yoga in Class Page */
-
     .yoga-in-class-section {
         display: flex;
         flex-direction: column;
@@ -634,18 +665,30 @@ footer i:hover {
     }
 
     /* Yoga at Home Page */
-
-    .yoga-at-home-sections {
-        display: block;
+    .yoga-at-home-section-1,
+    .yoga-at-home-section-2 {
+        display: flex;
+        flex-direction: column;
     }
 
-    .yoga-at-home {
+    .yoga-at-home-section-1 div:first-child {
+        order: 1;
+    }
+
+    .yoga-at-home,
+    .yoga-at-home-1,
+    .yoga-at-home-2 {
         display: block;
         width: auto;
+        margin: 2rem 4rem;
+    }
+
+    .marie-at-home-photo img {
+        width: 65%;
+        margin: 1rem;
     }
 
     /* Stay Informed Sign Up Page */
-
     .stay-informed-section {
         display: block;
     }
@@ -663,5 +706,9 @@ footer i:hover {
     footer {
         display: block;
     }
+}
 
+/* For medium to large screens up to 1200px wide */
+
+@media screen and (max-width: 980px) {
 }
