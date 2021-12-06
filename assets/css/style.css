@@ -261,12 +261,12 @@ body {
 }
 
 .yoga-in-class-photo {
-    overflow: hidden;
-    height: 30rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .yoga-in-class-photo img {
-    width: 100%;
+    width: 80%;
     margin: 3rem 2rem 2rem 2rem;
     background: #ccc no-repeat center;
 }
@@ -695,16 +695,9 @@ footer i:hover {
         margin: 2rem 4rem;
     }
 
-    .yoga-in-class-photo {
-        position: relative;
-        text-align: center;
-    }
-
     .yoga-in-class-photo img {
         width: 65%;
         margin: 1rem;
-        top: -13rem;
-        position: absolute
     }
 
     /* Yoga at Home Page */
