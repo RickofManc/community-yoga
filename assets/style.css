@@ -184,12 +184,11 @@ body {
     display: inline-block;
     margin: 2rem 2rem;
     width: 25%;
-    overflow: hidden;
-    contain: content
+    padding: 0rem 2rem;
 }
 
 .student-feedback img {
-    width 20rem;
+    width: 20rem;
     height: 20rem;
     margin: 1rem;
     background: #fff no-repeat center;
