@@ -548,10 +548,14 @@ footer {
     margin-right: 2rem;
 }
 
-.social-media-icon {
-    font-size: 3rem;
-    font-weight: 700;
+.social-media-icon i {
+    font-size: 4rem;
     color: #fff;
+}
+
+footer i {
+    font-size: 1.8rem;
+    vertical-align: middle;
 }
 
 footer i:hover {
@@ -575,8 +579,24 @@ footer i:hover {
         top: -345px;
     }
 
+    .footer-contact-div {
+        width: 75%;
+    }
+    
+    .footer-contact-div h3,
+    .footer-contact-div p {
+        margin-left: 4rem;
+    }
 
-/* For medium to large screens up to 1200px wide */
+    .footer-social-media-div {
+        width: 35%;
+    }
+
+    .social-media-icon i {
+        font-size: 3rem;
+    }
+
+/* For screens 980-1200px wide */
 
 @media screen and (max-width: 1200px) {
 
@@ -727,11 +747,47 @@ footer i:hover {
     /* Footer */
 
     footer {
+        width: 100%;
         display: block;
     }
+
+    .footer-contact-div,
+    .footer-social-media-div {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        width: auto;
+    }
+
+    .footer-social-media-div:first-child {
+        order: 2;
+    }
+
+    .footer-contact-div h3 {
+        text-align: center;
+        margin: 3rem 1rem 0.5rem 1rem;
+    }
+
+    .footer-contact-div a,
+    .footer-contact-div p {
+        text-align: center;
+        margin: 0.5rem 1rem;
+    }
+
+    .footer-social-media-div ul {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .footer-social-media-div li {
+        margin: 1rem;
+        text-align: center;
+    }
+
 }
 
 /* For small screens up to 980px wide */
 
 @media screen and (max-width: 980px) {
+
 }
