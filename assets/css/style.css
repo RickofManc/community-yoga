@@ -253,7 +253,8 @@ body {
     margin-bottom: 4rem;
 }
 
-.yoga-in-class {
+.yoga-in-class-1,
+.yoga-in-class-2 {
     width: 50%;
     margin: 4rem;
     text-align: center;
@@ -575,14 +576,18 @@ footer i:hover {
         display: inherit;
     }
 
-    /* About Marie Page */
+    /* Standard font sizing for site pages */
+    .site-pages-h3 {
+        margin-top: 0rem;
+    }
 
+    /* About Marie Page */
     .about-marie-section {
         display: flex;
         flex-direction: column;
     } 
 
-    .about-marie-section:first-child {
+    .about-marie-section div:first-child {
         order: 1;
     }
 
@@ -590,19 +595,42 @@ footer i:hover {
     .about-marie-div-2 {
         display: block;
         width: auto;
+        margin: 2rem 4rem;
     }
 
-
-    
+    .marie-photo img {
+        width: 65%;
+        margin: 1rem;
+    }
+   
     /* Yoga in Class Page */
 
     .yoga-in-class-section {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
-    .yoga-in-class {
+    .yoga-in-class-section div:first-child {
+        order: 1;
+    }
+
+    .yoga-in-class-1,
+    .yoga-in-class-2 {
         display: block;
         width: auto;
+        margin: 2rem 4rem;
+    }
+
+    .yoga-in-class-photo {
+        position: relative;
+        text-align: center;
+    }
+
+    .yoga-in-class-photo img {
+        width: 65%;
+        margin: 1rem;
+        top: -13rem;
+        position: absolute
     }
 
     /* Yoga at Home Page */
