@@ -184,8 +184,15 @@ body {
     display: inline-block;
     margin: 2rem 2rem;
     width: 25%;
-    height: 20rem;
-    background-color: #acffad;
+    height: 15rem;
+}
+
+.student-feedback img {
+    width: 80%;
+    margin: 1rem;
+    background: #fff no-repeat center;
+    border: #acffad 0.2rem solid;
+    border-radius: 50%;
 }
 
 /* About Marie Page */
@@ -265,7 +272,6 @@ body {
     display: block;
     margin-bottom: 4rem;
 }
-
 
 /* FAQs Vertical Accordian credited to Monica Wheeler on CodePen  */
 
