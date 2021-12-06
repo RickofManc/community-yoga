@@ -93,9 +93,9 @@ body {
 }
 
 .homepage-hero-image-div img {
-    width: 110%;
+    width: 120%;
     position: absolute;
-    top: -400px;
+    top: -405px;
 }
 
 /* Homepage Class & Location Info */
@@ -107,7 +107,7 @@ body {
 
 .homepage-main-info-div {
     width: 50%;
-    margin-top: 2rem;
+    margin: 2rem;
     text-align: center;
 }
 
@@ -561,6 +561,21 @@ footer i:hover {
 
 /* Media Queries */
 
+/* For screens 1200-1600px wide */
+
+@media screen and (max-width: 1600px) {
+
+    .homepage-hero-image-div {
+        height: 475px;
+    }
+
+    .homepage-hero-image-div img {
+        width: 120%;
+        position: absolute;
+        top: -345px;
+    }
+
+
 /* For medium to large screens up to 1200px wide */
 
 @media screen and (max-width: 1200px) {
@@ -570,6 +585,16 @@ footer i:hover {
         display: block;
         width: auto;
         margin-top: 4rem;
+    }
+
+    .homepage-hero-image-div {
+        height: 400px;
+    }
+
+    .homepage-hero-image-div img {
+        width: 130%;
+        position: absolute;
+        top: -275px;
     }
 
     .homepage-main-info-div {
@@ -592,21 +617,19 @@ footer i:hover {
         font-size: 2.5rem;
     }
 
-    .homepage-hero-image-div {
-        height: 300px;
-    }
+    #button-div {
+        margin: 3rem 0rem 7rem 0rem;
+    }    
 
     .feedback-section {
         display: block;
-        margin: 4rem 0rem;
+        margin: 7rem 0rem;
     }
 
     .student-feedback {
-        display: inherit;
+        width: 25%;
+        margin: 2rem 4rem;
     }
-
-
-
 
     /* Standard font sizing for site pages */
     .site-pages-h3 {
@@ -708,7 +731,7 @@ footer i:hover {
     }
 }
 
-/* For medium to large screens up to 1200px wide */
+/* For small screens up to 980px wide */
 
 @media screen and (max-width: 980px) {
 }
