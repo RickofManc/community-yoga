@@ -784,4 +784,182 @@ footer i:hover {
 
 @media screen and (max-width: 980px) {
 
+/* Homepage */
+.homepage-main-section {
+    display: block;
+    width: auto;
+    margin-top: 2rem;
+}
+
+.homepage-hero-image-div {
+    height: 350px;
+}
+
+.homepage-hero-image-div img {
+    width: 130%;
+    position: absolute;
+    top: -130px;
+}
+
+.homepage-main-info-div {
+    width: auto;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.homepage-main-info-div p {
+    margin: auto;
+}
+
+.homepage-main-info {
+    display: inline-block;
+    margin: 0rem 2rem;
+}
+
+.homepage-main-info-h3,
+.main-info-h3 {
+    font-size: 2.5rem;
+}
+
+#button-div {
+    margin: 3rem 0rem 7rem 0rem;
+}    
+
+.feedback-section {
+    display: block;
+    margin: 7rem 0rem 4rem 0rem;
+}
+
+.student-feedback {
+    display: inline-block;
+    width: 25%;
+    margin: 2rem 4rem;
+}
+
+/* Standard font sizing for site pages */
+.site-pages-h3 {
+    margin-top: 0rem;
+}
+
+/* About Marie Page */
+.about-marie-section {
+    display: flex;
+    flex-direction: column;
+} 
+
+.about-marie-section div:first-child {
+    order: 1;
+}
+
+.about-marie-div-1,
+.about-marie-div-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+}
+
+.marie-photo img {
+    width: 65%;
+    margin: 1rem;
+}
+
+/* Yoga in Class Page */
+.yoga-in-class-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.yoga-in-class-section div:first-child {
+    order: 1;
+}
+
+.yoga-in-class-1,
+.yoga-in-class-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+}
+
+.yoga-in-class-photo img {
+    width: 65%;
+    margin: 1rem;
+}
+
+/* Yoga at Home Page */
+.yoga-at-home-section-1,
+.yoga-at-home-section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.yoga-at-home-section-1 div:first-child {
+    order: 1;
+}
+
+.yoga-at-home,
+.yoga-at-home-1,
+.yoga-at-home-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+}
+
+.marie-at-home-photo img {
+    width: 65%;
+    margin: 1rem;
+}
+
+/* Stay Informed Sign Up Page */
+/*.stay-informed-section {
+    display: block;
+}*/
+
+.stay-informed-form-div {
+    margin: 0rem 2rem;
+}
+/*
+.stay-informed-button {
+    width: auto;
+}*/
+
+/* Footer */
+/*
+footer {
+    width: 100%;
+    display: block;
+}
+
+.footer-contact-div,
+.footer-social-media-div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: auto;
+}
+
+.footer-social-media-div:first-child {
+    order: 2;
+}
+
+.footer-contact-div h3 {
+    text-align: center;
+    margin: 3rem 1rem 0.5rem 1rem;
+}
+
+.footer-contact-div a,
+.footer-contact-div p {
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
+
+.footer-social-media-div ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer-social-media-div li {
+    margin: 1rem;
+    text-align: center;
+}*/
+
 }
