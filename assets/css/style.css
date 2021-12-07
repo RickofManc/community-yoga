@@ -54,11 +54,8 @@ body {
 
 .nav-list {
     text-align: center;
-    margin-bottom: 0rem;
-}
-
-.nav-list ul {
-    padding-left: 0rem;
+    margin: 2rem 0 0 0;
+    padding-inline-start: 0;
 }
 
 .nav-list li {
@@ -87,6 +84,10 @@ body {
   background-color: #acffad;
 }
 
+.nav-collapse {
+    display: none;
+}    
+  
 /* Homepage Hero Image Section */
 
 .homepage-hero-image-div {
@@ -329,7 +330,7 @@ summary:focus::after {
 }
   
 summary::-webkit-details-marker {
-    display: none
+    display: none;
 }
   
 .control-icon {
@@ -793,12 +794,6 @@ footer i:hover {
 @media screen and (max-width: 980px) {
 
     /* Homepage */
-    /*.homepage-main-section {
-        display: block;
-        width: auto;
-        margin-top: 2rem;
-    }*/
-
     .main-header img {
         width: 18%;
     }
