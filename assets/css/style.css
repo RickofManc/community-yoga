@@ -110,13 +110,13 @@ body {
 
 .homepage-main-section {
     width: 100%;
-    display: inline-flex
+    display: inline-flex;
 }
 
 .homepage-main-info-div {
     width: 50%;
-    margin: 2rem;
-    text-align: center;
+    margin: 2rem 0rem;
+    text-align: center; 
 }
 
 .homepage-main-info-h3 {
@@ -131,20 +131,20 @@ body {
     margin-bottom: 0;
 }
 
-.homepage-main-info p {
+.homepage-main-info-div p {
     font-weight: 300;
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
 }
 
-.homepage-main-info ul {
+.homepage-main-info-div ul {
     margin: 0.5rem 0 2rem 0;
     padding-left: 0rem;
     list-style-type: none;
     text-align: center;
 }
 
-.homepage-main-info li {
+.homepage-main-info-div li {
     font-weight: 300;
     text-align: center;
 }
@@ -182,7 +182,7 @@ body {
 
 .feedback-section {
     width: 100%;
-    display: inline-block;
+    display: block;
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -191,7 +191,6 @@ body {
     display: inline-block;
     margin: 2rem 2rem;
     width: 25%;
-    padding: 0rem 2rem;
 }
 
 .student-feedback img {
@@ -208,13 +207,13 @@ body {
 .site-pages-h3 {
     font-weight: 500;
     text-align: left;
-    margin: 3rem 0 0.5rem 0
+    margin: 3rem 0 0.5rem 0;
 }
 
 .site-pages-h4 {
     font-weight: 500;
     text-align: left;
-    margin: 3rem 0 0.5rem 0
+    margin: 3rem 0 0.5rem 0;
 }
 
 .site-pages-p {
@@ -592,7 +591,7 @@ footer i:hover {
     }
 
     .footer-contact-div {
-        width: 75%;
+        width: 65%;
     }
     
     .footer-contact-div h3,
@@ -868,6 +867,7 @@ footer i:hover {
 
     .homepage-main-info-div p {
         margin: 1rem 1rem;
+        padding: 0rem 6rem;
         font-size: 1.5rem;
     }
 
@@ -875,7 +875,7 @@ footer i:hover {
         font-size: 1.5rem;
     }
 
-    .homepage-main-info {
+    .homepage-main-info-div {
         margin: 0rem 2rem;
     }
 
@@ -896,8 +896,18 @@ footer i:hover {
     .student-feedback {
         display: inline;
         width: 25%;
-        margin: 2rem 2rem;
+        margin: 2rem 0rem;
         text-align: center;
+    }
+
+    .student-feedback p {
+        padding: 0rem 6rem;
+        font-size: 1.5rem;
+    }
+
+    .student-feedback img {
+        width: 10rem;
+        height: 10rem;
     }
 
     /* About Marie Page */
