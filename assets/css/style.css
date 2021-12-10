@@ -978,3 +978,197 @@ footer i:hover {
     }
 
 }
+
+/* For small screens up to 980px wide */
+
+@media screen and (max-width: 690px) {
+
+    /* Homepage */
+    
+    .main-header {
+        margin-bottom: 1rem;
+    }
+    .main-header img {
+        width: 18%;
+    }
+
+    .main-header-h1 {
+        font-size: 1.6rem;
+        margin: 0rem;
+    }
+
+    .main-header-h2 {
+        font-size: 1rem;
+        margin: 0.5rem 0rem;
+    }
+
+    /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        width: 100%;
+        height: 3rem;
+        background-color: #000;
+    }
+
+    .nav-toggle-label i {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        margin-left: 2rem;
+    }
+
+    .nav-list {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        text-align: left;
+    }
+
+    .nav-list li {
+        display: inline;
+    }
+
+    .nav-list a {
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding-top: 0.25rem;
+    }
+    
+    .nav-toggle:checked ~ nav {
+        display: block;
+    }
+ 
+    /* Homepage image and divs */
+    .homepage-hero-image-div {
+        height: 350px;
+        top: 100%;
+    }
+
+    .homepage-hero-image-div img {
+        width: 130%;
+        position: absolute;
+        top: -130px;
+    }
+
+    .homepage-main-info-div {
+        width: auto;
+        display: block;
+        margin: 2rem;
+    }
+
+    .homepage-main-info-div p {
+        margin: 1rem 1rem;
+        padding: 0rem 6rem;
+        font-size: 1.5rem;
+    }
+
+    .homepage-main-info-div ul {
+        font-size: 1.5rem;
+    }
+
+    .homepage-main-info-div {
+        margin: 0rem 2rem;
+    }
+
+    .homepage-main-info-div iframe {
+        width: 70%;
+        height: 15rem;
+    }
+    
+    #button-div {
+        margin-top: 2.5rem;
+    }    
+
+    .feedback-section {
+        display: block;
+        margin: 7rem 0rem 4rem 0rem;
+    }
+
+    .student-feedback {
+        display: inline;
+        width: 25%;
+        margin: 2rem 0rem;
+        text-align: center;
+    }
+
+    .student-feedback p {
+        padding: 0rem 12rem;
+        font-size: 1.5rem;
+    }
+
+    .student-feedback img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    /* About Marie Page */
+    .about-marie-div-1,
+    .about-marie-div-2 {
+        margin: 2rem;
+    }
+
+    .marie-photo img {
+        width: 85%;
+    }
+
+    /* Yoga in Class Page */
+    .yoga-in-class-section {
+        margin-bottom: 3rem;
+    }
+
+    .yoga-in-class-1,
+    .yoga-in-class-2 {
+        margin: 2rem;
+    }
+
+    .yoga-in-class-photo img {
+        width: 85%;
+    }
+
+    details {
+        width: 85%;
+        min-height: 2.5rem;
+        max-width: 50rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    summary {
+        font-size: 1.4rem;
+    }
+
+    details[open] p {
+        font-size: 1.4rem;
+    }
+
+    details[open] li {
+        font-size: 1.4rem;
+    }
+
+    .yoga-at-home,
+    .yoga-at-home-1,
+    .yoga-at-home-2 {
+        margin: 2rem;
+    }
+
+    .marie-at-home-photo img {
+        width: 85%;
+        margin: 0rem;
+    }
+
+    .recommended-instructor-photo img {
+        margin: 1.5rem 0rem 2rem 0rem;
+    }
+
+    .stay-informed-form-div {
+        margin: 0rem 2rem;
+    }
+
+}
