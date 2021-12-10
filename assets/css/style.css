@@ -862,7 +862,7 @@ footer i:hover {
     .homepage-main-info-div {
         width: auto;
         display: block;
-        margin: 2rem 2rem;
+        margin: 2rem;
     }
 
     .homepage-main-info-div p {
@@ -901,7 +901,7 @@ footer i:hover {
     }
 
     .student-feedback p {
-        padding: 0rem 6rem;
+        padding: 0rem 12rem;
         font-size: 1.5rem;
     }
 
@@ -913,12 +913,11 @@ footer i:hover {
     /* About Marie Page */
     .about-marie-div-1,
     .about-marie-div-2 {
-        margin: 2rem 2rem;
+        margin: 2rem;
     }
 
     .marie-photo img {
-        width: 65%;
-        margin: 1rem;
+        width: 85%;
     }
 
     /* Yoga in Class Page */
@@ -926,9 +925,13 @@ footer i:hover {
         margin-bottom: 3rem;
     }
 
+    .yoga-in-class-1,
+    .yoga-in-class-2 {
+        margin: 2rem;
+    }
+
     .yoga-in-class-photo img {
-        width: 65%;
-        margin: 1rem;
+        width: 85%;
     }
 
     details {
@@ -954,11 +957,16 @@ footer i:hover {
     .yoga-at-home,
     .yoga-at-home-1,
     .yoga-at-home-2 {
-        margin: 1rem 2rem;
+        margin: 2rem;
+    }
+
+    .marie-at-home-photo img {
+        width: 85%;
+        margin: 0rem;
     }
 
     .recommended-instructor-photo img {
-        margin: 1rem 0rem 2rem 0rem;
+        margin: 1.5rem 0rem 2rem 0rem;
     }
 
     .stay-informed-form-div {
