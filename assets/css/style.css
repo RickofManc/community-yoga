@@ -774,10 +774,14 @@ footer i:hover {
         margin: 3rem 1rem 0.5rem 1rem;
     }
 
-    .footer-contact-div a,
-    .footer-contact-div p {
+    .footer-contact-div a {
         text-align: center;
         margin: 0.5rem 1rem;
+    }
+
+    .footer-contact-div p {
+        text-align: center;
+        margin: 0.5rem 1rem 0.5rem -1rem;
     }
 
     .footer-social-media-div ul {
