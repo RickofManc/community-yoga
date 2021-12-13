@@ -1294,17 +1294,11 @@ footer i:hover {
     }
     
     .stay-informed-button {
-        font-weight: 500;
-        font-size: 1.75rem;
-        color: #000;
-        text-align: center;
-        text-decoration: none;
-        vertical-align: middle;
-        width: 17%;
-        margin: 1rem 1.25rem 0rem 0.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 40%;
+        margin: 0rem 0.5rem 0rem 0.5rem;
         padding: 0.5rem;
-        background-color: #acffad;
-        border: none;
     }
     
     .stay-informed-button:hover {
