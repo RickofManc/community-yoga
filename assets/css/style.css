@@ -1076,8 +1076,15 @@ footer i:hover {
     }
     
     #button-div {
-        margin-top: 2.5rem;
-    }    
+        margin: 1rem 0 3rem 0;
+    }
+
+    .button {
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 0.75rem;
+        margin: 0rem;
+    }
 
     .feedback-section {
         display: block;
