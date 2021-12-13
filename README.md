@@ -385,6 +385,9 @@ This project was deployed with the following steps
 * BUG
 
 
+***
+
+
 ## Credits
 
 * Mentor Brian Macharia for guiding and advising throughoutout the projects lifecycle.
@@ -401,15 +404,12 @@ This project was deployed with the following steps
 * [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
 
 
-*** 
 
 ### Code
 
 * [FAQs Verical Accordian](https://codepen.io/frogmcw/pen/deqRwa) - Monica Wheeler's code for a Vertcial Accordian in HTML & CSS only.
 * [Collapsing Nav Menu](https://codepen.io/kevinpowell/pen/jxppmr) - Kevin Powell's code for creating a collapsable Navigation menu for mobile devices in HTML & CSS only.
 
-
-***
 
 ### Content
 
