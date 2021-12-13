@@ -1027,14 +1027,14 @@ footer i:hover {
  
     /* Homepage image and divs */
     .homepage-hero-image-div {
-        height: 350px;
+        height: 250px;
         top: 100%;
     }
 
     .homepage-hero-image-div img {
-        width: 130%;
+        width: 122%;
         position: absolute;
-        top: -130px;
+        top: -57px;
     }
 
     .homepage-main-info-div {
