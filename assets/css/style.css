@@ -1228,8 +1228,89 @@ footer i:hover {
     }
 
     /* Stay Informed Sign Up Page */
+    .stay-informed-section {
+        margin: 3rem 0rem 4rem 0rem;
+    }
+
     .stay-informed-form-div {
-        margin: 0rem 2rem;
+        margin: 0rem 0.5rem;
+    }
+    
+    .stay-informed-form-div form {
+        text-align: left;
+    }
+    
+    .stay-informed-form-div fieldset {
+        border: #acffad 0.1rem solid;
+        padding: 0.5rem;
+    }
+    
+    .stay-informed-form-div legend {
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0 0.5rem;
+    }
+    
+    .form-question {
+        font-size: 0.875rem;
+        margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    
+    .form-answer {
+        font-size: 0.875rem;
+        margin: 0 0 0 0.5rem;
+    }
+
+    .required-input {
+        width: 94%;
+        margin: 0.5rem;
+        border: #ccc 0.1rem solid;
+        font-size: 0.875rem;
+        text-align: left;
+        text-indent: 0.5rem;
+    }
+    
+    .stay-informed-form-div fieldset input[type=checkbox],
+    .stay-informed-form-div fieldset input[type=radio] {
+        width: 0.75rem;
+        height: 0.75rem;
+        border: #ccc 0.15rem solid;
+        margin: 0 0 0 0.5rem;
+    }
+    
+    .stay-informed-form-div fieldset input[type=number] {
+        width: 40%;
+        margin: 0.5rem;
+        border: #ccc 0.1rem solid;
+        font-size: 0.875rem;
+    }
+    
+    .stay-informed-form-div fieldset textarea {
+        width: 94%;
+        margin: 0.5rem;
+        border: #ccc 0.1rem solid;
+        font-size: 0.875rem;
+        padding-top: 0.875rem;
+    }
+    
+    .stay-informed-button {
+        font-weight: 500;
+        font-size: 1.75rem;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 17%;
+        margin: 1rem 1.25rem 0rem 0.5rem;
+        padding: 0.5rem;
+        background-color: #acffad;
+        border: none;
+    }
+    
+    .stay-informed-button:hover {
+        background-color: #000;
+        color: #fff;
+        transition-duration: 0.5s;
     }
 
 }
