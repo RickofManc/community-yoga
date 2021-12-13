@@ -958,6 +958,7 @@ footer i:hover {
         font-size: 1.4rem;
     }
 
+    /* Yoga at Home Page */
     .yoga-at-home,
     .yoga-at-home-1,
     .yoga-at-home-2 {
@@ -1042,7 +1043,7 @@ footer i:hover {
     }
 
     .homepage-main-section {
-        margin-top: 1rem;
+        margin-top: -2rem;
     }
 
     .homepage-main-info {
@@ -1062,13 +1063,15 @@ footer i:hover {
     }
 
     .homepage-main-info-div p {
-        margin: 1rem 1rem;
-        font-size: 1rem;
+        margin: 1rem 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.4rem;
         padding: 0;
     }
 
     .homepage-main-info-div ul {
-        font-size: 1rem;
+        font-size: 0.875rem;
+        line-height: 1.4rem;
     }
 
     .homepage-main-info-div iframe {
@@ -1078,11 +1081,11 @@ footer i:hover {
     }
     
     #button-div {
-        margin: 1rem 0 5rem 0;
+        margin: 0 0 5rem 0;
     }
 
     .button {
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 600;
         padding: 0.75rem;
         margin: 0rem;
@@ -1102,7 +1105,8 @@ footer i:hover {
 
     .student-feedback p {
         margin: 1rem 1rem;
-        font-size: 1rem;
+        font-size: 0.875rem;
+        line-height: 1.3rem;
         padding: 0;
     }
 
@@ -1112,59 +1116,93 @@ footer i:hover {
         border: #acffad 0.1rem solid;
     }
 
+
+    /* Standard font sizing for site pages */
+
+    .site-pages-h3 {
+        font-size: 1.6rem;
+    }
+
+    .site-pages-h4 {
+        font-size: 1.2rem;
+    }
+
+    .site-pages-p {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+    }
+
     /* About Marie Page */
+    .about-marie-div-1 li {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+        margin-left: -2rem;
+    }
+
     .about-marie-div-1,
     .about-marie-div-2 {
-        margin: 2rem;
+        margin: 0.5rem 0.5rem;
     }
-
-    .marie-photo img {
-        width: 85%;
-    }
-
-    /* Yoga in Class Page */
-    .yoga-in-class-section {
-        margin-bottom: 3rem;
-    }
-
-    .yoga-in-class-1,
-    .yoga-in-class-2 {
-        margin: 2rem;
-    }
-
-    .yoga-in-class-photo img {
-        width: 85%;
-    }
-
-    details {
-        width: 85%;
-        min-height: 2.5rem;
-        max-width: 50rem;
-        margin: 0 auto;
-        padding: 1rem;
-    }
-
-    summary {
-        font-size: 1.4rem;
-    }
-
-    details[open] p {
-        font-size: 1.4rem;
-    }
-
-    details[open] li {
-        font-size: 1.4rem;
-    }
-
-    .yoga-at-home,
-    .yoga-at-home-1,
-    .yoga-at-home-2 {
-        margin: 2rem;
-    }
-
+        
     .marie-at-home-photo img {
         width: 85%;
         margin: 0rem;
+    }
+    
+    /* Yoga in Class Page */
+    .yoga-in-class-1,
+    .yoga-in-class-2 {
+        margin: 0.5rem 0.5rem;
+    }
+    
+    details {
+        width: 94%;
+        min-height: 2rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    details[open] {
+        box-shadow: 0.15rem 0.25rem 0.25rem #ccc;
+        margin: 0.5rem;
+    }    
+
+    summary {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+    }
+
+    summary:focus::after {
+        box-shadow: 0 0 0 0.15rem #acffad;
+    }
+
+    .control-icon,
+    .control-icon-close {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    
+    details[open] .control-icon-expand,
+    details[open] .control-icon-close {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    details[open] p {
+        font-size: 0.875rem;
+        line-height: 1.4rem;;
+    }
+
+    details[open] li {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+    }
+
+    /* Yoga at Home Page */
+    .yoga-at-home,
+    .yoga-at-home-1,
+    .yoga-at-home-2 {
+        margin: 2rem 0.5rem;
     }
 
     .recommended-instructor-photo img {
