@@ -974,6 +974,7 @@ footer i:hover {
         margin: 1.5rem 0rem 2rem 0rem;
     }
 
+    /* Stay Informed Sign Up Page */
     .stay-informed-form-div {
         margin: 0rem 2rem;
     }
@@ -1118,7 +1119,6 @@ footer i:hover {
 
 
     /* Standard font sizing for site pages */
-
     .site-pages-h3 {
         font-size: 1.6rem;
     }
@@ -1130,6 +1130,7 @@ footer i:hover {
     .site-pages-p {
         font-size: 0.875rem;
         line-height: 1.4rem;
+        text-align: left;
     }
 
     /* About Marie Page */
@@ -1139,17 +1140,28 @@ footer i:hover {
         margin-left: -2rem;
     }
 
+    .marie-photo img {
+        width: 85%;
+        margin: 0;
+    }
+
     .about-marie-div-1,
     .about-marie-div-2 {
         margin: 0.5rem 0.5rem;
     }
         
-    .marie-at-home-photo img {
-        width: 85%;
-        margin: 0rem;
-    }
+    
     
     /* Yoga in Class Page */
+    .yoga-in-class-section {
+        margin-bottom: 1rem;
+    }
+
+    .yoga-in-class-photo img {
+        width: 85%;
+        margin: 0;
+    }
+    
     .yoga-in-class-1,
     .yoga-in-class-2 {
         margin: 0.5rem 0.5rem;
@@ -1202,13 +1214,20 @@ footer i:hover {
     .yoga-at-home,
     .yoga-at-home-1,
     .yoga-at-home-2 {
-        margin: 2rem 0.5rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .marie-at-home-photo img {
+        width: 85%;
+        margin: 0rem;
     }
 
     .recommended-instructor-photo img {
-        margin: 1.5rem 0rem 2rem 0rem;
+        width: 50%;
+        margin: 1rem 0 0 0;
     }
 
+    /* Stay Informed Sign Up Page */
     .stay-informed-form-div {
         margin: 0rem 2rem;
     }
