@@ -1038,12 +1038,12 @@ footer i:hover {
         top: -57px;
     }
 
+    .homepage-main-section {
+        margin-top: 0rem;
+    }    
+
     .homepage-main-info-div {
         margin: 0rem;
-    }
-
-    .homepage-main-section {
-        margin-top: -2rem;
     }
 
     .homepage-main-info {
@@ -1294,7 +1294,7 @@ footer i:hover {
         font-size: 1rem;
         width: 40%;
         margin: 0rem 0.5rem 0rem 0.5rem;
-        padding: 0.5rem;
+        padding: 0.75rem;
     }
     
     .stay-informed-button:hover {
@@ -1307,6 +1307,7 @@ footer i:hover {
     footer {
         width: 100%;
         display: block;
+        height: 12rem;
     }
 
     .footer-contact-div {
@@ -1320,7 +1321,7 @@ footer i:hover {
     .footer-contact-div h3 {
         font-size: 1.1rem;
         text-align: left;
-        margin: 0.5rem;
+        margin: 1.25rem 0.5rem 0.5rem 0.5rem;
     }
 
     .footer-contact-div a {
@@ -1330,7 +1331,7 @@ footer i:hover {
     }
 
     .footer-contact-div p {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
         text-align: left;
         margin: 0.2rem 0;
         vertical-align: middle;
