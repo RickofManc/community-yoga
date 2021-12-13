@@ -1049,7 +1049,8 @@ footer i:hover {
         margin-top: 0rem;
     }
 
-    .homepage-main-info-h3 {
+    .homepage-main-info-h3,
+    .main-info-h3 {
         font-size: 1.6rem;
         margin: 1rem 0;
     }
@@ -1071,12 +1072,13 @@ footer i:hover {
     }
 
     .homepage-main-info-div iframe {
-        width: 70%;
-        height: 15rem;
+        width: 58%;
+        height: 12rem;
+        border: #acffad 0.1rem solid;
     }
     
     #button-div {
-        margin: 1rem 0 3rem 0;
+        margin: 1rem 0 5rem 0;
     }
 
     .button {
@@ -1088,7 +1090,7 @@ footer i:hover {
 
     .feedback-section {
         display: block;
-        margin: 7rem 0rem 4rem 0rem;
+        margin: 5rem 0rem 4rem 0rem;
     }
 
     .student-feedback {
@@ -1099,13 +1101,15 @@ footer i:hover {
     }
 
     .student-feedback p {
-        padding: 0rem 12rem;
-        font-size: 1.5rem;
+        margin: 1rem 1rem;
+        font-size: 1rem;
+        padding: 0;
     }
 
     .student-feedback img {
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
+        border: #acffad 0.1rem solid;
     }
 
     /* About Marie Page */
