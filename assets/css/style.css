@@ -168,7 +168,7 @@ body {
 .button:hover {
     background-color: #000;
     color: #fff;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 
 .homepage-main-info-div iframe {
@@ -295,7 +295,7 @@ details {
     position: relative;
     border: 0.1rem solid #ccc;
     box-sizing: border-box;
-    transition: all .3s;
+    transition: all 0.4s;
 }
   
 details + details {
@@ -337,7 +337,7 @@ summary::-webkit-details-marker {
   
 .control-icon {
     fill: #acffad;
-    transition: .3s ease;
+    transition: 0.4s;
     pointer-events: none;
     height: 3rem;
     width: 3rem;
@@ -351,7 +351,7 @@ summary::-webkit-details-marker {
   
 details[open] .control-icon-close {
     display: initial;
-    transition: .3s ease;
+    transition: 0.4s;
     height: 3rem;
     width: 3rem;    
 }
@@ -496,7 +496,7 @@ details[open] .control-icon-expand {
 .stay-informed-button:hover {
     background-color: #000;
     color: #fff;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 
 /* Footer */
@@ -1019,7 +1019,6 @@ footer i:hover {
 
     .nav-list a {
         font-size: 1rem;
-        margin-top: -1rem;
         padding-bottom: 0;
     }
     
@@ -1117,7 +1116,6 @@ footer i:hover {
         border: #acffad 0.1rem solid;
     }
 
-
     /* Standard font sizing for site pages */
     .site-pages-h3 {
         font-size: 1.6rem;
@@ -1149,9 +1147,7 @@ footer i:hover {
     .about-marie-div-2 {
         margin: 0.5rem 0.5rem;
     }
-        
-    
-    
+            
     /* Yoga in Class Page */
     .yoga-in-class-section {
         margin-bottom: 1rem;
@@ -1307,4 +1303,55 @@ footer i:hover {
         transition-duration: 0.5s;
     }
 
+    /* Footer */
+    footer {
+        width: 100%;
+        display: block;
+    }
+
+    .footer-contact-div {
+        margin: 0;
+    }
+
+    .footer-social-media-div {
+        margin: 0.2rem 0 2rem 0;
+    }
+
+    .footer-contact-div h3 {
+        font-size: 1.1rem;
+        text-align: left;
+        margin: 0.5rem;
+    }
+
+    .footer-contact-div a {
+        font-size: 0.75rem;
+        text-align: left;
+        margin: 0.5rem 0.2rem 0 0.5rem;
+    }
+
+    .footer-contact-div p {
+        font-size: 0.65rem;
+        text-align: left;
+        margin: 0.2rem 0;
+        vertical-align: middle;
+    }
+
+    .footer-social-media-div ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-social-media-div li {
+        margin: 1rem 0.5rem;
+        text-align: center;
+    }
+
+    .social-media-icon i {
+        font-size: 2rem;
+    }
+    
+    footer i {
+        font-size: 1rem;
+        vertical-align: middle;
+    }
 }
