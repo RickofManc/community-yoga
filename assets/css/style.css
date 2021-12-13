@@ -992,7 +992,7 @@ footer i:hover {
     }
 
     .main-header-h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin: 0rem;
     }
 
@@ -1038,23 +1038,36 @@ footer i:hover {
     }
 
     .homepage-main-info-div {
-        width: auto;
-        display: block;
-        margin: 2rem;
+        margin: 0rem;
+    }
+
+    .homepage-main-section {
+        margin-top: 1rem;
+    }
+
+    .homepage-main-info {
+        margin-top: 0rem;
+    }
+
+    .homepage-main-info-h3 {
+        font-size: 1.6rem;
+        margin: 1rem 0;
+    }
+
+    .homepage-main-info-h4 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 0rem;
     }
 
     .homepage-main-info-div p {
         margin: 1rem 1rem;
-        padding: 0rem 6rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        padding: 0;
     }
 
     .homepage-main-info-div ul {
-        font-size: 1.5rem;
-    }
-
-    .homepage-main-info-div {
-        margin: 0rem 2rem;
+        font-size: 1rem;
     }
 
     .homepage-main-info-div iframe {
