@@ -14,31 +14,39 @@
 
 OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The classes have been established by Marie to guide people on stretching, energising and relaxing as a community. The classes have become popular locally and so Marie would like to leverage this with an online presence where she can communicate to existing students and also increase the number of students attending. As well spreading positivity that yoga can bring into the community, and increase in attendees will help Marie fund the cost of the hiring the venue (which in turn supports other communtiy projects).
 
-ite will allow users of all abilities to access and navigate intuitively to find out when and where the yoga classes are, and which style of yoga will be performed. ![image](https://user-images.githubusercontent.com/91251025/145968384-5da7a474-4191-4d08-a3e7-5819a96b1176.png)
-
-
-
-Plant Factory would needs to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work. Plant Factory will needs to have a contact form so that new and existing clients can reach them easily. Plant Factory is a small company with a small range of website needs, there is scope for the business to grow. As the business grows the website can be adapted to the growing business and additional features implemented.
 
 ***
 
+
 ## Index – Table of Contents
 
-* [User Experience (UX)](#user-experience) 
+* [User Experience R&D](#user-experience-research-and-design)
+     * [Strategy](#Strategy)
+     * [Scope](#Scope)
+     * [Structure](#Structure)
+     * [Skeleton](#Skeleton)
+     * [Surface](#Surface)
 * [Features](#features)
 * [Designs](#designs)
-* [Technologies Used](#technologies-used)
+* [Technologies](#technologies-used)
 * [Testing](#testing)
 * [Known Bugs](#known-bugs)
 * [Deployment](#deployment)
 * [Acknowledgements](#credit)
 
+
 *** 
 
-## User Experience (UX)
 
-## Strategy
-### User Stories  
+## User Experience Research and Design
+
+### Strategy
+
+The site will be targeted at all members of the commmunity so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The site will clearly inform students when and where classes take place, what to expect, and what to bring. Should a student be unable to attend a class there will be a section to support learning yoga at home.
+
+The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
+
+[ADD IMAGE OF OPPORTUNITY]
 
 #### Reasons a user may visit the website
 * A user looking for office plants to add to the office or workspace or business.
@@ -53,7 +61,10 @@ Plant Factory would needs to have a website to tell users a little bit about the
 * Showcase work
 * Provide a way for new and existing clients to contact us.  
 
-## Scope
+
+### Scope
+
+
 #### What a user may expect
 * Easy to navigate website 
 * Good presentation and visually appealing regardless of screen size.
@@ -79,7 +90,9 @@ Plant Factory would needs to have a website to tell users a little bit about the
 
 *Note that not all -What the user may wants- will be implamentedimplemented at this step in the buisnessbusiness., Aadditional features may be added as the scope mandate changes and the buisnessbusiness grows.
 
-## Structure
+
+### Structure
+
 The website will consist of 3 separate pages
 * A home page with “About”, “Benefits of plants” and “What we offer” sections. 
 * A “Testimonials” page with testimonies and pictures of the work we have previously done.  
@@ -87,14 +100,7 @@ The website will consist of 3 separate pages
 
 
 
-
-***
-
-
-
-## Designs
-
-## Surface
+### Surface
 
 
 #### Colour
@@ -130,16 +136,7 @@ I have purposely not used any red on the website as this may have cause issues f
 
 #### Typography 
 
-I have used https://fonts.google.com/ for my fonts.  I have chosen to use Yanone Kaffeesatz as my main font throughout the website.  This is a fairly modern style that is easy to read at various sizes.  To increase the readability, I have increased the letter spacing in most cases.  
-
-For the use in the headers, I have increased the letter spacing further to make the headings more defined and stand out. I have also used a variety of font weights to make some sections easier to read and stand out. 
-
-I have also used Comic Neue for the testimonies. This is because the style is a little more playful and a welcome change from the font used in the main body of the website.
-
-
-I imported the following code into the top of my style.css file
-
-        @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;1,400&display=swap');
+As accessibility 
 
 #### Call to Action
 
@@ -151,7 +148,7 @@ I made all my call to actions as easy to see as possible.
 * The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
 * The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
-### Imagery   
+#### Imagery   
 
 
 Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagery and text. I used images of people in the testimonials and for the “About” section. This was to make the business seem friendly and approachable. These images also grow when hovered over. This is so the user can see the images more clearly. I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices.
@@ -182,7 +179,7 @@ Should the hero or pattern image fail there is a background colour set so that t
 ## Skeleton 
 
 
-### Layout 
+#### Layout 
 
 * I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
 * I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
@@ -214,7 +211,7 @@ Should the hero or pattern image fail there is a background colour set so that t
 
 
 
-## Features
+### Features
 
 #### Universal Features Across the Site
 
