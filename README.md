@@ -1,6 +1,6 @@
 # OT Yoga
 
-![Main Mockup](README-files/main-mockup.png)
+![Website Mockup](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-site-mockups.PNG)
 
 [Link to Live Website](https://rickofmanc.github.io/old-trafford-yoga/)
 
