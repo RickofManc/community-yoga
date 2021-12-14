@@ -44,22 +44,22 @@ OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The clas
 
 The site will be targeted at all members of the commmunity so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The site will clearly inform students when and where classes take place, what to expect, and what to bring. Should a student be unable to attend a class there will be a section to support learning yoga at home.
 
+#### Leading User Stories
+* As a student with accessibility needs, I want to be able to intiutitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
+* As a student, I want to learn when and where yoga happens in Old Trafford/South Manchester, so that I can attend as part of regular exercise.
+* As a student, I want to learn how much a yoga class costs and what I need to bring, so that I can be prepared when I attend a class.
+* As a student, I want to learn what type of yoga is practiced, so I can understand if it will be something I would like to learn, or have practiced before.
+* As a student, I want to learn about the instructor, so I can guage whether we would get along.
+* As a student, I would like to be kept informed of changes to classes, so I attend accordingly.
+
+#### Primary strategic requirements for the website
+* Advertise yoga classes for the betterment of the local community.
+* Advertise yoga classes to increase revenue to fund the cost of venue hire.
+* Introduce a method for the instructor to communicate frequently with students.
+
 The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
 ![Strategic Opportunties Roadmap](https://github.com/RickofManc/old-trafford-yoga/blob/main/strategic-opportunities-roadmap.PNG)
-
-#### Reasons a user may visit the website
-* A user looking for office plants to add to the office or workspace or business.
-* A user looking to install a plant feature.
-* A user who already has a quotation but wants to get in contact.
-* A user doing research on what we offer.
-* A user looking to see if we have done previous work.
-* A user showing the site to other people within their business.
-
-#### Reasons for the website
-* Increase clients
-* Showcase work
-* Provide a way for new and existing clients to contact us.  
 
 
 ### Scope
