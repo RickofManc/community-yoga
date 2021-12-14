@@ -87,7 +87,7 @@ Here is a list of the in and out of scope features for this website.
 * **Online booking system** the current venue is a large church hall with no indication that a class could hit the maximum occupancy of 40 persons when the MVP is launched. As interest and attendees grow then consideration may need to be given to adding a page for users to book in to avoid being disappointed if a class is full on arrival.
 * **Online payment system** as an additional feature to follow or be developed with the 'Online booking system' users and the instructor could benefit from having a payment system to avoid having to handle and carry cash. Users could also block book for several classes at a time.
 * **User accounts** users may benefit from having an account where they can track class attendance, payments and potential rewards i.e. every 10th class attended is free.
-* **eCommerce** - a page where users could purchase; yoga mats, towels, straps etc.
+* **eCommerce** a page where users could purchase; yoga mats, towels, straps etc.
 
 
 
@@ -133,15 +133,26 @@ In consideration that accessibility was a key design criteria, I've developed a 
 
 #### Colour
 
-Using [Color Hunt](https://colorhunt.co/) I researched for a colour that would offer a high contrast to the predominatley Black and White scheme. The light and bright Green selected offers that contrast whilst also being neutral in it's appeal to all genders. This was a key design consideration to ensure all genders within the community felt comfortable to join OT Yoga. 
+Using [Color Hunt](https://colorhunt.co/) I researched for a colour that would offer a high contrast to the primarily monochrome theme. The light and bright Green selected offers that contrast whilst also being neutral in it's appeal to all genders. This was a key design consideration to ensure all genders within the community felt comfortable to join OT Yoga. 
 
 ![OT Yoga Colour Palette](assets/readme-images/ot-yoga-color-palette.png)
 
-#### Typography 
 
-As accessibility 
+#### Typography
 
-#### Call to Action
+When researching typography the Proxima Nova font appeared to be common across websites praised for accessibility so with this in mind for the MVP I established Google Fonts, Roboto as the closet font available for free. Roboto was used as the only font across the website to promote a comfortable and consistent theme to users.
+
+
+#### Images
+
+For the MVP it wasn't feasible to produce photography from one of the classes when considering permissions for use of images inline with GDPR. Therefore the decision was taken to use free images from the web to communicate what the website represents. It was important to show differing ages and genders practicing yoga with just a mat. 
+
+Images were sourced from [Pexels](https://pexels.com/) for the homepage and 'Yoga in Class' pages, whilst [RawPixel](https://rawpixel.com/) provided the images for the 'About Marie' and 'Yoga at Home' pages. All images have "alt" attributes to support users with screen readers and the website ranking.
+
+Where necessary images have been resized by width % and height rem to display on differing devices with max screens widths of 640px, 980-1200px, 1200-1600px and +1600px.
+
+
+#### Responsiveness
 
 I made all my call to actions as easy to see as possible. 
 
@@ -151,35 +162,6 @@ I made all my call to actions as easy to see as possible.
 * The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
 * The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
-#### Imagery   
-
-
-Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagery and text. I used images of people in the testimonials and for the “About” section. This was to make the business seem friendly and approachable. These images also grow when hovered over. This is so the user can see the images more clearly. I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices.
-
-
-Image Links - 
-* [Hero](https://unsplash.com/photos/x2Tmfd1-SgA)
-* [About Image](https://unsplash.com/photos/8FAEyjo3Dek)
-* [Testimony Image ](https://unsplash.com/photos/Jnxtlv_Fo14)
-* [Testimony Image](https://unsplash.com/photos/HrpYHchKb5Y)
-* [Testimony Image](https://unsplash.com/photos/ROJFuWCsfmA)
-* [Carousel Images](https://unsplash.com/photos/K86O7q3jddY)
-* [Carousel Images](https://unsplash.com/photos/VWcPlbHglYc)
-* [Carousel Image ](https://unsplash.com/photos/p_kICQCOM4s)
-
-I also used a pattern background of leaves for the "Contact us" page and the "What we Offer" section on the homepage.  This was to tie into the theme of the business and increase visual appeal. 
-
-[Pattern background](https://www.freepik.com/free-vector/mostera-background_4258347.htm#page=2&query=pattern+background+plant&position=46)
-
-
-Should the hero or pattern image fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
-
-#### Layout 
-
-* I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
-* I have also used a max-width, this is to ensure the content still looks good. As this is a Business-to-Business company the decisions may not be made by an individual but as a collective. This means that meetings may take place and the site presented on a larger screen. The max-width keeps the website looking neat and professional.
-* I have used containers, paddings and margins to make sure that the content is not too close together.
-***
 
 ***
 
@@ -263,6 +245,7 @@ I have set the form to POST with an action of "contact.php" this will not curren
 * Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
 * GitHub - Used to host repository 
 * GIT - for version control of the project.
+* * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
 
 Design 
 * [Bootstrap](https://getbootstrap.com/) - For responsive design/carousel - overwritten some code within my own stylesheet
@@ -295,6 +278,9 @@ Testing
 
 [CSS Validator](https://validator.w3.org/)
 ![HTML Validator](README-files/css-valid.png)
+
+
+* [Wave](https://wave.webaim.org/) - Accessibility Testing 
 
 
 A few warnings were displayed when using the validator this is because of the variblesvariables I have used to help with the maintenencemaintenance of the site. The other error is due to the useing of external style sheets. I am happy with the outcome of this test.
@@ -358,17 +344,17 @@ This project was deployed with the following steps
 ## Credits
 
 * Mentor Brian Macharia for guiding and advising throughoutout the projects lifecycle.
+* [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
+* [Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
+
+### Software & Applications
+
 * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
-* [Google fonts](https://fonts.google.com/) - For Roboto, the free family font used throughout the site.
-* [Font Awesome](https://fontawesome.com/) - Free social media icons sourced from FA.
-* [Pexels](https://pexels.com/) - Free images sourced from Pexels.
-* [RawPixel](https://rawpixel.com/) - Free images sourced from Pexels.
 * [W3schools](https://www.w3schools.com/) - Source of 'How to...' information throughout the build.
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
 * [CSS Validator](https://validator.w3.org/) - For validating CSS code, no errors found.
-* [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
-* Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
+* [Wave](https://wave.webaim.org/) - Accessibility Testing 
 
 
 ### Code
@@ -379,6 +365,10 @@ This project was deployed with the following steps
 
 ### Content
 
+* [Google fonts](https://fonts.google.com/) - For Roboto, the free family font used throughout the site.
+* [Font Awesome](https://fontawesome.com/) - Free social media icons sourced from FA.
+* [Pexels](https://pexels.com/) - Free images sourced from Pexels.
+* [RawPixel](https://rawpixel.com/) - Free images sourced from Pexels.
 * [Indian Yoga Association](https://www.indianyogaassociation.com/) - Source of information on yoga benefits and qualifications.
 * [TriYoga](https://triyoga.co.uk/faqs/) - Source of information on yoga classes and general FAQs.
 
