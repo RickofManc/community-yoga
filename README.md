@@ -114,7 +114,7 @@ The homepage is the hub of the website where essential information is displayed.
     * If I can't attend a class, can I practice at home? click 'Yoga at Home'.
     * How can I stay intouch with OT Yoga? click 'Stay Informed!'.
 
-As part of this phase I built wireframes for all pages using ![Balsamiq](https://balsamiq.com/wireframes/).
+As part of this phase I built wireframes for all pages using [Balsamiq](https://balsamiq.com/wireframes/) (see samples below). Consideration was given to both desktop and mobile users, with the final design being responsive at max screen widths of 640px, 980-1200px, 1200-1600px and +1600px - ensuring the website can be accessed as intended on any device or desktop monitor.
 
 #### Homepage Wireframe 
 
@@ -125,38 +125,15 @@ As part of this phase I built wireframes for all pages using ![Balsamiq](https:/
 ![Stay Informed! wireframe](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-stay-informed-wireframe.png)
 
 
-***
-
-
-
-
 
 ### Surface
 
 With this in mind I opted for a colour scheme of high contrast and a font which is popular on websites providing information for those who are visually impaired. 
+
+
 #### Colour
 
 I have used rich green as my main colour theme for the website. This has been paired with an off-white colour for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the business. The business moto is making offices greener.  
-
-
-These colours feature several times throughout the website which is why I have set a variable in the code.
-
-
-I have used the following 
-
-     :root {
-    --main-green:#0b720b;
-    --off-white:#fdfdfd;
-    --dk-brown:#0c0606;
-    --md-brown: #2a2020;
-     }
-    
-This means if the business decides at any point to change the key colours they can easily change it in the variable so that they do not need to go through and change every colour individually.     
-![Colour scheme](README-files/colors.png)
-
-
-
-For the rest of the colour scheme, I have kept the range of colours to a minimum using only a few additional colours where needed. I have used a mid-brown and dark brown for some text. This still ties in with the theme of nature but provides a better design. Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dyslexia). It is a processing perception problem which can cause issues with processing text and patterns. Black on white has been shown as one of the most difficult for sufferers of visual stress to read.
 
 
 I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image. I had already decided to use green but hadn’t decided on the exact shade. Although this was helpful in finding colours that worked well, I chose to alter the palette to my choosing.
