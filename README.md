@@ -103,9 +103,37 @@ This website will be structured with the following design considerations across 
 
 
 
+### Skeleton
+
+Key to this website being accessible to all members of the community was a design that is clear to read and intituive to navigate. 
+It was important to retain a clean and simple design throughout all pages to avoid confusing and ultimately marginalising certian members of the community.
+
+The homepage is the hub of the website where essential information is displayed. To support the users journey there is a logical navigation menu where answers to users questions can be found in a hope that it progressively reveals information in an order the user expects;
+    * Who is teaching the yoga? click 'About Marie'.
+    * What can I expect or need to bring? click 'Yoga in Class'.
+    * If I can't attend a class, can I practice at home? click 'Yoga at Home'.
+    * How can I stay intouch with OT Yoga? click 'Stay Informed!'.
+
+As part of this phase I built wireframes for all pages using ![Balsamiq](https://balsamiq.com/wireframes/).
+
+#### Homepage Wireframe 
+
+![Homepage wireframe](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-homepage-wireframe.png)
+
+#### Stay Informed! Wireframe
+
+![Stay Informed! wireframe](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-stay-informed-wireframe.png)
+
+
+***
+
+
+
+
+
 ### Surface
 
-
+With this in mind I opted for a colour scheme of high contrast and a font which is popular on websites providing information for those who are visually impaired. 
 #### Colour
 
 I have used rich green as my main colour theme for the website. This has been paired with an off-white colour for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the business. The business moto is making offices greener.  
@@ -174,41 +202,12 @@ I also used a pattern background of leaves for the "Contact us" page and the "Wh
 
 Should the hero or pattern image fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
 
-
-***
-
-
-
-## Skeleton 
-
-
 #### Layout 
 
 * I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
-* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
 * I have also used a max-width, this is to ensure the content still looks good. As this is a Business-to-Business company the decisions may not be made by an individual but as a collective. This means that meetings may take place and the site presented on a larger screen. The max-width keeps the website looking neat and professional.
 * I have used containers, paddings and margins to make sure that the content is not too close together.
-
-
-#### Homepage Wire Frame 
-
-![Homepage Wireframe](README-files/homepage.png)
-
-#### Testimonial Wireframe
-
-![Testimonial Wireframe](README-files/testimonials.png)
-
-#### Form Wireframe 
-
-![Form Wireframe](README-files/form.png)
- 
-
 ***
-
-
-### Mockup
-
-![Mock ups](README-files/mock-ups.png)
 
 ***
 
@@ -259,11 +258,6 @@ I have also included a redirect file so if any of the links don't work or the pa
 * A “Benefits sections” listing 3 benefits of having more plants in the office. On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 separate columns.
 * A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
 
-###### Testimonial
-* The “Testimonial” page includes a carousel at the top, paired with an overlay for text colour contrast. The carousel gives the user the ability to click on the arrow to go forward or back and also allows the user to change which image is viewed using the buttons on the bottom. I changed the controls on the carousel to invert the colour from the standard white so it would be easier to see. The text includes information about the client and the type of option they opted for. Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is where each testimony is from. I have scaled the carousel images to be large. This is because it is a showcase of the type of work the business has carried out. 
-* I have staggered the testimonies on all devices.
- 
-
 ###### Form 
 * The “Form” page consists of the form and universal features only.
 * The form includes fields for the user to enter their business name and contact details using - input type="text"
@@ -290,7 +284,7 @@ I have set the form to POST with an action of "contact.php" this will not curren
 
 ***
 
-## Technologies Used 
+## Technologies
 
 * HTML5 - Mark-up language using semantic structure.
 * CCS3 - Cascading style sheet used to style.
