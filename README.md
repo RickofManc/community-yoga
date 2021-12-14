@@ -1,6 +1,6 @@
 # OT Yoga
 
-![Website Mockup](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-site-mockups.PNG)
+![Website Mockup](assets/readme-images/ot-yoga-site-mockups.PNG)
 
 [Link to Live Website](https://rickofmanc.github.io/old-trafford-yoga/)
 
@@ -61,7 +61,7 @@ The site will be targeted at all members of the commmunity so accessibility in d
 
 The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
-![Strategic Opportunties Roadmap](https://github.com/RickofManc/old-trafford-yoga/blob/main/strategic-opportunities-roadmap.PNG)
+![Strategic Opportunties Roadmap](assets/readme-images/strategic-opportunities-roadmap.PNG)
 
 
 
@@ -118,11 +118,11 @@ As part of this phase I built wireframes for all pages using [Balsamiq](https://
 
 #### Homepage Wireframe 
 
-![Homepage wireframe](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-homepage-wireframe.png)
+![Homepage wireframe](assets/readme-images/ot-yoga-homepage-wireframe.png)
 
 #### Stay Informed! Wireframe
 
-![Stay Informed! wireframe](https://github.com/RickofManc/old-trafford-yoga/blob/main/ot-yoga-stay-informed-wireframe.png)
+![Stay Informed! wireframe](assets/readme-images/ot-yoga-stay-informed-wireframe.png)
 
 
 
