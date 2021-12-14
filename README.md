@@ -64,31 +64,27 @@ The roadmap below highlights the high-level strategeic opportunities versus the 
 
 ### Scope
 
+I adopted an agile approach of keeping the in scope features simple and aligned to the strategy for the MVP.
+Here is a list of the in and out of scope features for this website.
 
-#### What a user may expect
-* Easy to navigate website 
-* Good presentation and visually appealing regardless of screen size.
-* Links and functions work as expected.
-* Information about what Plant Factory does.
-* A way to get in contact with Plant Factory.
+#### In Scope Features
+* Homepage that clearly informs what the site represents and offers.
+* A menu that intuitiviely navigates to the other site pages.
+* Imagery to help convey the aim of the website and individual pages.
+* Provide information on; 
+    * class days and time,
+    * the venue and contact information,
+    * the instructor,
+    * types of yoga practiced,
+    * feedback from current students,
+    * sources for practicing yoga at home,
+    * allow users to stay informed of changes to classes and other relating articles.
 
-#### What a user may want 
-* To be able to find links to social media pages.
-* To see examples of previous work carried out.
-* To be able to chat with someone online.
-* To be able to buy plants online.
-* How it works - from start to finish.
-
-
-#### As a developer / business I expect
-* To provide information about Plant Factory.
-* To provide an easy way for new and existing clients to contact us.
-* To showcase some of the work we are proudest of. 
-* To provide an easy to navigate website with links that work as expected.
-* To showcase customer testimonies and expect customers to read them.
-* To encourage clients to contact us for a quote. 
-
-*Note that not all -What the user may wants- will be implamentedimplemented at this step in the buisnessbusiness., Aadditional features may be added as the scope mandate changes and the buisnessbusiness grows.
+#### Out of Scope Feature
+* **Online booking system** the current venue is a large church hall with no indication that a class could hit the maximum occupancy of 40 persons when the MVP is launched. As interest and attendees grow then consideration may need to be given to adding a page for users to book in to avoid being disappointed if a class is full on arrival.
+* **Online payment system** as an additional feature to follow or be developed with the 'Online booking system' users and the instructor could benefit from having a payment system to avoid having to handle and carry cash. Users could also block book for several classes at a time.
+* **User accounts** users may benefit from having an account where they can track class attendance, payments and potential rewards i.e. every 10th class attended is free.
+* **eCommerce** - a page where users could purchase; yoga mats, towels, straps etc.
 
 
 ### Structure
