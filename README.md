@@ -46,7 +46,7 @@ The site will be targeted at all members of the commmunity so accessibility in d
 
 The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
-[ADD IMAGE OF OPPORTUNITY]
+![Strategic Opportunties Roadmap](https://github.com/RickofManc/old-trafford-yoga/blob/main/strategic-opportunities-roadmap.PNG)
 
 #### Reasons a user may visit the website
 * A user looking for office plants to add to the office or workspace or business.
