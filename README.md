@@ -40,6 +40,8 @@ OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The clas
 
 ## User Experience Research and Design
 
+
+
 ### Strategy
 
 The site will be targeted at all members of the commmunity so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The site will clearly inform students when and where classes take place, what to expect, and what to bring. Should a student be unable to attend a class there will be a section to support learning yoga at home.
@@ -52,7 +54,7 @@ The site will be targeted at all members of the commmunity so accessibility in d
 * As a student, I want to learn about the instructor, so I can guage whether we would get along.
 * As a student, I would like to be kept informed of changes to classes, so I attend accordingly.
 
-#### Primary strategic requirements for the website
+#### Primary strategic aims for the website
 * Advertise yoga classes for the betterment of the local community.
 * Advertise yoga classes to increase revenue to fund the cost of venue hire.
 * Introduce a method for the instructor to communicate frequently with students.
@@ -60,6 +62,7 @@ The site will be targeted at all members of the commmunity so accessibility in d
 The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
 ![Strategic Opportunties Roadmap](https://github.com/RickofManc/old-trafford-yoga/blob/main/strategic-opportunities-roadmap.PNG)
+
 
 
 ### Scope
@@ -80,19 +83,23 @@ Here is a list of the in and out of scope features for this website.
     * sources for practicing yoga at home,
     * allow users to stay informed of changes to classes and other relating articles.
 
-#### Out of Scope Feature
+#### Out of Scope Features
 * **Online booking system** the current venue is a large church hall with no indication that a class could hit the maximum occupancy of 40 persons when the MVP is launched. As interest and attendees grow then consideration may need to be given to adding a page for users to book in to avoid being disappointed if a class is full on arrival.
 * **Online payment system** as an additional feature to follow or be developed with the 'Online booking system' users and the instructor could benefit from having a payment system to avoid having to handle and carry cash. Users could also block book for several classes at a time.
 * **User accounts** users may benefit from having an account where they can track class attendance, payments and potential rewards i.e. every 10th class attended is free.
 * **eCommerce** - a page where users could purchase; yoga mats, towels, straps etc.
 
 
+
 ### Structure
 
-The website will consist of 3 separate pages
-* A home page with “About”, “Benefits of plants” and “What we offer” sections. 
-* A “Testimonials” page with testimonies and pictures of the work we have previously done.  
-* A page with a form to contact the business. 
+This website will be structured with the following design considerations across 5 pages (including the homepage):
+* The Information Architecture (IA) will follow a '3 Tier Hierarchical Tree Structure' approach.
+* A homepage complete with navigation menu within the header, leading to pages for; About the Instructor, Yoga in Class, Yoga at Home and Stay Informed (sign-up page).
+* The homepage header, navigation menu and footer will be consistent throughout the site. 
+* To assist users, the homepage will display the essential information for the class days, times, type of yoga and cost. A button will be available to users to found out more information of what to expect when attending a class.
+* To assist users, a map will be inset to the homepage so they can click through to help plan a route to attend a yoga class.
+* Contact information and social media links will be located within the footer to support the strategic aim 'Introduce a method for the instructor to communicate frequently with students'.
 
 
 
