@@ -128,19 +128,14 @@ As part of this phase I built wireframes for all pages using [Balsamiq](https://
 
 ### Surface
 
-With this in mind I opted for a colour scheme of high contrast and a font which is popular on websites providing information for those who are visually impaired. 
+In consideration that accessibility was a key design criteria, I've developed a visual language that offers contrast using simple colour palette, readable font and clear layout. Throughout the site this language has been applied consistently so using the site becomes intuitive with the most important links and information easily recognised.
 
 
 #### Colour
 
-I have used rich green as my main colour theme for the website. This has been paired with an off-white colour for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the business. The business moto is making offices greener.  
+Using [Color Hunt](https://colorhunt.co/) I researched for a colour that would offer a high contrast to the predominatley Black and White scheme. The light and bright Green selected offers that contrast whilst also being neutral in it's appeal to all genders. This was a key design consideration to ensure all genders within the community felt comfortable to join OT Yoga. 
 
-
-I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image. I had already decided to use green but hadn’t decided on the exact shade. Although this was helpful in finding colours that worked well, I chose to alter the palette to my choosing.
-
-
-I have purposely not used any red on the website as this may have cause issues for people with a red/green colour deficiency.
-
+![OT Yoga Colour Palette](assets/readme-images/ot-yoga-color-palette.png)
 
 #### Typography 
 
