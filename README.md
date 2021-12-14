@@ -152,15 +152,15 @@ Where necessary images have been resized by width % and height rem to display on
 ***
 
 
-### Features
+## Features
 
-#### Universal Features
+### Universal Features
 
-###### Logo and Navigation Bar
+##### Logo and Navigation Bar
 The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our off-white and the text is the main green colour.
 
 
-###### Responsiveness
+##### Responsiveness
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using a mixture of media queries and Bootstraps responsive columns.
 
@@ -173,12 +173,12 @@ I made all my call to actions as easy to see as possible.
 * The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
 
-###### Accessibility
+##### Accessibility
 
 All images and navigations have an alt attributes or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over. I have also set the font to rem so that if someone has their font settings higher for visibility the font size will increase accordingly.
 
 
-###### Footer 
+##### Footer 
 
 The footer is split into 3 sections:. “Opening Hours”, “Contact Info” and “Social”. The colour used for the background is our the main-green colour with a reduced opacity as the colour is very bold when at 100%. Theses The three sections are stacked on smaller devices and are arranged in 3 coloumnscolumns on larger devices.
 
@@ -197,15 +197,15 @@ I have also included a redirect file so if any of the links don't work or the pa
 
 *** 
 
-#### Features Specific to Pages
+### Features Specific to Pages
 
-###### Homepage 
+##### Homepage 
 * A hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.
 * An “About” section with information of what Plant Factory does, including an image of the owner. On smaller devices are stacked, and in 2 columns on larger resolutions.
 * A “Benefits sections” listing 3 benefits of having more plants in the office. On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 separate columns.
 * A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
 
-###### Form 
+##### Form 
 * The “Form” page consists of the form and universal features only.
 * The form includes fields for the user to enter their business name and contact details using - input type="text"
 * The email input field requires the answer to be an email
