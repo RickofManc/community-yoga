@@ -27,12 +27,9 @@ OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The clas
      * [Skeleton](#Skeleton)
      * [Surface](#Surface)
 * [Features](#features)
-* [Designs](#designs)
-* [Technologies](#technologies-used)
 * [Testing](#testing)
-* [Known Bugs](#known-bugs)
 * [Deployment](#deployment)
-* [Acknowledgements](#credit)
+* [Credits](#credit)
 
 
 *** 
@@ -138,38 +135,26 @@ Using [Color Hunt](https://colorhunt.co/) I researched for a colour that would o
 ![OT Yoga Colour Palette](assets/readme-images/ot-yoga-color-palette.png)
 
 
-#### Typography
+#### Fonts
 
-When researching typography the Proxima Nova font appeared to be common across websites praised for accessibility so with this in mind for the MVP I established Google Fonts, Roboto as the closet font available for free. Roboto was used as the only font across the website to promote a comfortable and consistent theme to users.
+When researching typography the Proxima Nova font appeared to be common typography choice across websites praised for accessibility. With this in mind for the MVP I established Google Fonts' Roboto as the closet font to Proximo Nova available for free. Roboto was used as the only font across the website to promote a comfortable and consistent theme to users.
 
 
 #### Images
 
 For the MVP it wasn't feasible to produce photography from one of the classes when considering permissions for use of images inline with GDPR. Therefore the decision was taken to use free images from the web to communicate what the website represents. It was important to show differing ages and genders practicing yoga with just a mat. 
 
-Images were sourced from [Pexels](https://pexels.com/) for the homepage and 'Yoga in Class' pages, whilst [RawPixel](https://rawpixel.com/) provided the images for the 'About Marie' and 'Yoga at Home' pages. All images have "alt" attributes to support users with screen readers and the website ranking.
+Images were sourced from [Pexels](https://pexels.com/) for the homepage and 'Yoga in Class' pages, whilst [RawPixel](https://rawpixel.com/) provided the images for the 'About Marie' and 'Yoga at Home' pages. All images have alt attributes and/or arial-label to support users with screen readers and the website ranking.
 
 Where necessary images have been resized by width % and height rem to display on differing devices with max screens widths of 640px, 980-1200px, 1200-1600px and +1600px.
-
-
-#### Responsiveness
-
-I made all my call to actions as easy to see as possible. 
-
-* The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
-* Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
-* "Submit link" on the form and the "Contact Us" link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
-* The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
-* The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
 
 ***
 
 
-
 ### Features
 
-#### Universal Features Across the Site
+#### Universal Features
 
 ###### Logo and Navigation Bar
 The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our off-white and the text is the main green colour.
@@ -178,6 +163,14 @@ The Navigation Bar is at the top of the webpage. The logo and nav links all chan
 ###### Responsiveness
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using a mixture of media queries and Bootstraps responsive columns.
+
+I made all my call to actions as easy to see as possible. 
+
+* The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
+* Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
+* "Submit link" on the form and the "Contact Us" link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
+* The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
+* The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
 
 ###### Accessibility
@@ -234,34 +227,6 @@ I have set the form to POST with an action of "contact.php" this will not curren
 * Has a “form submitted” status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.
 * Create an option for businesses to buy smaller plants online with a way to make online payments.
 
-    
-
-***
-
-## Technologies
-
-* HTML5 - Mark-up language using semantic structure.
-* CCS3 - Cascading style sheet used to style.
-* Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
-* GitHub - Used to host repository 
-* GIT - for version control of the project.
-* * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
-
-Design 
-* [Bootstrap](https://getbootstrap.com/) - For responsive design/carousel - overwritten some code within my own stylesheet
-* [Google fonts](https://fonts.google.com/) - For styling the typography
-* [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
-* [Font Awesome](https://fontawesome.com/) - for social media icons
-* [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
-* [Tiny PNG](https://tinypng.com/) – changing some images to smaller sizes
-
-Testing 
-* [HTML Validator](https://validator.w3.org/) - Testing validity of HTML
-* [CSS Validator](https://validator.w3.org/) -Testing validity of CSS
-* [IE NetREnderer](https://netrenderer.com/index.php)
-* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature
-* [Wave](https://wave.webaim.org/) - Accessibility Testing 
-* DEV Tools - Lighthouse
 
 ***
 
@@ -319,6 +284,9 @@ I made some changes, such as increasing contrast, adding meta data and making su
 * ###### A user looking for office plants to add to the office or workspace or business. 
 The user can find the information quickly on the first page of the site. The user is given the option to get in contact with us and can have a look at testimonies and images of work carried out.
 
+### Known Bugs / Issues
+* BUG
+
 
 *** 
 
@@ -334,8 +302,7 @@ This project was deployed with the following steps
 1. The page automatically refreshed with a url displayed.
 1. Tested the link by clicking on the url.
 
-### Known Bugs 
-* BUG
+The live website can be found here https://rickofmanc.github.io/old-trafford-yoga/
 
 
 ***
@@ -347,9 +314,11 @@ This project was deployed with the following steps
 * [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
 * [Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
 
-### Software & Applications
+### Software, Applications & Cide
 
 * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
+* This website was coded using only HTML5 & CCS3, with [GitPod](https://gitpod.io/) used for an IDE and [GitHub](https://github.com/) as a hosting repository. 
+* Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
 * [W3schools](https://www.w3schools.com/) - Source of 'How to...' information throughout the build.
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
