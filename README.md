@@ -6,14 +6,16 @@
 
 [GitHub Repo](https://github.com/RickofManc/old-trafford-yoga)
 
+
 *** 
+
 
 ## About  
 
-This website was created for the first milestone project as part of Code Institute's Diploma in Full Stack Software Development.
- 
-   
-OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The classes have been established by Marie to guide people on stretching, energising and relaxing as a community. Plant Factory is a business dedicated to bringing positive change to workplaces in the form of adding more natural elements. The vast majority of workspaces within the UK do not have access to natural elements within their workplace. Having natural elements such as plants can boost positive wellbeing, increase productivity and create a more appealing place to work. Plant Factory offers both bespoke plant features and potted plants/trees of a range of sizes for the workplace. Plant factory will visit the business to assess the sizes needed. Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. For a bespoke client Plant Factory are taking care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures.
+OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The classes have been established by Marie to guide people on stretching, energising and relaxing as a community. The classes have become popular locally and so Marie would like to leverage this with an online presence where she can communicate to existing students and also increase the number of students attending. As well spreading positivity that yoga can bring into the community, and increase in attendees will help Marie fund the cost of the hiring the venue (which in turn supports other communtiy projects).
+
+ite will allow users of all abilities to access and navigate intuitively to find out when and where the yoga classes are, and which style of yoga will be performed. ![image](https://user-images.githubusercontent.com/91251025/145968384-5da7a474-4191-4d08-a3e7-5819a96b1176.png)
+
 
 
 Plant Factory would needs to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work. Plant Factory will needs to have a contact form so that new and existing clients can reach them easily. Plant Factory is a small company with a small range of website needs, there is scope for the business to grow. As the business grows the website can be adapted to the growing business and additional features implemented.
@@ -366,8 +368,8 @@ I made some changes, such as increasing contrast, adding meta data and making su
 The user can find the information quickly on the first page of the site. The user is given the option to get in contact with us and can have a look at testimonies and images of work carried out.
 
 
-
 *** 
+
 
 ## Deployment 
 
@@ -380,7 +382,6 @@ This project was deployed with the following steps
 1. The page automatically refreshed with a url displayed.
 1. Tested the link by clicking on the url.
 
-
 ### Known Bugs 
 * BUG
 
@@ -391,7 +392,6 @@ This project was deployed with the following steps
 ## Credits
 
 * Mentor Brian Macharia for guiding and advising throughoutout the projects lifecycle.
-
 * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
 * [Google fonts](https://fonts.google.com/) - For Roboto, the free family font used throughout the site.
 * [Font Awesome](https://fontawesome.com/) - Free social media icons sourced from FA.
@@ -401,8 +401,8 @@ This project was deployed with the following steps
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
 * [CSS Validator](https://validator.w3.org/) - For validating CSS code, no errors found.
-* [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
-
+* [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
+* Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
 
 
 ### Code
@@ -417,6 +417,6 @@ This project was deployed with the following steps
 * [TriYoga](https://triyoga.co.uk/faqs/) - Source of information on yoga classes and general FAQs.
 
 
-### Inspiration: 
+### Inspiration
 
 * [Convince & Convert](https://www.convinceandconvert.com/digital-marketing/accessible-website-examples/) - Source of inspiration on design and features that improve accessibility which was key in reaching as many people in the Old Trafford community.
