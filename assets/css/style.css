@@ -571,25 +571,29 @@ footer i:hover {
 }
 
 /* 404 Not Found Page */
-#error-page-body {
-    background-image: url("assets/site-images/error-page-background-image.jpg");
+
+.error-page-body img {
     opacity: 0.5;
 }
 
-.error-page-logo {
+.error-page-logo div {
     display: block;
     width: 40%;
     height: auto;
 }    
 
-.error-page-tiles {
+.error-page-tiles div {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
 }
 
 .error-page-tiles a {
-    display: inline-grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
     padding: 1rem;
-    margin: 1rem;
     text-decoration: none;
     color: #000;
     background-color: #acffad;
