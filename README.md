@@ -12,7 +12,7 @@
 
 ## About  
 
-OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The classes have been established by Marie to guide people on stretching, energising and relaxing as a community. The classes have become popular locally and so Marie would like to leverage this with an online presence where she can communicate to existing students and also increase the number of students attending. As well spreading positivity that yoga can bring into the community, and increase in attendees will help Marie fund the cost of the hiring the venue (which in turn supports other communtiy projects).
+OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The classes have been established by Marie to guide people on stretching, energizing and relaxing as a community. The classes have become popular locally and so Marie would like to leverage this with an online presence where she can communicate to existing students and also increase the number of students attending. As well spreading positivity that yoga can bring into the community, and increase in attendees will help Marie fund the cost of the hiring the venue (which in turn supports other community projects).
 
 
 ***
@@ -41,14 +41,14 @@ OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The clas
 
 ### Strategy
 
-The site will be targeted at all members of the commmunity so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The site will clearly inform students when and where classes take place, what to expect, and what to bring. Should a student be unable to attend a class there will be a section to support learning yoga at home.
+The site will be targeted at all members of the community so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The site will clearly inform students when and where classes take place, what to expect, and what to bring. Should a student be unable to attend a class there will be a section to support learning yoga at home.
 
 #### Leading User Stories
-* As a student with accessibility needs, I want to be able to intiutitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
+* As a student with accessibility needs, I want to be able to intuitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
 * As a student, I want to learn when and where yoga happens in Old Trafford/South Manchester, so that I can attend as part of regular exercise.
 * As a student, I want to learn how much a yoga class costs and what I need to bring, so that I can be prepared when I attend a class.
 * As a student, I want to learn what type of yoga is practiced, so I can understand if it will be something I would like to learn, or have practiced before.
-* As a student, I want to learn about the instructor, so I can guage whether we would get along.
+* As a student, I want to learn about the instructor, so I can gauge whether we would get along.
 * As a student, I would like to be kept informed of changes to classes, so I attend accordingly.
 
 #### Primary strategic aims for the website
@@ -56,9 +56,9 @@ The site will be targeted at all members of the commmunity so accessibility in d
 * Advertise yoga classes to increase revenue to fund the cost of venue hire.
 * Introduce a method for the instructor to communicate frequently with students.
 
-The roadmap below highlights the high-level strategeic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
+The roadmap below highlights the high-level strategic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
-![Strategic Opportunties Roadmap](assets/readme-images/strategic-opportunities-roadmap.PNG)
+![Strategic Opportunities Roadmap](assets/readme-images/strategic-opportunities-roadmap.PNG)
 
 
 
@@ -69,7 +69,7 @@ Here is a list of the in and out of scope features for this website.
 
 #### In Scope Features
 * Homepage that clearly informs what the site represents and offers.
-* A menu that intuitiviely navigates to the other site pages.
+* A menu that intuitively navigates to the other site pages.
 * Imagery to help convey the aim of the website and individual pages.
 * Provide information on; 
     * class days and time,
@@ -102,14 +102,14 @@ This website will be structured with the following design considerations across 
 
 ### Skeleton
 
-Key to this website being accessible to all members of the community was a design that is clear to read and intituive to navigate. 
-It was important to retain a clean and simple design throughout all pages to avoid confusing and ultimately marginalising certian members of the community.
+Key to this website being accessible to all members of the community was a design that is clear to read and intuitive to navigate. 
+It was important to retain a clean and simple design throughout all pages to avoid confusing and ultimately marginalizing certain members of the community.
 
 The homepage is the hub of the website where essential information is displayed. To support the users journey there is a logical navigation menu where answers to users questions can be found in a hope that it progressively reveals information in an order the user expects;
     * Who is teaching the yoga? click 'About Marie'.
     * What can I expect or need to bring? click 'Yoga in Class'.
     * If I can't attend a class, can I practice at home? click 'Yoga at Home'.
-    * How can I stay intouch with OT Yoga? click 'Stay Informed!'.
+    * How can I stay in touch with OT Yoga? click 'Stay Informed!'.
 
 As part of this phase I built wireframes for all pages using [Balsamiq](https://balsamiq.com/wireframes/) (see samples below). Consideration was given to both desktop and mobile users, with the final design being responsive at max screen widths of 640px, 980-1200px, 1200-1600px and +1600px - ensuring the website can be accessed as intended on any device or desktop monitor.
 
@@ -125,7 +125,7 @@ As part of this phase I built wireframes for all pages using [Balsamiq](https://
 
 ### Surface
 
-In consideration that accessibility was a key design criteria, I've developed a visual language that offers contrast using simple colour palette, readable font and clear layout. Throughout the site this language has been applied consistently so using the site becomes intuitive with the most important links and information easily recognised.
+In consideration that accessibility was a key design criteria, I've developed a visual language that offers contrast using simple colour palette, readable font and clear layout. Throughout the site this language has been applied consistently so using the site becomes intuitive with the most important links and information easily recognized.
 
 
 #### Colour
@@ -158,22 +158,22 @@ Where necessary images have been resized by width % and height rem to display on
 
 ##### Header & Navigation Menu
 
-The centralised header element complete with OT Yoga logo and Navigation Menu (nav-menu) is a constant element throughout this website. The layout has been centrallly aligned leading upto the logo to represent hands clasped stretching up, incoporating into a house. This sense of home is aimed at providing a friendly comfortable feel to users. The logo and main header change colour when the user hovers over them, with a click on either intuitvely taking the user to the homepage.
+The centralized header element complete with OT Yoga logo and Navigation Menu (nav-menu) is a constant element throughout this website. The layout has been centrally aligned leading up to the logo to represent hands clasped stretching up, incorporating into a house. This sense of home is aimed at providing a friendly comfortable feel to users. The logo and main header change colour when the user hovers over them, with a click on either intuitively taking the user to the homepage.
 
 The responsive nature of elements changing colour to the hight contrast shade of Green is carried over to the nav-menu where each page title changes on hover, and remains lit when a user visits that page to help inform where they are within the website.
 
-On smaller devices under 640px wide, the nav-menu reduces to a collapsable drop-down style, with the options aligned to the left for ease of selection for the vast majority of users.
+On smaller devices under 640px wide, the nav-menu reduces to a collapsible drop-down style, with the options aligned to the left for ease of selection for the vast majority of users.
 
 ##### Footer 
 
-Conitinuing the white font of black background theme of the universal nav-menu, the footer aims to be complimentary without distracting users from page content. The footers role on this website is to inform of how to contact, find and socialise with OT Yoga. Therefore the footer has been divdied into two clear sections, the left is contact information with responsive icons to support user needs, and the right side for the collection of social media buttons where users can click to find out even more about OT Yoga. As with the nav-menu, the layout of font sizing reduces for devices under 640px.
+Continuing the white font of black background theme of the universal nav-menu, the footer aims to be complimentary without distracting users from page content. The footers role on this website is to inform of how to contact, find and socialize with OT Yoga. Therefore the footer has been divided into two clear sections, the left is contact information with responsive icons to support user needs, and the right side for the collection of social media buttons where users can click to find out even more about OT Yoga. As with the nav-menu, the layout of font sizing reduces for devices under 640px.
 
 ##### Meta data
 
 To support the following strategic aims;
     * Advertise yoga classes for the betterment of the local community,
     * Advertise yoga classes to increase revenue to fund the cost of venue hire.
-Meta data has been included within the wesbites HTML head element to increase the traffic to this website. Furthermore the individual site pages have been titled appropriately as another method of informing users where they have navigated to.
+Meta data has been included within the websites HTML head element to increase the traffic to this website. Furthermore the individual site pages have been titled appropriately as another method of informing users where they have navigated to.
 
 ##### Redirect
 
@@ -231,7 +231,7 @@ I have also included a redirect file so if any of the links don't work or the pa
 * [Wave](https://wave.webaim.org/) - Accessibility Testing 
 
 
-A few warnings were displayed when using the validator this is because of the variblesvariables I have used to help with the maintenencemaintenance of the site. The other error is due to the useing of external style sheets. I am happy with the outcome of this test.
+A few warnings were displayed when using the validator this is because of the  I have used to help with the of the site. The other error is due to the using of external style sheets. I am happy with the outcome of this test.
 
 
 ### Usability Testing
@@ -293,17 +293,18 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 
 ## Credits
 
-* Mentor Brian Macharia for guiding and advising throughoutout the projects lifecycle.
+* Mentor Brian Macharia for guiding and advising throughout the projects lifecycle.
 * [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
 * [Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
 
-### Software, Applications & Cide
+### Software, Applications & Code
 
 * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
 * This website was coded using only HTML5 & CCS3, with [GitPod](https://gitpod.io/) used for an IDE and [GitHub](https://github.com/) as a hosting repository. 
 * Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
 * [W3schools](https://www.w3schools.com/) - Source of 'How to...' information throughout the build.
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
+* [FreeConvert](https://www.freeconvert.com/) - For compressing images to improve page load time.
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
 * [CSS Validator](https://validator.w3.org/) - For validating CSS code, no errors found.
 * [Wave](https://wave.webaim.org/) - Accessibility Testing 
@@ -311,8 +312,8 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 
 ### Code
 
-* [FAQs Verical Accordian](https://codepen.io/frogmcw/pen/deqRwa) - Monica Wheeler's code for a Vertcial Accordian in HTML & CSS only.
-* [Collapsing Nav Menu](https://codepen.io/kevinpowell/pen/jxppmr) - Kevin Powell's code for creating a collapsable Navigation menu for mobile devices in HTML & CSS only.
+* [FAQs Vertical Accordion](https://codepen.io/frogmcw/pen/deqRwa) - Monica Wheeler's code for a Vertical Accordion in HTML & CSS only.
+* [Collapsing Nav Menu](https://codepen.io/kevinpowell/pen/jxppmr) - Kevin Powell's code for creating a collapsible Navigation menu for mobile devices in HTML & CSS only.
 
 
 ### Content
