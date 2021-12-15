@@ -571,15 +571,22 @@ footer i:hover {
 }
 
 /* 404 Not Found Page */
+#error-page-body {
+    background-image: url(assets/site-images/error-page-background-image.jpg);
+}
+
+.error-page-tiles {
+    display: block;
+}
 
 .error-page-tiles a {
+    display: inline-block;
     height: 4rem;
     width: 6rem;
     text-decoration: none;
     color: #000;
     background-color: #acffad;
     border-radius: 25%;
-
 }
 
 /* Media Queries */
