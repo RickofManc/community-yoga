@@ -177,7 +177,7 @@ Meta data has been included within the websites HTML head element to increase th
 
 ##### Redirect
 
-I have also included a redirect file so if any of the links don't work or the page does not show up they are redirected back to the homepage. Please see credit for the code used for this function. 
+A '404 Not Found' page has been added to the website in the event a user needs to be redirected from a failed link and/or page.
 
 *** 
 
@@ -314,6 +314,7 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 
 * [FAQs Vertical Accordion](https://codepen.io/frogmcw/pen/deqRwa) - Monica Wheeler's code for a Vertical Accordion in HTML & CSS only.
 * [Collapsing Nav Menu](https://codepen.io/kevinpowell/pen/jxppmr) - Kevin Powell's code for creating a collapsible Navigation menu for mobile devices in HTML & CSS only.
+* [Redirect Script](https://html-online.com/articles/smart-404-error-page-redirect/) - HMTL code for redirecting users to the 404 Not Found page credited to html-online.com.
 
 
 ### Content

@@ -12,7 +12,7 @@
     <title>Old Trafford Yoga | 404 Not Found</title>
 </head>
 
-<body>
+<body onload="redirect()">
     <div class="error-page-div">
         <img class="error-page-background-image" src="assets/site-images/error-page-background-image.jpg" alt="Yoga student smiling at being out of sync with the yoga instructor">
         <div class="error-page-heading">
@@ -26,7 +26,19 @@
             <a href="yoga-at-home.html" aria-label="Learn about performing Yoga at Home">Yoga at Home</a>
             <a href="stay-informed.html" aria-label="Sign-up to OT Yoga's news via email">Stay Informed!</a>
         </div>
-    </div>    
+    </div>
+    <!-- HTML Script for redirect credited to HTML-Online.com -->
+    <script>
+	  function redirect() {
+		setTimeout(function(){ 
+				window.location.replace("index.html");
+			}
+			, 100);	
+		}
+	</script>
+  </body>
+</html>
+
 </body>
 
 </html>
