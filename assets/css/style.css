@@ -595,7 +595,7 @@ footer i:hover {
 
 .error-page-heading h1,
 .error-page-heading h2 {
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 
 .error-page-tile {
@@ -807,7 +807,6 @@ footer i:hover {
     }
 
     /* Footer */
-
     footer {
         width: 100%;
         display: block;
@@ -849,6 +848,45 @@ footer i:hover {
         margin: 1rem;
         text-align: center;
     }
+
+    /* 404 Not Found Page */
+    .error-page-div {
+        display: contents;
+        position: relative;
+    }
+
+    .error-page-background-image {
+        width: 275%;
+    }
+
+    .error-page-heading {
+        position: relative;
+        margin-top: 1.3rem;
+    }
+
+    .error-page-heading h1,
+    .error-page-heading h2 {
+        margin: 0.6rem 1.3rem;
+        font-size: 85%;
+        font-weight: 400;
+    }
+
+    .error-page-tile {
+        position: relative;
+        display: inline-grid;
+        margin-top: 1.3rem;
+    }
+
+    .error-page-tile a {
+        width: 80%;
+        padding: 0.6rem;
+        margin: 0.3rem 1.3rem;
+        text-align: left;
+        font-weight: 300;
+        font-size: 80%;  
+        border: none;  
+    }
+
 }
 
 /* For small screens up to 980px wide */
