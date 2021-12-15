@@ -179,96 +179,70 @@ Meta data has been included within the websites HTML head element to increase th
 
 A '404 Not Found' page has been added to the website in the event a user needs to be redirected from a failed link and/or page.
 
-*** 
 
 ### Page specific features
 
-##### Homepage 
-* A hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.
-* An “About” section with information of what Plant Factory does, including an image of the owner. On smaller devices are stacked, and in 2 columns on larger resolutions.
-* A “Benefits sections” listing 3 benefits of having more plants in the office. On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 separate columns.
-* A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
+##### Google Map iFrame
 
-##### Form 
-* The “Form” page consists of the form and universal features only.
-* The form includes fields for the user to enter their business name and contact details using - input type="text"
-* The email input field requires the answer to be an email
-* The phone number input field must be a number to be valid.
-* The preferred contact method is selected using a radio button. This is because there is an option for both contact methods to be selected. By using a radio button errors are avoided that may upset the user.
-* Options they would like to talk about is a checklist. This is to ensure the submitted form goes to the correct team.
-* There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments.
-* The submit button is large and changes colour when hovered over.
-* The form is stacked for mobile use. For the larger screens, the radio buttons and check list appear inline.
-* The labels are clear as to what should go in the field and all fields are set to “required”.
+TBC
 
+##### FAQ's Vertical Accordion
 
+TBC
 
-### Future Features 
+##### Sign-up Form
 
-* Nav collapses on mobile
-* Has a log in area where users can chat online with members of the team and has the ability to share designs and discuss offers.
-* Has a “form submitted” status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.
-* Create an option for businesses to buy smaller plants online with a way to make online payments.
-
+TBC
 
 ***
 
 ## Testing 
 
-* Nav links work and the user is directed to the correct page of the site. 
-* Logo takes the user back to the main page.
-* Contact us and Request a Quote opens links to Form.
-* Hovers over links are clear and not default blue.
-* Social links works. 
-    
-[HTML Validator](https://validator.w3.org/)
-![HTML Validator](README-files/html-valid.png)
+Throughout the development cycle Chrome Dev Tools were used to ensure all pages were being developed with the consideration of remaining intuitive to navigate, responsive and accessible across all device widths. Primarily the pages were designed at 1920px wide reducing to 320px for any iPhone 5 users.
 
-[CSS Validator](https://validator.w3.org/)
-![HTML Validator](README-files/css-valid.png)
+The following sections summarise the Testing phase of the project.
 
+### Code
 
+Code has been tested using the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://validator.w3.org/) with the following results.
+
+**index.html** - 0 Errors / 0 Warnings
+**about-marie.html** - 0 Errors / 0 Warnings
+**yoga-in-class.html** - 0 Errors / 1 Warning 'Section lacks heading' where the Vertical Accordion has been added as FAQ's. The section above describes the page content and therefore a heading element is not currently required.
+**yoga-at-home.html** - 0 Errors / 0 Warnings
+**stay-informed.html** - 0 Errors / 0 Warnings
+**404.html** - 0 Errors / 0 Warnings
+**style.css** - 0 Errors / 1 Warning '::-webkit-details-marker is a vendor extended pseudo-element' - expected from using the Vertical Accordion from CodePen.
+
+### Browser
+
+TBC
+[IE NetREnderer](https://netrenderer.com/index.php) 
+
+### Device
+
+TBC
+
+### Accessibility
+
+TBC
 * [Wave](https://wave.webaim.org/) - Accessibility Testing 
 
-
-A few warnings were displayed when using the validator this is because of the  I have used to help with the of the site. The other error is due to the using of external style sheets. I am happy with the outcome of this test.
-
-
-### Usability Testing
-
-I sent the project to a few of my peers in the slack community and to a few friends within the industry.  I had them check to ensure all links were working and the website was responsive at different screen resolutions.
-One of my friends viewed the project in simplified mode and commented that the website was still easy to navigate and displayed clearly. 
-
-
-I wanted to carry out Accessibility Testing on the website.  I used [Wave](https://wave.webaim.org/) This was to check to make sure the website the website would work well with screen readers.  I also manually checked the web site by increased the REM settings on my browser and making sure that the content was still visible.  This highlighted a BUG which was FIXED prior to deployment. 
-
     
-### Browser Compatibility
-
-Tested on Chrome, Firefox, Brave, Internet Explorer, Microsoft Edge, Safari.
-I tested on older version of Internet Explorer, the website works from Internet Explore 9 and onwards, although not all the content is as designed the overall layout means the content is still easy to read and the images are still visible. 
-I used [IE NetREnderer](https://netrenderer.com/index.php) to test the older versions. 
-
 ### OS Compatibility
-Tested on iOS, Android 10, and Windows 10. - I asked a friend with an IPhone to test that it was working.  
-Tested for responsiveness using Chrome DevTools.
 
-### Performance Testing
-Tested on the Developer Tools Lighthouse.  This was the first time running through Lighthouse
+TBC
 
-![Lighthouse results](README-files/lighthouse-before.png)
+### Performance
 
-I made some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
+TBC - Lighthouse
 
-![Lighthouse results](README-files/lighthouse-after.png)
 
-### Testing User Stories
+### User Stories
 
-* ###### A user looking for office plants to add to the office or workspace or business. 
-The user can find the information quickly on the first page of the site. The user is given the option to get in contact with us and can have a look at testimonies and images of work carried out.
 
-### Known Bugs / Issues
-* BUG
+### Bugs / Issues
+
 
 
 *** 
