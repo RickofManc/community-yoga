@@ -573,7 +573,8 @@ footer i:hover {
 /* 404 Not Found Page */
 
 .error-page-div {
-    overflow: hidden;
+    display: contents;
+    contain: content;
     position: relative;
 }
 
@@ -589,21 +590,17 @@ footer i:hover {
 .error-page-heading,
 .error-page-tile {
     position: relative;
+    text-align: center;
 }
 
-.error-page-tile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .error-page-tile a {
-    width: 40%;
+    width: 30%;
     padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
     color: #000;
     background-color: #acffad;
-    text-align: center;
 }
 
 .error-page-tile a:hover {
