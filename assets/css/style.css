@@ -572,20 +572,23 @@ footer i:hover {
 
 /* 404 Not Found Page */
 
-.error-page-body img {
+body img {
     opacity: 0.5;
+    width: 100%;
+    height: auto;
+    position: block;
 }
 
-.error-page-logo div {
-    display: block;
-    width: 40%;
-    height: auto;
-}    
+.error-page-div {
+    display: inline-block;
+    position: relative;
+}
 
 .error-page-tiles div {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
+    
 }
 
 .error-page-tiles a {
