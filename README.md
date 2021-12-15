@@ -156,40 +156,24 @@ Where necessary images have been resized by width % and height rem to display on
 
 ### Universal Features
 
-##### Logo and Navigation Bar
-The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our off-white and the text is the main green colour.
+##### Header & Navigation Menu
 
+The centralised header element complete with OT Yoga logo and Navigation Menu (nav-menu) is a constant element throughout this website. The layout has been centrallly aligned leading upto the logo to represent hands clasped stretching up, incoporating into a house. This sense of home is aimed at providing a friendly comfortable feel to users. The logo and main header change colour when the user hovers over them, with a click on either intuitvely taking the user to the homepage.
 
-##### Responsiveness
+The responsive nature of elements changing colour to the hight contrast shade of Green is carried over to the nav-menu where each page title changes on hover, and remains lit when a user visits that page to help inform where they are within the website.
 
-The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using a mixture of media queries and Bootstraps responsive columns.
-
-I made all my call to actions as easy to see as possible. 
-
-* The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
-* Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
-* "Submit link" on the form and the "Contact Us" link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
-* The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
-* The social links will send the user to the company's social media pages.  They also change colour when hovered over.
-
-
-##### Accessibility
-
-All images and navigations have an alt attributes or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over. I have also set the font to rem so that if someone has their font settings higher for visibility the font size will increase accordingly.
-
+On smaller devices under 640px wide, the nav-menu reduces to a collapsable drop-down style, with the options aligned to the left for ease of selection for the vast majority of users.
 
 ##### Footer 
 
-The footer is split into 3 sections:. “Opening Hours”, “Contact Info” and “Social”. The colour used for the background is our the main-green colour with a reduced opacity as the colour is very bold when at 100%. Theses The three sections are stacked on smaller devices and are arranged in 3 coloumnscolumns on larger devices.
-
-
-The “Opening Hours” section includes the times the office would is be open. The “Ccontact Ddetails” section offers the user alternative different ways of getting in contact with the business,. sSuch as the business’ aAddress, telephone numbers, and email. The last section “Social” section has links to social media sites using Icons from Font Awesome. When hovered over these links change from a white colour to a different shade of green than the background. The “Ssocial” section also includes a “Contact Us” link that is styled as a button to premotepromote contact to Plant Factory.
+Conitinuing the white font of black background theme of the universal nav-menu, the footer aims to be complimentary without distracting users from page content. The footers role on this website is to inform of how to contact, find and socialise with OT Yoga. Therefore the footer has been divdied into two clear sections, the left is contact information with responsive icons to support user needs, and the right side for the collection of social media buttons where users can click to find out even more about OT Yoga. As with the nav-menu, the layout of font sizing reduces for devices under 640px.
 
 ##### Meta data
 
-
-I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
-
+To support the following strategic aims;
+    * Advertise yoga classes for the betterment of the local community,
+    * Advertise yoga classes to increase revenue to fund the cost of venue hire.
+Meta data has been included within the wesbites HTML head element to increase the traffic to this website. Furthermore the individual site pages have been titled appropriately as another method of informing users where they have navigated to.
 
 ##### Redirect
 
@@ -197,7 +181,7 @@ I have also included a redirect file so if any of the links don't work or the pa
 
 *** 
 
-### Features Specific to Pages
+### Page specific features
 
 ##### Homepage 
 * A hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.
@@ -218,7 +202,6 @@ I have also included a redirect file so if any of the links don't work or the pa
 * The labels are clear as to what should go in the field and all fields are set to “required”.
 
 
-I have set the form to POST with an action of "contact.php" this will not currently go anywhere as github pages is static hosting only. 
 
 ### Future Features 
 
