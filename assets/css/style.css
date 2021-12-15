@@ -576,15 +576,24 @@ footer i:hover {
     opacity: 0.5;
 }
 
-.error-page-tiles {
+.error-page-logo {
     display: block;
+    width: 40%;
+    height: auto;
+}    
+
+.error-page-tiles {
+    display: grid;
 }
 
 .error-page-tiles a {
-    display: inline-block;
+    display: inline-grid;
+    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
     color: #000;
     background-color: #acffad;
+    text-align: center;
 }
 
 .error-page-tiles a:hover {
@@ -592,6 +601,7 @@ footer i:hover {
     background-color: #000;
     transition-duration: 0.4s;
 }
+
 
 /* Media Queries */
 
