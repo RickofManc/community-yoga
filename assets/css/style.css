@@ -590,28 +590,28 @@ footer i:hover {
 .error-page-heading {
     position: relative;
     text-align: center;
-    top: 5rem;
-    margin-bottom: 5rem;
+    top: 3rem;
+}
+
+.error-page-heading h1,
+.error-page-heading h2 {
+    margin: 0 2rem;
 }
 
 .error-page-tile {
-    position: relative;
-    text-align: center;
-    margin: 2rem;
+    position: absolute;
+    display: grid;
+    margin-top: 3rem;
+    width: 22%;
+    left: 39%;
 }
-/*
-.error-page-logo img {
-    width: 14%;
-    margin: 2rem;
-    position: relative;
-    text-align: center;
-}
-*/
 
 .error-page-tile a {
-    width: 30%;
+    width: 60%;
     padding: 1rem;
     margin: 1rem;
+    justify-self: center;
+    align-self: center;
     text-decoration: none;
     font-weight: 400;
     color: #000;
