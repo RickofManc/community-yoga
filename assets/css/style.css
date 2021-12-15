@@ -572,29 +572,32 @@ footer i:hover {
 
 /* 404 Not Found Page */
 
-body img {
-    opacity: 0.5;
-    width: 100%;
-    height: auto;
-    position: block;
-}
-
 .error-page-div {
-    display: inline-block;
+    overflow: hidden;
     position: relative;
 }
 
-.error-page-tiles div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-    
+.error-page-background-image {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 
-.error-page-tiles a {
+.error-page-heading,
+.error-page-tile {
+    position: relative;
+}
+
+.error-page-tile {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.error-page-tile a {
     width: 40%;
     padding: 1rem;
     text-decoration: none;
@@ -603,7 +606,7 @@ body img {
     text-align: center;
 }
 
-.error-page-tiles a:hover {
+.error-page-tile a:hover {
     color: #fff;
     background-color: #000;
     transition-duration: 0.4s;
