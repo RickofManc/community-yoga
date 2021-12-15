@@ -600,13 +600,21 @@ footer i:hover {
     margin: 2rem;
 }
 
+.error-page-logo img {
+    width: 14%;
+    margin: 2rem;
+    position: relative;
+    text-align: center;
+}
+
 .error-page-tile a {
     width: 30%;
     padding: 1rem;
     margin: 1rem;
     text-decoration: none;
     color: #000;
-    background-color: #acffad;
+    border: rgba(0, 0, 0, 0.5) solid 0.1rem;
+    background-color: rgba(172, 255, 173, 0.5);
 }
 
 .error-page-tile a:hover {
