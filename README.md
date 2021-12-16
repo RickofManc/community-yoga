@@ -210,7 +210,7 @@ The following sections summarise the Testing phase of the project.
 
 ### Code
 
-Code has been tested using the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://validator.w3.org/) with the following results:
+Code has been tested using the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) with the following results:
 
 * **index.html** - 0 Errors / 0 Warnings
 * **about-marie.html** - 0 Errors / 0 Warnings
