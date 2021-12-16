@@ -276,8 +276,8 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 ## Credits
 
 * Mentor Brian Macharia for guiding and advising throughout the projects lifecycle.
-* [Anna Greaves README Template](https://github.com/Code-Institute-Solutions/readme-template#love-running) - Source of information for README content and layout.
-* [Rebecca Kelsall README Template](https://github.com/crypticCaroline/ms1-plantfactory#readme) - Source of information for README content and layout.
+* Anna Greaves and Rebecca Kelsall as sources of information for README content and layout.
+* Code Institute Slack community for peer reviewing the website.
 
 ### Software, Applications & Code
 
