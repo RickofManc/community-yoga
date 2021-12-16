@@ -33,7 +33,9 @@ body {
     margin: 0 1rem 1rem 1rem;
 }
 
-.main-header-h1:hover {
+.main-header-h1:hover,
+.main-header-h2:hover,
+.main-header a:hover {
     color: #acffad;
     transition-duration: 0.4s;
 }
