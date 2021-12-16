@@ -52,6 +52,7 @@ body {
 .nav-toggle,
 .nav-toggle-label {
     display: none;
+    visibility: hidden;
 }
 
 .nav-menu {
@@ -911,6 +912,7 @@ footer i:hover {
 
     .nav-toggle-label {
         display: flex;
+        visibility: visible;
         align-items: center;
         vertical-align: middle;
         width: 100%;
