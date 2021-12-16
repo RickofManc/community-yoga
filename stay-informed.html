@@ -27,8 +27,8 @@
         </div>
     </header>
 
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" title="Toggle navigation menu when viewing on mobile device">
-    <label for="nav-toggle" class="nav-toggle-label">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"  title="Toggle navigation menu when viewing on mobile device">
         <i class="fas fa-bars"></i>
     </label>
 
@@ -109,12 +109,12 @@
                     <label for="expert" class="form-answer">Expert (i.e. +51 classes)</label>
                     <br>
                     
-                    <label class="form-question">How old are you?</label>
+                    <label class="form-question" for="age">How old are you?</label>
                     <br>
                     <input type="number" id="age" name="age" placeholder="Type age" step="1" min="16" max="99">
                     <br>
                     
-                    <label class="form-question">Please add any comments or questions in the box below:</label>
+                    <label class="form-question" for="form_comments">Please add any comments or questions in the box below:</label>
                     <br>
                     <textarea maxlength="250" name="form_comments" id="form_comments" placeholder="Type comments here"></textarea>
                     </fieldset>

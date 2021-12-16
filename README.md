@@ -204,15 +204,15 @@ The following sections summarise the Testing phase of the project.
 
 ### Code
 
-Code has been tested using the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://validator.w3.org/) with the following results.
+Code has been tested using the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://validator.w3.org/) with the following results:
 
-**index.html** - 0 Errors / 0 Warnings
-**about-marie.html** - 0 Errors / 0 Warnings
-**yoga-in-class.html** - 0 Errors / 1 Warning 'Section lacks heading' where the Vertical Accordion has been added as FAQ's. The section above describes the page content and therefore a heading element is not currently required.
-**yoga-at-home.html** - 0 Errors / 0 Warnings
-**stay-informed.html** - 0 Errors / 0 Warnings
-**404.html** - 0 Errors / 0 Warnings
-**style.css** - 0 Errors / 1 Warning '::-webkit-details-marker is a vendor extended pseudo-element' - expected from using the Vertical Accordion from CodePen.
+* **index.html** - 0 Errors / 0 Warnings
+* **about-marie.html** - 0 Errors / 0 Warnings
+* **yoga-in-class.html** - 0 Errors / 1 Warning 'Section lacks heading' where the Vertical Accordion has been added as FAQ's. The section above describes the page content and therefore a heading element is not currently required.
+* **yoga-at-home.html** - 0 Errors / 0 Warnings
+* **stay-informed.html** - 0 Errors / 0 Warnings
+* **404.html** - 0 Errors / 0 Warnings
+* **style.css** - 0 Errors / 1 Warning '::-webkit-details-marker is a vendor extended pseudo-element' - expected from using the Vertical Accordion from CodePen.
 
 ### Browser
 
@@ -225,10 +225,12 @@ TBC
 
 ### Accessibility
 
-TBC
-* [Wave](https://wave.webaim.org/) - Accessibility Testing 
+Each page of this website has been tested with [Wave (Web Accessibility Evaluation Tool)](https://wave.webaim.org/) with the following results: 
 
-    
+* **Paragraph Text** alignment had been set to 'justify' to align with the overall block theme of the website, however WAVE highlighted this style of alignment could prove to be challenging for some users with impaired vision. As a result, the text alignment has been changed to 'left' as recommended by WAVE.
+* **Aria-labels** with the same focus had been used on the header logo and header text. WAVE highlighted this was unnecessary duplication. As a result, the header element has been tidied so the anchor and aria-label encompasses the site logo and header text.
+* **Collapsible nav-menu** was without text. The html code uses a label element as the checkbox toggle for the menu on mobile devices, however this does not have any text and as produced an error with WAVE. As recommended by WAVE, a title attribute has been added to the label element to ensure screen readers can inform of the elements purpose. However this hasn't cleared the error but can be considered acceptable according to the WAVE site.
+ 
 ### OS Compatibility
 
 TBC
