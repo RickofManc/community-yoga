@@ -243,7 +243,14 @@ TBC
 
 ### Performance
 
-TBC - Lighthouse
+Using the inbuilt Lighthouse performance testing within Chrome Dev Tools I individually tested each page for both Desktop and Mobile. Whilst a test summary will be provided here, the full statistical report can be found in the projects repository. 
+
+The first test provided the following results:
+
+* All pages achieved 100 on desktop and mobile for Accessibility.
+* All pages achieved 93 (Green) or higher on desktop and mobile for Best Practice with the exception of index.html which achieved 87 (Amber). This was due in part to not having a Content Security Policy (CSP) and in part to not display the portrait images of students with a natural aspect ratio.
+* All pages achieved 100 on desktop and mobile for SEO with the exception of 404.html at 92 (Green).
+
 
 
 ### User Stories
