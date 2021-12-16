@@ -175,7 +175,7 @@ To support the following strategic aims;
     * Advertise yoga classes to increase revenue to fund the cost of venue hire.
 Meta data has been included within the websites HTML head element to increase the traffic to this website. Furthermore the individual site pages have been titled appropriately as another method of informing users where they have navigated to.
 
-##### Redirect
+##### Redirection
 
 A '404 Not Found' page has been added to the website in the event a user needs to be redirected from a failed link and/or page.
 
@@ -184,17 +184,23 @@ A '404 Not Found' page has been added to the website in the event a user needs t
 
 ##### Google Map iFrame
 
-TBC
+To assist new users in locating OT Yoga, a Google Map iFrame has been added to the homepage in parallel to the key information on when the classes occur. Text supporting the Map informs users they can click on the map to visit Google Maps and plan their journey to the venue.
 
 ##### FAQ's Vertical Accordion
 
-TBC
+With 11 questions available to inform users on attending a class, it was important to ensure the page wasn't overloaded with content which may result in users being deterred and not finding the answer to their question. With this is mind, the vertical accordion provides a concise list of the questions, with answers available as a drop-down when required. This format of FAQ's can be amended or added to as the client requires changes to information.
 
 ##### Sign-up Form
 
-TBC
+TO deliver a leading user story and strategic aim of "Introduce a method for the instructor to communicate frequently with students". A page dedicated to inviting users to sign-up and stay informed of changes to classes and other suitable information on yoga relating activities has been created. The form requests only 3 basic mandatory fields (First Name, Last Name and Email Address) in attempt to encourage as many users to sign-up. Should users wish to provide more personal information there are a further 4 optional fields which will help the client understand more about those interested and/or attending OT Yoga.
 
-***
+
+### Future features
+
+* Online booking system - as interest and attendees grow then consideration may need to be given to adding a page for users to book in to avoid being disappointed if a class is full on arrival.
+* Online payment system - to be developed with the 'Online booking system', users and the instructor could benefit from having a payment system to avoid having to handle and carry cash. Users could also block book for several classes at a time.
+* User accounts - users may benefit from having an account where they can track class attendance, payments and potential rewards i.e. every 10th class attended is free.
+* Online shop - an eCommerce page where users could purchase; yoga mats, towels, straps etc.
 
 ## Testing 
 
