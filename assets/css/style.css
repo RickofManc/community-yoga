@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://kit.fontawesome.com/caa647e6f5.js");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
+    max-width: 2300px;
     font-family: Roboto, sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
@@ -91,8 +91,6 @@ body {
   color: #000;  
   background-color: #acffad;
 }
-
-
   
 /* Homepage Hero Image Section */
 
@@ -107,6 +105,7 @@ body {
     height: auto;
     position: absolute;
     top: -565px;
+    object-fit: cover;
 }
 
 /* Homepage Class & Location Info */
@@ -191,15 +190,17 @@ body {
 }
 
 .student-feedback {
-    display: inline-block;
+    display: inline-grid;
     margin: 2rem 2rem;
     width: 25%;
 }
 
 .student-feedback img {
+    display: inline-block;
     width: 15rem;
     height: 15rem;
     margin: 1rem;
+    object-fit: cover;
     background: #fff no-repeat center;
     border: #acffad 0.2rem solid;
     border-radius: 50%;
@@ -250,9 +251,9 @@ body {
 }
 
 .marie-photo img {
-    width: 80%;
+    width: 85%;
+    height: auto;
     margin: 7rem 2rem 2rem 2rem;
-    background: no-repeat center;
 }
 
 /* Yoga in Class Page */
@@ -276,9 +277,9 @@ body {
 }
 
 .yoga-in-class-photo img {
-    width: 80%;
+    width: 85%;
+    height: auto;
     margin: 3rem 2rem 2rem 2rem;
-    background: no-repeat center;
 }
 
 #faqs-section {
@@ -388,8 +389,8 @@ details[open] .control-icon-expand {
 
 .marie-at-home-photo img {
     width: 80%;
+    height: auto;
     margin: 3rem 2rem 2rem 2rem;
-    background: no-repeat center;
 }
 
 .recommended-instructor-photo {
@@ -402,7 +403,6 @@ details[open] .control-icon-expand {
     margin: 2rem;
     background: #fff no-repeat center;
 }
-
 
 /* Stay Informed Sign Up Page */
 
@@ -628,7 +628,6 @@ footer i:hover {
     transition-duration: 0.4s;
 }
 
-
 /* Media Queries */
 
 /* For screens 1200-1600px wide */
@@ -720,7 +719,6 @@ footer i:hover {
     }
 
     .student-feedback {
-        display: inline-block;
         width: 25%;
         margin: 2rem 4rem;
     }
@@ -748,7 +746,6 @@ footer i:hover {
     }
 
     .marie-photo img {
-        width: 65%;
         margin: 1rem;
     }
    
@@ -770,7 +767,6 @@ footer i:hover {
     }
 
     .yoga-in-class-photo img {
-        width: 65%;
         margin: 1rem;
     }
 
@@ -794,7 +790,7 @@ footer i:hover {
     }
 
     .marie-at-home-photo img {
-        width: 65%;
+        width: 85%;
         margin: 1rem;
     }
 
@@ -1016,10 +1012,6 @@ footer i:hover {
         margin: 2rem;
     }
 
-    .marie-photo img {
-        width: 85%;
-    }
-
     /* Yoga in Class Page */
     .yoga-in-class-section {
         margin-bottom: 3rem;
@@ -1028,10 +1020,6 @@ footer i:hover {
     .yoga-in-class-1,
     .yoga-in-class-2 {
         margin: 2rem;
-    }
-
-    .yoga-in-class-photo img {
-        width: 85%;
     }
 
     details {
@@ -1059,11 +1047,6 @@ footer i:hover {
     .yoga-at-home-1,
     .yoga-at-home-2 {
         margin: 2rem;
-    }
-
-    .marie-at-home-photo img {
-        width: 85%;
-        margin: 0rem;
     }
 
     .recommended-instructor-photo img {
@@ -1231,11 +1214,6 @@ footer i:hover {
         margin-left: -2rem;
     }
 
-    .marie-photo img {
-        width: 85%;
-        margin: 0;
-    }
-
     .about-marie-div-1,
     .about-marie-div-2 {
         margin: 0.5rem 0.5rem;
@@ -1244,11 +1222,6 @@ footer i:hover {
     /* Yoga in Class Page */
     .yoga-in-class-section {
         margin-bottom: 1rem;
-    }
-
-    .yoga-in-class-photo img {
-        width: 85%;
-        margin: 0;
     }
     
     .yoga-in-class-1,
@@ -1304,11 +1277,6 @@ footer i:hover {
     .yoga-at-home-1,
     .yoga-at-home-2 {
         margin: 1rem 0.5rem;
-    }
-
-    .marie-at-home-photo img {
-        width: 85%;
-        margin: 0rem;
     }
 
     .recommended-instructor-photo img {
