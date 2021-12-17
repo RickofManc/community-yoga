@@ -101,9 +101,9 @@ body {
 }
 
 .homepage-hero-image-div img {
-    width: 120%;
+    height: auto;
     position: absolute;
-    top: -405px;
+    top: -565px;
 }
 
 /* Homepage Class & Location Info */
@@ -643,8 +643,9 @@ footer i:hover {
 
     .homepage-hero-image-div img {
         width: 120%;
+        height: auto;
         position: absolute;
-        top: -345px;
+        top: -250px;
     }
 
     .footer-contact-div {
