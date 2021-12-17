@@ -249,7 +249,7 @@ body {
 .marie-photo img {
     width: 80%;
     margin: 7rem 2rem 2rem 2rem;
-    background: #ccc no-repeat center;
+    background: no-repeat center;
 }
 
 /* Yoga in Class Page */
@@ -275,7 +275,7 @@ body {
 .yoga-in-class-photo img {
     width: 80%;
     margin: 3rem 2rem 2rem 2rem;
-    background: #ccc no-repeat center;
+    background: no-repeat center;
 }
 
 #faqs-section {
@@ -386,7 +386,7 @@ details[open] .control-icon-expand {
 .marie-at-home-photo img {
     width: 80%;
     margin: 3rem 2rem 2rem 2rem;
-    background: #ccc no-repeat center;
+    background: no-repeat center;
 }
 
 .recommended-instructor-photo {
