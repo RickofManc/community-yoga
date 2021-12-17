@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://kit.fontawesome.com/caa647e6f5.js");
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
     color: #000;
