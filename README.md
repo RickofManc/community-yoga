@@ -81,6 +81,7 @@ Here is a list of the in and out of scope features for this website.
     * allow users to stay informed of changes to classes and other relating articles.
 
 #### Out of Scope Features
+* **Homepage hero image** change to a carousal style with images containing links to articles on yoga relating information.
 * **Online booking system** the current venue is a large church hall with no indication that a class could hit the maximum occupancy of 40 persons when the MVP is launched. As interest and attendees grow then consideration may need to be given to adding a page for users to book in to avoid being disappointed if a class is full on arrival.
 * **Online payment system** as an additional feature to follow or be developed with the 'Online booking system' users and the instructor could benefit from having a payment system to avoid having to handle and carry cash. Users could also block book for several classes at a time.
 * **User accounts** users may benefit from having an account where they can track class attendance, payments and potential rewards i.e. every 10th class attended is free.
