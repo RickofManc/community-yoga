@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-  max-width: 2300px;
+  max-width: 2600px;
   font-family: Roboto, sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -14,7 +14,7 @@ body {
 /* Website header */
 
 .main-header {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -1128,7 +1128,11 @@ footer i:hover {
 @media screen and (max-width: 640px) {
   /* Homepage */
   .main-header {
-    margin-bottom: 1rem;
+    margin: 1rem 0
+  }
+
+  .main-header img {
+      width: 30%;
   }
 
   .main-header-h1 {
@@ -1138,7 +1142,7 @@ footer i:hover {
 
   .main-header-h2 {
     font-size: 1rem;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 4rem;
   }
 
   /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
