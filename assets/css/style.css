@@ -1,641 +1,644 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-    max-width: 2300px;
-    font-family: Roboto, sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: #000;
-    margin: 0 auto;
-    padding: 0;
-    border: none;
+  max-width: 2300px;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #000;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
 }
 
 /* Website header */
 
 .main-header {
-    margin-bottom: 2rem;
-    text-align: center;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .main-header img {
-    margin: 1rem 1rem 0rem 1rem;
+  margin: 1rem 1rem 0rem 1rem;
 }
 
 .main-header a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .main-header-h1 {
-    font-weight: 700;
-    text-align: center;
-    margin: 0 1rem 1rem 1rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .main-header-h1:hover,
 .main-header-h2:hover,
 .main-header a:hover {
-    color: #acffad;
-    transition-duration: 0.4s;
+  color: #acffad;
+  transition-duration: 0.4s;
 }
 
 .main-header-h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    margin: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem;
 }
 
 /* Navigation Menu*/
 
 .nav-toggle,
 .nav-toggle-label {
-    display: none;
-    visibility: hidden;
+  display: none;
+  visibility: hidden;
+}
+
+.nav-menu-div {
+  background-color: #000;
+  width: 100%;
 }
 
 .nav-menu {
-    background-color: #000;
-    width: 100%;
+  max-width: 2300px;
 }
 
 .nav-list {
-    text-align: center;
-    margin: 2rem 0 0 0;
-    padding-inline-start: 0;
+  text-align: center;
+  margin: 2rem 0 0 0;
+  padding-inline-start: 0;
 }
 
 .nav-list li {
-    display: inline-block;
-    list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .nav-list a {
-    font-weight: 600;
-    font-size: 1.8rem;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    line-height: 4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 4rem;
 }
 
 .nav-list a:hover {
-    background-color: #acffad;
-    color: #000;
-    transition-duration: 0.4s;
+  background-color: #acffad;
+  color: #000;
+  transition-duration: 0.4s;
 }
 
 .nav-list .current-nav-page {
-  color: #000;  
+  color: #000;
   background-color: #acffad;
 }
-  
+
 /* Homepage Hero Image Section */
 
 .homepage-hero-image-div {
-    width: 100%;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
 }
 
 .homepage-hero-image-div img {
-    height: auto;
-    position: absolute;
-    top: -565px;
-    object-fit: cover;
+  height: auto;
+  position: absolute;
+  top: -565px;
+  object-fit: cover;
 }
 
 /* Homepage Class & Location Info */
 
 .homepage-main-section {
-    width: 100%;
-    display: inline-flex;
+  width: 100%;
+  display: inline-flex;
 }
 
 .homepage-main-info-div {
-    width: 50%;
-    margin: 2rem 0rem;
-    text-align: center; 
+  width: 50%;
+  margin: 2rem 0rem;
+  text-align: center;
 }
 
 .homepage-main-info-h3 {
-    text-align: center;
-    margin: 2rem 0rem;
+  text-align: center;
+  margin: 2rem 0rem;
 }
 
 .homepage-main-info-h4 {
-    font-weight: 500;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .homepage-main-info-div p {
-    font-weight: 300;
-    text-align: center;
-    margin: 2rem 1rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 2rem 1rem;
 }
 
 .homepage-main-info-div ul {
-    margin: 0.5rem 0 2rem 0;
-    padding-left: 0rem;
-    list-style-type: none;
-    text-align: center;
+  margin: 0.5rem 0 2rem 0;
+  padding-left: 0rem;
+  list-style-type: none;
+  text-align: center;
 }
 
 .homepage-main-info-div li {
-    font-weight: 300;
-    text-align: center;
+  font-weight: 300;
+  text-align: center;
 }
 
 #button-div {
-    text-align: center;
-    margin: 5rem;
+  text-align: center;
+  margin: 5rem;
 }
 
 .button {
-    font-weight: 700;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    padding: 1rem;
-    margin: 2.5rem;
-    background-color: #acffad;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 1rem;
+  margin: 2.5rem;
+  background-color: #acffad;
 }
 
 .button:hover {
-    background-color: #000;
-    color: #fff;
-    transition-duration: 0.4s;
+  background-color: #000;
+  color: #fff;
+  transition-duration: 0.4s;
 }
 
 .homepage-main-info-div iframe {
-    width: 60%;
-    height: 25rem;
-    border: #acffad 0.2rem solid;
-    margin: 0 1rem 1rem 1rem;
+  width: 60%;
+  height: 25rem;
+  border: #acffad 0.2rem solid;
+  margin: 0 1rem 1rem 1rem;
 }
 
 /* Community Feedback Section of Homepage */
 
 .feedback-section {
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin-bottom: 4rem;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .student-feedback {
-    display: inline-grid;
-    margin: 2rem 2rem;
-    width: 25%;
+  display: inline-grid;
+  margin: 2rem 2rem;
+  width: 25%;
 }
 
 .student-feedback img {
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem;
-    object-fit: cover;
-    background: #fff no-repeat center;
-    border: #acffad 0.2rem solid;
-    border-radius: 50%;
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+  object-fit: cover;
+  background: #fff no-repeat center;
+  border: #acffad 0.2rem solid;
+  border-radius: 50%;
 }
 
 /* Standard font sizing for site pages */
 
 .site-pages-h3 {
-    font-weight: 500;
-    text-align: left;
-    margin: 3rem 0 0.5rem 0;
+  font-weight: 500;
+  text-align: left;
+  margin: 3rem 0 0.5rem 0;
 }
 
 .site-pages-h4 {
-    font-weight: 500;
-    text-align: left;
-    margin: 3rem 0 0.5rem 0;
+  font-weight: 500;
+  text-align: left;
+  margin: 3rem 0 0.5rem 0;
 }
 
 .site-pages-p {
-    font-weight: 300;
-    text-align: left;
-    margin: 2rem 0 1rem 0;
+  font-weight: 300;
+  text-align: left;
+  margin: 2rem 0 1rem 0;
 }
 
 /* About Marie Page */
 
 .about-marie-section {
-    width: 100%;
-    display: inline-flex;
+  width: 100%;
+  display: inline-flex;
 }
 
 .about-marie-div-1,
 .about-marie-div-2 {
-    width: 50%;
-    margin: 4rem;
-    text-align: center;
+  width: 50%;
+  margin: 4rem;
+  text-align: center;
 }
 
 .about-marie-div-1 ul {
-    margin: 0 0 2rem 3rem;
-    padding: 0;
+  margin: 0 0 2rem 3rem;
+  padding: 0;
 }
 
 .about-marie-div-1 li {
-    font-weight: 300;
-    text-align: left;
+  font-weight: 300;
+  text-align: left;
 }
 
 .marie-photo img {
-    width: 85%;
-    height: auto;
-    margin: 7rem 2rem 2rem 2rem;
+  width: 85%;
+  height: auto;
+  margin: 7rem 2rem 2rem 2rem;
 }
 
 /* Yoga in Class Page */
 
 .yoga-in-class-section {
-    width: 100%;
-    display: inline-flex;
-    margin-bottom: 4rem;
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 4rem;
 }
 
 .yoga-in-class-1,
 .yoga-in-class-2 {
-    width: 50%;
-    margin: 4rem;
-    text-align: center;
+  width: 50%;
+  margin: 4rem;
+  text-align: center;
 }
 
 .yoga-in-class-photo {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .yoga-in-class-photo img {
-    width: 85%;
-    height: auto;
-    margin: 3rem 2rem 2rem 2rem;
+  width: 85%;
+  height: auto;
+  margin: 3rem 2rem 2rem 2rem;
 }
 
 #faqs-section {
-    width: 100%;
-    display: block;
-    margin-bottom: 4rem;
+  width: 100%;
+  display: block;
+  margin-bottom: 4rem;
 }
 
 /* FAQs Vertical Accordion credited to Monica Wheeler on CodePen  */
 
 details {
-    width: 75%;
-    min-height: 2.5rem;
-    max-width: 50rem;
-    margin: 0 auto;
-    padding: 1rem;
-    position: relative;
-    border: 0.1rem solid #ccc;
-    box-sizing: border-box;
-    transition: all 0.4s;
+  width: 75%;
+  min-height: 2.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  border: 0.1rem solid #ccc;
+  box-sizing: border-box;
+  transition: all 0.4s;
 }
-  
+
 details + details {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
-  
+
 details[open] {
-    min-height: 2.5rem;
-    background-color: #fff;
-    box-shadow: 0.35rem 0.35rem 0.35rem #ccc;
+  min-height: 2.5rem;
+  background-color: #fff;
+  box-shadow: 0.35rem 0.35rem 0.35rem #ccc;
 }
- 
+
 summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 400;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
 }
-  
+
 summary:focus {
-    outline: none;
+  outline: none;
 }
-  
+
 summary:focus::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 0 0.35rem #acffad;
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 0.35rem #acffad;
 }
-  
+
 summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
-  
+
 .control-icon {
-    fill: #acffad;
-    transition: 0.4s;
-    pointer-events: none;
-    height: 3rem;
-    width: 3rem;
+  fill: #acffad;
+  transition: 0.4s;
+  pointer-events: none;
+  height: 3rem;
+  width: 3rem;
 }
-  
+
 .control-icon-close {
-    display: none;
-    height: 3rem;
-    width: 3rem;
+  display: none;
+  height: 3rem;
+  width: 3rem;
 }
-  
+
 details[open] .control-icon-close {
-    display: initial;
-    transition: 0.4s;
-    height: 3rem;
-    width: 3rem;    
+  display: initial;
+  transition: 0.4s;
+  height: 3rem;
+  width: 3rem;
 }
-  
+
 details[open] .control-icon-expand {
-    display: none;
-    height: 3rem;
-    width: 3rem;
+  display: none;
+  height: 3rem;
+  width: 3rem;
 }
-  
+
 /* Yoga at Home Page */
 
 .yoga-at-home-section-1,
 .yoga-at-home-section-2 {
-    width: 100%;
-    display: inline-flex;
+  width: 100%;
+  display: inline-flex;
 }
 
 .yoga-at-home,
 .yoga-at-home-1,
 .yoga-at-home-2 {
-    width: 50%;
-    margin: 4rem;
-    text-align: center;
+  width: 50%;
+  margin: 4rem;
+  text-align: center;
 }
 
 .marie-at-home-photo {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .marie-at-home-photo img {
-    width: 80%;
-    height: auto;
-    margin: 3rem 2rem 2rem 2rem;
+  width: 80%;
+  height: auto;
+  margin: 3rem 2rem 2rem 2rem;
 }
 
 .recommended-instructor-photo {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .recommended-instructor-photo img {
-    width: 30%;
-    margin: 2rem;
-    background: #fff no-repeat center;
+  width: 30%;
+  margin: 2rem;
+  background: #fff no-repeat center;
 }
 
 /* Stay Informed Sign Up Page */
 
 .stay-informed-section {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 3rem 0rem 4rem 0rem;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 3rem 0rem 4rem 0rem;
 }
 
 .stay-informed-form-div form {
-    text-align: left;
+  text-align: left;
 }
 
 .stay-informed-form-div fieldset {
-    border: #acffad 0.2rem solid;
-    margin: 0 0.5rem 2rem 0.5rem;
+  border: #acffad 0.2rem solid;
+  margin: 0 0.5rem 2rem 0.5rem;
 }
 
 .stay-informed-form-div legend {
-    font-weight: 500;
-    padding: 0 1rem;
+  font-weight: 500;
+  padding: 0 1rem;
 }
 
 .form-question {
-    font-weight: 300;
-    display: inline-block;
-    margin: 1.5rem 0.5rem 0.5rem 1.5rem;
+  font-weight: 300;
+  display: inline-block;
+  margin: 1.5rem 0.5rem 0.5rem 1.5rem;
 }
 
 .required-input {
-    width: 65%;
-    height: 2.5rem;
-    margin: 0.5rem 1.5rem;
-    border: 2px #ccc solid;
-    resize: none;
-    box-sizing: border-box;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 1.4rem;
-    text-align: left;
-    text-indent: 0.5rem;
+  width: 65%;
+  height: 2.5rem;
+  margin: 0.5rem 1.5rem;
+  border: 2px #ccc solid;
+  resize: none;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-align: left;
+  text-indent: 0.5rem;
 }
 
-.stay-informed-form-div fieldset input[type=checkbox],
-.stay-informed-form-div fieldset input[type=radio] {
-    width: 1rem;
-    height: 1rem;
-    border: #ccc 2px solid;
-    margin: 0 1rem 0 3rem;
+.stay-informed-form-div fieldset input[type="checkbox"],
+.stay-informed-form-div fieldset input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+  border: #ccc 2px solid;
+  margin: 0 1rem 0 3rem;
 }
 
-.stay-informed-form-div fieldset input[type=number] {
-    width: 25%;
-    height: 2.5rem;
-    margin: 0 0 0 3rem;
-    border: 2px #ccc solid;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 1.4rem;
-    text-align: left;
-    text-indent: 0.5rem;
+.stay-informed-form-div fieldset input[type="number"] {
+  width: 25%;
+  height: 2.5rem;
+  margin: 0 0 0 3rem;
+  border: 2px #ccc solid;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-align: left;
+  text-indent: 0.5rem;
 }
 
 .stay-informed-form-div fieldset textarea {
-    width: 65%;
-    height: 7rem;
-    margin: 0.5rem 0 0.5rem 3rem;
-    border: 2px #ccc solid;
-    resize: none;
-    box-sizing: border-box;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 1.4rem;
-    text-align: left;
-    text-indent: 0.5rem;
+  width: 65%;
+  height: 7rem;
+  margin: 0.5rem 0 0.5rem 3rem;
+  border: 2px #ccc solid;
+  resize: none;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-align: left;
+  text-indent: 0.5rem;
 }
 
 .stay-informed-button {
-    font-weight: 500;
-    font-size: 1.75rem;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    width: 17%;
-    margin: 1rem 1.25rem 0rem 0.5rem;
-    padding: 0.5rem;
-    background-color: #acffad;
-    border: none;
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 17%;
+  margin: 1rem 1.25rem 0rem 0.5rem;
+  padding: 0.5rem;
+  background-color: #acffad;
+  border: none;
 }
 
 .stay-informed-button:hover {
-    background-color: #000;
-    color: #fff;
-    transition-duration: 0.4s;
+  background-color: #000;
+  color: #fff;
+  transition-duration: 0.4s;
 }
 
 /* Footer */
 
 footer {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 25rem;
-    background-color: #000;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 25rem;
+  background-color: #000;
 }
 
 .footer-section {
-    max-width: 2300px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-
+  max-width: 2300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .footer-contact-div {
-    width: 50%;
-    vertical-align: middle;
-    text-align: left;
-    margin: 2rem;
-    padding-left: 15rem;
+  width: 50%;
+  vertical-align: middle;
+  text-align: left;
+  margin: 2rem;
+  padding-left: 15rem;
 }
 
 .footer-contact-div h3 {
-    font-weight: 500;
-    font-size: 1.6rem;
-    margin: 0.5rem;
-    color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  color: #fff;
 }
 
 .footer-contact-div p {
-    font-weight: 300;
-    font-size: 1.4rem;
-    text-align: left;
-    margin: 0.5rem;
-    color: #fff;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-align: left;
+  margin: 0.5rem;
+  color: #fff;
 }
 
 .footer-contact-div a {
-    font-size: 1.4rem;
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #fff
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer-social-media-div {
-    width: 50%;
-    vertical-align: middle;
-    text-align: center;
-    margin: 2rem;
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+  margin: 2rem;
 }
 
 .footer-social-media-div ul {
-    vertical-align: middle;
-    padding: 1rem 5rem 1rem 0rem;
+  vertical-align: middle;
+  padding: 1rem 5rem 1rem 0rem;
 }
 
 .footer-social-media-div li {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 2rem;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 2rem;
 }
 
 .social-media-icon i {
-    font-size: 4rem;
-    color: #fff;
+  font-size: 4rem;
+  color: #fff;
 }
 
 footer i {
-    font-size: 1.8rem;
-    vertical-align: middle;
+  font-size: 1.8rem;
+  vertical-align: middle;
 }
 
 footer i:hover {
-    color: #acffad;
-    transition-duration: 0.4s;
+  color: #acffad;
+  transition-duration: 0.4s;
 }
 
 /* 404 Not Found Page */
 
 .error-page-div {
-    display: contents;
-    contain: content;
-    position: relative;
+  display: contents;
+  contain: content;
+  position: relative;
 }
 
 .error-page-background-image {
-    opacity: 0.5;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 
 .error-page-heading {
-    position: relative;
-    text-align: center;
-    top: 3rem;
+  position: relative;
+  text-align: center;
+  top: 3rem;
 }
 
 .error-page-heading h1,
 .error-page-heading h2 {
-    margin: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .error-page-tile {
-    position: absolute;
-    display: grid;
-    margin-top: 3rem;
-    width: 22%;
-    left: 39%;
+  position: absolute;
+  display: grid;
+  margin-top: 3rem;
+  width: 22%;
+  left: 39%;
 }
 
 .error-page-tile a {
-    width: 60%;
-    padding: 1rem;
-    margin: 1rem;
-    justify-self: center;
-    align-self: center;
-    text-decoration: none;
-    font-weight: 400;
-    color: #000;
-    border: rgba(0, 0, 0, 0.3) solid 0.1rem;
-    background-color: rgba(0, 0, 0, 0.1);
+  width: 60%;
+  padding: 1rem;
+  margin: 1rem;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #000;
+  border: rgba(0, 0, 0, 0.3) solid 0.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .error-page-tile a:hover {
-    color: #fff;
-    background-color: #000;
-    transition-duration: 0.4s;
+  color: #fff;
+  background-color: #000;
+  transition-duration: 0.4s;
 }
 
 /* Media Queries */
@@ -643,841 +646,836 @@ footer i:hover {
 /* For screens 1200-1600px wide */
 
 @media screen and (max-width: 1600px) {
+  .main-header img {
+    width: 15%;
+    height: auto;
+  }
 
-    .main-header img {
-        width: 15%;
-        height: auto;
-    }
-    
-    .homepage-hero-image-div {
-        height: 475px;
-    }
+  .homepage-hero-image-div {
+    height: 475px;
+  }
 
-    .homepage-hero-image-div img {
-        width: 120%;
-        height: auto;
-        position: absolute;
-        top: -250px;
-    }
+  .homepage-hero-image-div img {
+    width: 120%;
+    height: auto;
+    position: absolute;
+    top: -250px;
+  }
 
-    .footer-contact-div {
-        width: 65%;
-        padding-left: 0;
-    }
-    
-    .footer-contact-div h3,
-    .footer-contact-div p {
-        margin-left: 4rem;
-    }
+  .footer-contact-div {
+    width: 65%;
+    padding-left: 0;
+  }
 
-    .footer-social-media-div {
-        width: 35%;
-    }
+  .footer-contact-div h3,
+  .footer-contact-div p {
+    margin-left: 4rem;
+  }
 
-    .social-media-icon i {
-        font-size: 3rem;
-    }
+  .footer-social-media-div {
+    width: 35%;
+  }
+
+  .social-media-icon i {
+    font-size: 3rem;
+  }
 }
 
 /* For screens 980-1200px wide */
 
 @media screen and (max-width: 1200px) {
+  /* Homepage */
+  .homepage-main-section {
+    display: block;
+    width: auto;
+    margin-top: 4rem;
+  }
 
-    /* Homepage */
-    .homepage-main-section {
-        display: block;
-        width: auto;
-        margin-top: 4rem;
-    }
+  .homepage-hero-image-div {
+    height: 400px;
+  }
 
-    .homepage-hero-image-div {
-        height: 400px;
-    }
+  .homepage-hero-image-div img {
+    width: 130%;
+    position: absolute;
+    top: -275px;
+  }
 
-    .homepage-hero-image-div img {
-        width: 130%;
-        position: absolute;
-        top: -275px;
-    }
+  .homepage-main-info-div {
+    width: auto;
+    display: block;
+    margin: 2rem 4rem;
+  }
 
-    .homepage-main-info-div {
-        width: auto;
-        display: block;
-        margin: 2rem 4rem;
-    }
+  .homepage-main-info-div p {
+    margin: auto;
+  }
 
-    .homepage-main-info-div p {
-        margin: auto;
-    }
+  .homepage-main-info {
+    display: inline-block;
+    margin: 0rem 2rem;
+  }
 
-    .homepage-main-info {
-        display: inline-block;
-        margin: 0rem 2rem;
-    }
+  .homepage-main-info-h3,
+  .main-info-h3 {
+    font-size: 2.5rem;
+  }
 
-    .homepage-main-info-h3,
-    .main-info-h3 {
-        font-size: 2.5rem;
-    }
+  #button-div {
+    margin: 3rem 0rem 7rem 0rem;
+  }
 
-    #button-div {
-        margin: 3rem 0rem 7rem 0rem;
-    }    
+  .feedback-section {
+    display: block;
+    margin: 7rem 0rem 4rem 0rem;
+  }
 
-    .feedback-section {
-        display: block;
-        margin: 7rem 0rem 4rem 0rem;
-    }
+  .student-feedback {
+    width: 25%;
+    margin: 2rem 4rem;
+  }
 
-    .student-feedback {
-        width: 25%;
-        margin: 2rem 4rem;
-    }
+  /* Standard font sizing for site pages */
+  .site-pages-h3 {
+    margin-top: 0rem;
+  }
 
-    /* Standard font sizing for site pages */
-    .site-pages-h3 {
-        margin-top: 0rem;
-    }
+  /* About Marie Page */
+  .about-marie-section {
+    display: flex;
+    flex-direction: column;
+  }
 
-    /* About Marie Page */
-    .about-marie-section {
-        display: flex;
-        flex-direction: column;
-    } 
+  .about-marie-section div:first-child {
+    order: 1;
+  }
 
-    .about-marie-section div:first-child {
-        order: 1;
-    }
+  .about-marie-div-1,
+  .about-marie-div-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+  }
 
-    .about-marie-div-1,
-    .about-marie-div-2 {
-        display: block;
-        width: auto;
-        margin: 2rem 4rem;
-    }
+  .marie-photo img {
+    margin: 1rem;
+  }
 
-    .marie-photo img {
-        margin: 1rem;
-    }
-   
-    /* Yoga in Class Page */
-    .yoga-in-class-section {
-        display: flex;
-        flex-direction: column;
-    }
+  /* Yoga in Class Page */
+  .yoga-in-class-section {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .yoga-in-class-section div:first-child {
-        order: 1;
-    }
+  .yoga-in-class-section div:first-child {
+    order: 1;
+  }
 
-    .yoga-in-class-1,
-    .yoga-in-class-2 {
-        display: block;
-        width: auto;
-        margin: 2rem 4rem;
-    }
+  .yoga-in-class-1,
+  .yoga-in-class-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+  }
 
-    .yoga-in-class-photo img {
-        margin: 1rem;
-    }
+  .yoga-in-class-photo img {
+    margin: 1rem;
+  }
 
-    /* Yoga at Home Page */
-    .yoga-at-home-section-1,
-    .yoga-at-home-section-2 {
-        display: flex;
-        flex-direction: column;
-    }
+  /* Yoga at Home Page */
+  .yoga-at-home-section-1,
+  .yoga-at-home-section-2 {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .yoga-at-home-section-1 div:first-child {
-        order: 1;
-    }
+  .yoga-at-home-section-1 div:first-child {
+    order: 1;
+  }
 
-    .yoga-at-home,
-    .yoga-at-home-1,
-    .yoga-at-home-2 {
-        display: block;
-        width: auto;
-        margin: 2rem 4rem;
-    }
+  .yoga-at-home,
+  .yoga-at-home-1,
+  .yoga-at-home-2 {
+    display: block;
+    width: auto;
+    margin: 2rem 4rem;
+  }
 
-    .marie-at-home-photo img {
-        width: 85%;
-        margin: 1rem;
-    }
+  .marie-at-home-photo img {
+    width: 85%;
+    margin: 1rem;
+  }
 
-    /* Stay Informed Sign Up Page */
-    .stay-informed-section {
-        display: block;
-    }
+  /* Stay Informed Sign Up Page */
+  .stay-informed-section {
+    display: block;
+  }
 
-    .stay-informed-form-div {
-        margin: 0rem 3rem;
-    }
+  .stay-informed-form-div {
+    margin: 0rem 3rem;
+  }
 
-    .stay-informed-button {
-        width: auto;
-    }
+  .stay-informed-button {
+    width: auto;
+  }
 
-    /* Footer */
-    .footer-contact-div,
-    .footer-social-media-div {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-    }
+  /* Footer */
+  .footer-contact-div,
+  .footer-social-media-div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
 
-    .footer-contact-div {
-        width: 50%;
-        padding-left: 4rem;
-    }
+  .footer-contact-div {
+    width: 50%;
+    padding-left: 4rem;
+  }
 
-    .footer-social-media-div:first-child {
-        order: 2;
-    }
+  .footer-social-media-div:first-child {
+    order: 2;
+  }
 
-    .footer-contact-div h3 {
-        font-size: 1.6rem;
-        text-align: left;
-        margin: 3rem 0 0.5rem 0;
-    }
+  .footer-contact-div h3 {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 3rem 0 0.5rem 0;
+  }
 
-    .footer-contact-div a {
-        font-size: 1.2rem;
-        text-align: left;
-        margin: 0.5rem 1rem 0.5rem 0;
-    }
+  .footer-contact-div a {
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0.5rem 1rem 0.5rem 0;
+  }
 
-    .footer-contact-div p {
-        font-size: 1rem;
-        text-align: left;
-        margin: 0.5rem 0;
-    }
+  .footer-contact-div p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0.5rem 0;
+  }
 
-    .footer-social-media-div ul {
-        margin-top: 2rem;
-        padding-top: 0;
-        padding-right: 0;
-    }
+  .footer-social-media-div ul {
+    margin-top: 2rem;
+    padding-top: 0;
+    padding-right: 0;
+  }
 
-    .footer-social-media-div li {
-        margin: 0.5rem;
-        text-align: center;
-        display: inline-flex;
-    }
+  .footer-social-media-div li {
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-flex;
+  }
 
-    /* 404 Not Found Page */
-    .error-page-div {
-        display: contents;
-        position: relative;
-    }
+  /* 404 Not Found Page */
+  .error-page-div {
+    display: contents;
+    position: relative;
+  }
 
-    .error-page-background-image {
-        width: 275%;
-    }
+  .error-page-background-image {
+    width: 275%;
+  }
 
-    .error-page-heading {
-        position: relative;
-        margin-top: 1.3rem;
-    }
+  .error-page-heading {
+    position: relative;
+    margin-top: 1.3rem;
+  }
 
-    .error-page-heading h1,
-    .error-page-heading h2 {
-        margin: 0.6rem 1.3rem;
-        font-size: 85%;
-        font-weight: 400;
-    }
+  .error-page-heading h1,
+  .error-page-heading h2 {
+    margin: 0.6rem 1.3rem;
+    font-size: 85%;
+    font-weight: 400;
+  }
 
-    .error-page-tile {
-        position: relative;
-        display: inline-grid;
-        margin-top: 1.3rem;
-    }
+  .error-page-tile {
+    position: relative;
+    display: inline-grid;
+    margin-top: 1.3rem;
+  }
 
-    .error-page-tile a {
-        width: 80%;
-        padding: 0.6rem;
-        margin: 0.3rem 1.3rem;
-        text-align: left;
-        font-weight: 300;
-        font-size: 80%;  
-        border: none;  
-    }
+  .error-page-tile a {
+    width: 80%;
+    padding: 0.6rem;
+    margin: 0.3rem 1.3rem;
+    text-align: left;
+    font-weight: 300;
+    font-size: 80%;
+    border: none;
+  }
 }
 
 /* For small screens up to 980px wide */
 
 @media screen and (max-width: 980px) {
+  /* Homepage */
+  .main-header-h2 {
+    font-size: 1.6rem;
+  }
 
-    /* Homepage */
-    .main-header-h2 {
-        font-size: 1.6rem;
-    }
+  /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
+  .nav-menu {
+    display: none;
+  }
 
-    /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
-    .nav-menu {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: flex;
+    visibility: visible;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 3rem;
+    background-color: #000;
+  }
 
-    .nav-toggle-label {
-        display: flex;
-        visibility: visible;
-        align-items: center;
-        vertical-align: middle;
-        width: 100%;
-        height: 3rem;
-        background-color: #000;
-    }
+  .nav-toggle-label i {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 2rem;
+  }
 
-    .nav-toggle-label i {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #fff;
-        margin-left: 2rem;
-    }
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: left;
+  }
 
-    .nav-list {
-        margin: 0;
-        padding: 0;
-        display: inline;
-        text-align: left;
-    }
+  .nav-list li {
+    display: inline;
+  }
 
-    .nav-list li {
-        display: inline;
-    }
+  .nav-list a {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding-top: 0.25rem;
+  }
 
-    .nav-list a {
-        display: block;
-        text-align: left;
-        margin: 0;
-        padding-top: 0.25rem;
-    }
-    
-    .nav-toggle:checked ~ nav {
-        display: block;
-    }
- 
-    /* Homepage main content */
-    .homepage-hero-image-div {
-        height: 350px;
-        top: 100%;
-    }
+  .nav-toggle:checked ~ nav {
+    display: block;
+  }
 
-    .homepage-hero-image-div img {
-        width: 130%;
-        position: absolute;
-        top: -130px;
-    }
+  /* Homepage main content */
+  .homepage-hero-image-div {
+    height: 350px;
+    top: 100%;
+  }
 
-    .homepage-main-info-div {
-        width: auto;
-        display: block;
-        margin: 2rem;
-    }
+  .homepage-hero-image-div img {
+    width: 130%;
+    position: absolute;
+    top: -130px;
+  }
 
-    .homepage-main-info-div p {
-        margin: 1rem 1rem;
-        padding: 0rem 6rem;
-        font-size: 1.5rem;
-    }
+  .homepage-main-info-div {
+    width: auto;
+    display: block;
+    margin: 2rem;
+  }
 
-    .homepage-main-info-div ul {
-        font-size: 1.5rem;
-    }
+  .homepage-main-info-div p {
+    margin: 1rem 1rem;
+    padding: 0rem 6rem;
+    font-size: 1.5rem;
+  }
 
-    .homepage-main-info-div {
-        margin: 0rem 2rem;
-    }
+  .homepage-main-info-div ul {
+    font-size: 1.5rem;
+  }
 
-    .homepage-main-info-div iframe {
-        width: 70%;
-        height: 15rem;
-    }
-    
-    #button-div {
-        margin-top: 2.5rem;
-    }    
+  .homepage-main-info-div {
+    margin: 0rem 2rem;
+  }
 
-    .feedback-section {
-        display: block;
-        margin: 7rem 0rem 4rem 0rem;
-    }
+  .homepage-main-info-div iframe {
+    width: 70%;
+    height: 15rem;
+  }
 
-    .student-feedback {
-        display: inline;
-        width: 25%;
-        margin: 2rem 0rem;
-        text-align: center;
-    }
+  #button-div {
+    margin-top: 2.5rem;
+  }
 
-    .student-feedback p {
-        padding: 0rem 12rem;
-        font-size: 1.5rem;
-    }
+  .feedback-section {
+    display: block;
+    margin: 7rem 0rem 4rem 0rem;
+  }
 
-    .student-feedback img {
-        width: 10rem;
-        height: 10rem;
-    }
+  .student-feedback {
+    display: inline;
+    width: 25%;
+    margin: 2rem 0rem;
+    text-align: center;
+  }
 
-    /* About Marie Page */
-    .about-marie-div-1,
-    .about-marie-div-2 {
-        margin: 2rem;
-    }
+  .student-feedback p {
+    padding: 0rem 12rem;
+    font-size: 1.5rem;
+  }
 
-    /* Yoga in Class Page */
-    .yoga-in-class-section {
-        margin-bottom: 3rem;
-    }
+  .student-feedback img {
+    width: 10rem;
+    height: 10rem;
+  }
 
-    .yoga-in-class-1,
-    .yoga-in-class-2 {
-        margin: 2rem;
-    }
+  /* About Marie Page */
+  .about-marie-div-1,
+  .about-marie-div-2 {
+    margin: 2rem;
+  }
 
-    details {
-        width: 85%;
-        min-height: 2.5rem;
-        max-width: 50rem;
-        margin: 0 auto;
-        padding: 1rem;
-    }
+  /* Yoga in Class Page */
+  .yoga-in-class-section {
+    margin-bottom: 3rem;
+  }
 
-    summary {
-        font-size: 1.4rem;
-    }
+  .yoga-in-class-1,
+  .yoga-in-class-2 {
+    margin: 2rem;
+  }
 
-    details[open] p {
-        font-size: 1.4rem;
-    }
+  details {
+    width: 85%;
+    min-height: 2.5rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
 
-    details[open] li {
-        font-size: 1.4rem;
-    }
+  summary {
+    font-size: 1.4rem;
+  }
 
-    /* Yoga at Home Page */
-    .yoga-at-home,
-    .yoga-at-home-1,
-    .yoga-at-home-2 {
-        margin: 2rem;
-    }
+  details[open] p {
+    font-size: 1.4rem;
+  }
 
-    .recommended-instructor-photo img {
-        margin: 1.5rem 0rem 2rem 0rem;
-    }
+  details[open] li {
+    font-size: 1.4rem;
+  }
 
-    /* Stay Informed Sign Up Page */
-    .stay-informed-form-div {
-        margin: 0rem 2rem;
-    }
+  /* Yoga at Home Page */
+  .yoga-at-home,
+  .yoga-at-home-1,
+  .yoga-at-home-2 {
+    margin: 2rem;
+  }
 
-        /* Footer */
-    footer {
-        width: 100%;
-        display: block;
-        height: auto;
-    }
+  .recommended-instructor-photo img {
+    margin: 1.5rem 0rem 2rem 0rem;
+  }
 
-    .footer-section,    
-    .footer-contact-div, 
-    .footer-social-media-div {
-        display: block;
-        margin: 0 0 2rem 0;
-        width: 100%;
-        padding: 0;
-    }
+  /* Stay Informed Sign Up Page */
+  .stay-informed-form-div {
+    margin: 0rem 2rem;
+  }
 
-    .footer-contact-div h3 {
-        font-size: 1.1rem;
-        text-align: center;
-        margin: 1.25rem 0.5rem 0.5rem 0.5rem;
-    }
+  /* Footer */
+  footer {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
 
-    .footer-contact-div a {
-        font-size: 0.75rem;
-        text-align: center;
-        margin: 0.5rem 0.2rem 0 0.5rem;
-    }
+  .footer-section,
+  .footer-contact-div,
+  .footer-social-media-div {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    padding: 0;
+  }
 
-    .footer-contact-div p {
-        font-size: 0.75rem;
-        text-align: center;
-        margin: 0.2rem 0;
-        vertical-align: middle;
-    }
+  .footer-contact-div h3 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1.25rem 0.5rem 0.5rem 0.5rem;
+  }
 
-    .footer-social-media-div ul {
-        margin: 0;
-        padding: 0;
-    }
+  .footer-contact-div a {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0.5rem 0.2rem 0 0.5rem;
+  }
 
-    .footer-social-media-div li {
-        margin: 0.5rem 0.5rem;
-        text-align: center;
-    }
+  .footer-contact-div p {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0.2rem 0;
+    vertical-align: middle;
+  }
 
-    .social-media-icon i {
-        font-size: 2rem;
-    }
-    
-    footer i {
-        font-size: 1rem;
-        vertical-align: middle;
-    }
+  .footer-social-media-div ul {
+    margin: 0;
+    padding: 0;
+  }
 
+  .footer-social-media-div li {
+    margin: 0.5rem 0.5rem;
+    text-align: center;
+  }
+
+  .social-media-icon i {
+    font-size: 2rem;
+  }
+
+  footer i {
+    font-size: 1rem;
+    vertical-align: middle;
+  }
 }
 
 /* For small screens i.e. mobile devices up to 640px wide */
 
 @media screen and (max-width: 640px) {
+  /* Homepage */
+  .main-header {
+    margin-bottom: 1rem;
+  }
 
-    /* Homepage */
-    .main-header {
-        margin-bottom: 1rem;
-    }
+  .main-header-h1 {
+    font-size: 1.8rem;
+    margin: 0rem;
+  }
 
-    .main-header-h1 {
-        font-size: 1.8rem;
-        margin: 0rem;
-    }
+  .main-header-h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+  }
 
-    .main-header-h2 {
-        font-size: 1rem;
-        margin: 0.5rem 0rem;
-    }
+  /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
+  .nav-menu {
+    display: none;
+  }
 
-    /* Nav Menu - Toggle for the nav-menu credited to Kevin Powell on CodePen */
-    .nav-menu {
-        display: none;
-    }
+  .nav-toggle-label {
+    height: 2rem;
+  }
 
-    .nav-toggle-label {
-        height: 2rem;
-    }
+  .nav-toggle-label i {
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+  }
 
-    .nav-toggle-label i {
-        font-size: 1.4rem;
-        margin-left: 1.5rem;
-    }
+  .nav-list a {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
 
-    .nav-list a {
-        font-size: 1rem;
-        padding-bottom: 0;
-    }
-    
-    .nav-toggle:checked ~ nav {
-        display: block;
-    }
- 
-    /* Homepage image and divs */
-    .homepage-hero-image-div {
-        height: 250px;
-        top: 100%;
-    }
+  .nav-toggle:checked ~ nav {
+    display: block;
+  }
 
-    .homepage-hero-image-div img {
-        width: 122%;
-        position: absolute;
-        top: -57px;
-    }
+  /* Homepage image and divs */
+  .homepage-hero-image-div {
+    height: 250px;
+    top: 100%;
+  }
 
-    .homepage-main-section {
-        margin-top: 0rem;
-    }    
+  .homepage-hero-image-div img {
+    width: 122%;
+    position: absolute;
+    top: -57px;
+  }
 
-    .homepage-main-info-div {
-        margin: 0rem;
-    }
+  .homepage-main-section {
+    margin-top: 0rem;
+  }
 
-    .homepage-main-info {
-        margin-top: 0rem;
-    }
+  .homepage-main-info-div {
+    margin: 0rem;
+  }
 
-    .homepage-main-info-h3,
-    .main-info-h3 {
-        font-size: 1.6rem;
-        margin: 1rem 0;
-    }
+  .homepage-main-info {
+    margin-top: 0rem;
+  }
 
-    .homepage-main-info-h4 {
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-top: 0rem;
-    }
+  .homepage-main-info-h3,
+  .main-info-h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
 
-    .homepage-main-info-div p {
-        margin: 1rem 0.5rem;
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-        padding: 0;
-    }
+  .homepage-main-info-h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0rem;
+  }
 
-    .homepage-main-info-div ul {
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-    }
+  .homepage-main-info-div p {
+    margin: 1rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    padding: 0;
+  }
 
-    .homepage-main-info-div iframe {
-        width: 58%;
-        height: 12rem;
-        border: #acffad 0.1rem solid;
-    }
-    
-    #button-div {
-        margin: 0 0 5rem 0;
-    }
+  .homepage-main-info-div ul {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
 
-    .button {
-        font-size: 1rem;
-        font-weight: 600;
-        padding: 0.75rem;
-        margin: 0rem;
-    }
+  .homepage-main-info-div iframe {
+    width: 58%;
+    height: 12rem;
+    border: #acffad 0.1rem solid;
+  }
 
-    .feedback-section {
-        display: block;
-        margin: 5rem 0rem 4rem 0rem;
-    }
+  #button-div {
+    margin: 0 0 5rem 0;
+  }
 
-    .student-feedback {
-        display: inline;
-        width: 25%;
-        margin: 2rem 0rem;
-        text-align: center;
-    }
+  .button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    margin: 0rem;
+  }
 
-    .student-feedback p {
-        margin: 1rem 1rem;
-        font-size: 0.875rem;
-        line-height: 1.3rem;
-        padding: 0;
-    }
+  .feedback-section {
+    display: block;
+    margin: 5rem 0rem 4rem 0rem;
+  }
 
-    .student-feedback img {
-        width: 8rem;
-        height: 8rem;
-        border: #acffad 0.1rem solid;
-    }
+  .student-feedback {
+    display: inline;
+    width: 25%;
+    margin: 2rem 0rem;
+    text-align: center;
+  }
 
-    /* Standard font sizing for site pages */
-    .site-pages-h3 {
-        font-size: 1.6rem;
-    }
+  .student-feedback p {
+    margin: 1rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    padding: 0;
+  }
 
-    .site-pages-h4 {
-        font-size: 1.2rem;
-    }
+  .student-feedback img {
+    width: 8rem;
+    height: 8rem;
+    border: #acffad 0.1rem solid;
+  }
 
-    .site-pages-p {
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-        text-align: left;
-    }
+  /* Standard font sizing for site pages */
+  .site-pages-h3 {
+    font-size: 1.6rem;
+  }
 
-    /* About Marie Page */
-    .about-marie-div-1 li {
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-        margin-left: -2rem;
-    }
+  .site-pages-h4 {
+    font-size: 1.2rem;
+  }
 
-    .about-marie-div-1,
-    .about-marie-div-2 {
-        margin: 0.5rem 0.5rem;
-    }
-            
-    /* Yoga in Class Page */
-    .yoga-in-class-section {
-        margin-bottom: 1rem;
-    }
-    
-    .yoga-in-class-1,
-    .yoga-in-class-2 {
-        margin: 0.5rem 0.5rem;
-    }
-    
-    details {
-        width: 94%;
-        min-height: 2rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
+  .site-pages-p {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    text-align: left;
+  }
 
-    details[open] {
-        box-shadow: 0.15rem 0.25rem 0.25rem #ccc;
-        margin: 0.5rem;
-    }    
+  /* About Marie Page */
+  .about-marie-div-1 li {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    margin-left: -2rem;
+  }
 
-    summary {
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-    }
+  .about-marie-div-1,
+  .about-marie-div-2 {
+    margin: 0.5rem 0.5rem;
+  }
 
-    summary:focus::after {
-        box-shadow: 0 0 0 0.15rem #acffad;
-    }
+  /* Yoga in Class Page */
+  .yoga-in-class-section {
+    margin-bottom: 1rem;
+  }
 
-    .control-icon,
-    .control-icon-close {
-        height: 1.5rem;
-        width: 1.5rem;
-    }
-    
-    details[open] .control-icon-expand,
-    details[open] .control-icon-close {
-        height: 1.5rem;
-        width: 1.5rem;
-    }
+  .yoga-in-class-1,
+  .yoga-in-class-2 {
+    margin: 0.5rem 0.5rem;
+  }
 
-    details[open] p {
-        font-size: 0.875rem;
-        line-height: 1.4rem;;
-    }
+  details {
+    width: 94%;
+    min-height: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
 
-    details[open] li {
-        font-size: 0.875rem;
-        line-height: 1.4rem;
-    }
+  details[open] {
+    box-shadow: 0.15rem 0.25rem 0.25rem #ccc;
+    margin: 0.5rem;
+  }
 
-    /* Yoga at Home Page */
-    .yoga-at-home,
-    .yoga-at-home-1,
-    .yoga-at-home-2 {
-        margin: 1rem 0.5rem;
-    }
+  summary {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
 
-    .recommended-instructor-photo img {
-        width: 50%;
-        margin: 1rem 0 0 0;
-    }
+  summary:focus::after {
+    box-shadow: 0 0 0 0.15rem #acffad;
+  }
 
-    /* Stay Informed Sign Up Page */
-    .stay-informed-section {
-        margin: 3rem 0rem 4rem 0rem;
-    }
+  .control-icon,
+  .control-icon-close {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 
-    .stay-informed-form-div {
-        margin: 0rem 0.5rem;
-    }
-    
-    .stay-informed-form-div form {
-        text-align: left;
-    }
-    
-    .stay-informed-form-div fieldset {
-        border: #acffad 0.1rem solid;
-        padding: 0.5rem;
-    }
-    
-    .stay-informed-form-div legend {
-        font-size: 1.2rem;
-        font-weight: 500;
-        padding: 0 0.5rem;
-    }
-    
-    .form-question {
-        font-size: 0.875rem;
-        margin: 1.5rem 0.5rem 0.5rem 0.5rem;
-    }
-    
-    .form-answer {
-        font-size: 0.875rem;
-        margin: 0 0 0 0.5rem;
-    }
+  details[open] .control-icon-expand,
+  details[open] .control-icon-close {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 
-    .required-input {
-        width: 94%;
-        margin: 0.5rem;
-        border: #ccc 0.1rem solid;
-        font-size: 0.875rem;
-        text-align: left;
-        text-indent: 0.5rem;
-    }
-    
-    .stay-informed-form-div fieldset input[type=checkbox],
-    .stay-informed-form-div fieldset input[type=radio] {
-        width: 0.75rem;
-        height: 0.75rem;
-        border: #ccc 0.15rem solid;
-        margin: 0 0 0 0.5rem;
-    }
-    
-    .stay-informed-form-div fieldset input[type=number] {
-        width: 40%;
-        margin: 0.5rem;
-        border: #ccc 0.1rem solid;
-        font-size: 0.875rem;
-    }
-    
-    .stay-informed-form-div fieldset textarea {
-        width: 94%;
-        margin: 0.5rem;
-        border: #ccc 0.1rem solid;
-        font-size: 0.875rem;
-        padding-top: 0.875rem;
-    }
-    
-    .stay-informed-button {
-        font-weight: 600;
-        font-size: 1rem;
-        width: 40%;
-        margin: 0rem 0.5rem 0rem 0.5rem;
-        padding: 0.75rem;
-    }
-    
-    .stay-informed-button:hover {
-        background-color: #000;
-        color: #fff;
-        transition-duration: 0.5s;
-    }
+  details[open] p {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
 
-    /* Footer */
-    .footer-social-media-div, 
-    .footer-contact-div {
-        margin-bottom: 2rem;
-    }
-    
-    .footer-contact-div h3 {
-        font-size: 1.1rem;
-        text-align: center;
-        margin: 1.25rem 0 0.5rem 0.5rem;
-    }
+  details[open] li {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
 
-    .footer-contact-div a {
-        font-size: 0.55rem;
-        text-align: center;
-        margin: 0.5rem 0.2rem 0 0.5rem;
-    }
+  /* Yoga at Home Page */
+  .yoga-at-home,
+  .yoga-at-home-1,
+  .yoga-at-home-2 {
+    margin: 1rem 0.5rem;
+  }
 
-    .footer-contact-div i {
-        font-size: 0.55rem;
-        vertical-align: middle;
-    }
+  .recommended-instructor-photo img {
+    width: 50%;
+    margin: 1rem 0 0 0;
+  }
 
-    .footer-contact-div p {
-        font-size: 0.65rem;
-        text-align: center;
-        margin: 0.2rem 0;
-        vertical-align: middle;
-    }
+  /* Stay Informed Sign Up Page */
+  .stay-informed-section {
+    margin: 3rem 0rem 4rem 0rem;
+  }
 
-    .footer-social-media-div ul {
-        margin: 0;
-        padding: 0;
-    }
+  .stay-informed-form-div {
+    margin: 0rem 0.5rem;
+  }
 
-    .footer-social-media-div li {
-        margin: 0.5rem 0.5rem;
-        text-align: center;
-    }
+  .stay-informed-form-div form {
+    text-align: left;
+  }
 
-    .social-media-icon i {
-        font-size: 2rem;
-    }
-    
-    footer i {
-        font-size: 1rem;
-        vertical-align: middle;
-    }
+  .stay-informed-form-div fieldset {
+    border: #acffad 0.1rem solid;
+    padding: 0.5rem;
+  }
+
+  .stay-informed-form-div legend {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 0.5rem;
+  }
+
+  .form-question {
+    font-size: 0.875rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .form-answer {
+    font-size: 0.875rem;
+    margin: 0 0 0 0.5rem;
+  }
+
+  .required-input {
+    width: 94%;
+    margin: 0.5rem;
+    border: #ccc 0.1rem solid;
+    font-size: 0.875rem;
+    text-align: left;
+    text-indent: 0.5rem;
+  }
+
+  .stay-informed-form-div fieldset input[type="checkbox"],
+  .stay-informed-form-div fieldset input[type="radio"] {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: #ccc 0.15rem solid;
+    margin: 0 0 0 0.5rem;
+  }
+
+  .stay-informed-form-div fieldset input[type="number"] {
+    width: 40%;
+    margin: 0.5rem;
+    border: #ccc 0.1rem solid;
+    font-size: 0.875rem;
+  }
+
+  .stay-informed-form-div fieldset textarea {
+    width: 94%;
+    margin: 0.5rem;
+    border: #ccc 0.1rem solid;
+    font-size: 0.875rem;
+    padding-top: 0.875rem;
+  }
+
+  .stay-informed-button {
+    font-weight: 600;
+    font-size: 1rem;
+    width: 40%;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .stay-informed-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  /* Footer */
+  .footer-social-media-div,
+  .footer-contact-div {
+    margin-bottom: 2rem;
+  }
+
+  .footer-contact-div h3 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1.25rem 0 0.5rem 0.5rem;
+  }
+
+  .footer-contact-div a {
+    font-size: 0.55rem;
+    text-align: center;
+    margin: 0.5rem 0.2rem 0 0.5rem;
+  }
+
+  .footer-contact-div i {
+    font-size: 0.55rem;
+    vertical-align: middle;
+  }
+
+  .footer-contact-div p {
+    font-size: 0.65rem;
+    text-align: center;
+    margin: 0.2rem 0;
+    vertical-align: middle;
+  }
+
+  .footer-social-media-div ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-social-media-div li {
+    margin: 0.5rem 0.5rem;
+    text-align: center;
+  }
+
+  .social-media-icon i {
+    font-size: 2rem;
+  }
+
+  footer i {
+    font-size: 1rem;
+    vertical-align: middle;
+  }
 }

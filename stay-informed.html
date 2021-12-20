@@ -1,174 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yoga classes for the masses of Old Trafford, Manchester. Stretch, flex, energise and relax with Marie and the community.">
-    <meta name="keywords" content="yoga, pilates, community, exercise, old trafford, manchester">
-    <meta name="author" content="Rick Atherton">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/caa647e6f5.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yoga classes for the masses of Old Trafford, Manchester. Stretch, flex, energise and relax with Marie and the community."
+    />
+    <meta
+      name="keywords"
+      content="yoga, pilates, community, exercise, old trafford, manchester"
+    />
+    <meta name="author" content="Rick Atherton" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/caa647e6f5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Old Trafford Yoga | Stay Informed</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="main-header">
-        <div class="ot-yoga-logo">
-            <a href="index.html" aria-label="Go to homepage">
-                <img src="assets/site-images/homepage-ot-yogo-colour-logo.webp" alt="Old Trafford Yogo logo of a house joined in a loop at the bottom to represent togetherness" width="190" height="140">
-                <h1 class="main-header-h1">OT Yoga</h1>
-                <h2 class="main-header-h2">Yoga classes for the masses of Old Trafford</h2>
-            </a>
-        </div>
+      <div class="ot-yoga-logo">
+        <a href="index.html" aria-label="Go to homepage">
+          <img
+            src="assets/site-images/homepage-ot-yogo-colour-logo.webp"
+            alt="Old Trafford Yogo logo of a house joined in a loop at the bottom to represent togetherness"
+            width="190"
+            height="140"
+          />
+          <h1 class="main-header-h1">OT Yoga</h1>
+          <h2 class="main-header-h2">
+            Yoga classes for the masses of Old Trafford
+          </h2>
+        </a>
+      </div>
     </header>
 
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"  title="Toggle navigation menu when viewing on mobile device">
-        <i class="fas fa-bars"></i>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label
+      for="nav-toggle"
+      class="nav-toggle-label"
+      title="Toggle navigation menu when viewing on mobile device"
+    >
+      <i class="fas fa-bars"></i>
     </label>
 
     <nav class="nav-menu">
-        <ul class="nav-list">
-            <li>
-                <a href="about-marie.html" aria-label="Learn about Yoga instructor Marie">About Marie</a>
-            </li>
-            <li>
-                <a href="yoga-in-class.html" aria-label="Learn about performing Yoga in Class">Yoga in Class</a>
-            </li>
-            <li>
-                <a href="yoga-at-home.html" aria-label="Learn about performing Yoga at Home">Yoga at Home</a>
-            </li>
-            <li>
-                <a href="stay-informed.html" aria-label="Sign-up to OT Yoga's news via email" class="current-nav-page">Stay Informed!</a>
-            </li>
-        </ul>
+      <ul class="nav-list">
+        <li>
+          <a
+            href="about-marie.html"
+            aria-label="Learn about Yoga instructor Marie"
+            >About Marie</a
+          >
+        </li>
+        <li>
+          <a
+            href="yoga-in-class.html"
+            aria-label="Learn about performing Yoga in Class"
+            >Yoga in Class</a
+          >
+        </li>
+        <li>
+          <a
+            href="yoga-at-home.html"
+            aria-label="Learn about performing Yoga at Home"
+            >Yoga at Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="stay-informed.html"
+            aria-label="Sign-up to OT Yoga's news via email"
+            class="current-nav-page"
+            >Stay Informed!</a
+          >
+        </li>
+      </ul>
     </nav>
 
-
     <section class="stay-informed-section">
-        <div class="stay-informed-form-div">
-            <h3 class="site-pages-h3">Stay Informed!</h3>
-                
-            <form method="post" action="https://formdump.codeinstitute.net/">
-                
-                <p class="site-pages-p">
-                    Please complete and submit the form below to stay informed on changes to classes and all things yoga!
-                </p>
-                <br>
-                
-                <fieldset>
-                    <legend>Required Fields</legend>
-                        
-                    <label for="fname" class="form-question">First Name:</label>
-                    <br>
-                    <input type="text" id="fname" name="first_name" placeholder="Type first name" class="required-input" required>
-                    <br>
-                    <label for="lname" class="form-question">Last Name:</label>
-                    <br>
-                    <input type="text" id="lname" name="last_name" placeholder="Type last name" class="required-input" required>
-                    <br>
-                    <label for="email" class="form-question">Email Address:</label>
-                    <br>
-                    <input type="email" id="email" name="email_address" placeholder="Type email address" class="required-input" required>
-                    </fieldset>            
-                    
-                    <br>
+      <div class="stay-informed-form-div">
+        <h3 class="site-pages-h3">Stay Informed!</h3>
 
-                <fieldset>
-                    <legend>Optional Fields</legend>
-                                
-                    <label class="form-question">Which of the following areas interest you?</label>
-                    <br>
-                    <input type="checkbox" name="areas_of_interest" id="yoga" value="yoga">
-                    <label for="yoga" class="form-answer">Yoga</label>
-                    <br>
-                    <input type="checkbox" name="areas_of_interest" id="pilates" value="pilates">
-                    <label for="pilates" class="form-answer">Pilates</label>
-                    <br>
-                    <input type="checkbox" name="areas_of_interest" id="meditation" value="meditation">
-                    <label for="meditation" class="form-answer">Meditation</label>
-                    <br>
-                    <input type="checkbox" name="areas_of_interest" id="mindfulness" value="mindfulness">
-                    <label for="mindfulness" class="form-answer">Mindfulness</label>
-                    <br>
+        <form method="post" action="https://formdump.codeinstitute.net/">
+          <p class="site-pages-p">
+            Please complete and submit the form below to stay informed on
+            changes to classes and all things yoga!
+          </p>
+          <br />
 
-                    <label class="form-question">What is your current level of yoga?</label>
-                    <br>
-                    <input type="radio" name="yoga_level" id="beginner" value="beginner">
-                    <label for="beginner" class="form-answer">Beginner (i.e. under 15 classes)</label>
-                    <br>
-                    <input type="radio" name="yoga_level" id="intermediate" value="intermediate">
-                    <label for="intermediate" class="form-answer">Intermediate (i.e. 16-50 classes)</label>
-                    <br>
-                    <input type="radio" name="yoga_level" id="expert" value="expert">
-                    <label for="expert" class="form-answer">Expert (i.e. +51 classes)</label>
-                    <br>
-                    
-                    <label class="form-question" for="age">How old are you?</label>
-                    <br>
-                    <input type="number" id="age" name="age" placeholder="Type age" step="1" min="16" max="99">
-                    <br>
-                    
-                    <label class="form-question" for="form_comments">Please add any comments or questions in the box below:</label>
-                    <br>
-                    <textarea maxlength="250" name="form_comments" id="form_comments" placeholder="Type comments here"></textarea>
-                    </fieldset>
-                    <br>
+          <fieldset>
+            <legend>Required Fields</legend>
 
-                <input type="submit" value="Submit Form" class="stay-informed-button">
-                <input type="reset" value="Reset Form" class="stay-informed-button">
-            
-            </form>            
-        </div>  
-    </section>      
+            <label for="fname" class="form-question">First Name:</label>
+            <br />
+            <input
+              type="text"
+              id="fname"
+              name="first_name"
+              placeholder="Type first name"
+              class="required-input"
+              required
+            />
+            <br />
+            <label for="lname" class="form-question">Last Name:</label>
+            <br />
+            <input
+              type="text"
+              id="lname"
+              name="last_name"
+              placeholder="Type last name"
+              class="required-input"
+              required
+            />
+            <br />
+            <label for="email" class="form-question">Email Address:</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email_address"
+              placeholder="Type email address"
+              class="required-input"
+              required
+            />
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Optional Fields</legend>
+
+            <label class="form-question"
+              >Which of the following areas interest you?</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              name="areas_of_interest"
+              id="yoga"
+              value="yoga"
+            />
+            <label for="yoga" class="form-answer">Yoga</label>
+            <br />
+            <input
+              type="checkbox"
+              name="areas_of_interest"
+              id="pilates"
+              value="pilates"
+            />
+            <label for="pilates" class="form-answer">Pilates</label>
+            <br />
+            <input
+              type="checkbox"
+              name="areas_of_interest"
+              id="meditation"
+              value="meditation"
+            />
+            <label for="meditation" class="form-answer">Meditation</label>
+            <br />
+            <input
+              type="checkbox"
+              name="areas_of_interest"
+              id="mindfulness"
+              value="mindfulness"
+            />
+            <label for="mindfulness" class="form-answer">Mindfulness</label>
+            <br />
+
+            <label class="form-question"
+              >What is your current level of yoga?</label
+            >
+            <br />
+            <input
+              type="radio"
+              name="yoga_level"
+              id="beginner"
+              value="beginner"
+            />
+            <label for="beginner" class="form-answer"
+              >Beginner (i.e. under 15 classes)</label
+            >
+            <br />
+            <input
+              type="radio"
+              name="yoga_level"
+              id="intermediate"
+              value="intermediate"
+            />
+            <label for="intermediate" class="form-answer"
+              >Intermediate (i.e. 16-50 classes)</label
+            >
+            <br />
+            <input type="radio" name="yoga_level" id="expert" value="expert" />
+            <label for="expert" class="form-answer"
+              >Expert (i.e. +51 classes)</label
+            >
+            <br />
+
+            <label class="form-question" for="age">How old are you?</label>
+            <br />
+            <input
+              type="number"
+              id="age"
+              name="age"
+              placeholder="Type age"
+              step="1"
+              min="16"
+              max="99"
+            />
+            <br />
+
+            <label class="form-question" for="form_comments"
+              >Please add any comments or questions in the box below:</label
+            >
+            <br />
+            <textarea
+              maxlength="250"
+              name="form_comments"
+              id="form_comments"
+              placeholder="Type comments here"
+            ></textarea>
+          </fieldset>
+          <br />
+
+          <input
+            type="submit"
+            value="Submit Form"
+            class="stay-informed-button"
+          />
+          <input type="reset" value="Reset Form" class="stay-informed-button" />
+        </form>
+      </div>
+    </section>
 
     <footer>
+      <div class="footer-section">
         <div class="footer-contact-div">
-            <h3>Old Trafford Yoga</h3>
-            <p>
-                <a href="https://goo.gl/maps/8CgDnvDHQMe3WeUj6" aria-label="Go to the address using Google Maps" target="_blank" rel="noopener noreferer">
-                    <i class="fas fa-map-marker-alt"></i>
-                    </a>
-                    St John’s Centre, St John’s Road, Old Trafford, M16 7GX
-            </p>
-            <p>
-                <a href="tel:+441618727795" aria-label="Telephone the St John's Centre" target="_blank" rel="noopener noreferer">
-                    <i class="fas fa-phone-alt"></i>
-                    </a>
-                    01618727795
-            </p>
-
-            <p>
-                <a href="mailto:marie@ot-yoga.com" aria-label="Send an email to Marie at Old Trafford Yoga" target="_blank" rel="noopener noreferer">
-                    <i class="far fa-envelope"></i>
-                    </a>
-                    marie@ot-yoga.com
-            </p>
+          <h3>Old Trafford Yoga</h3>
+          <p>
+            <a
+              href="https://goo.gl/maps/8CgDnvDHQMe3WeUj6"
+              aria-label="Go to the address using Google Maps"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+            St John’s Centre, St John’s Road, Old Trafford, M16 7GX
+          </p>
+          <p>
+            <a
+              href="tel:+441618727795"
+              aria-label="Telephone the St John's Centre"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <i class="fas fa-phone-alt"></i>
+            </a>
+            01618727795
+          </p>
+          <p>
+            <a
+              href="mailto:marie@ot-yoga.com"
+              aria-label="Send an email to Marie at Old Trafford Yoga"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <i class="far fa-envelope"></i>
+            </a>
+            marie@ot-yoga.com
+          </p>
         </div>
 
         <div class="footer-social-media-div">
-            <ul>
-                <li>
-                    <a href="https://wa.me/+447399487430" aria-label="Send a Whatsapp message to Marie" target="_blank" class="social-media-icon" rel="noopener noreferer"><i class="fab fa-whatsapp-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://facebook.com" aria-label="Go to our Facebook page" target="_blank" class="social-media-icon" rel="noopener noreferer"><i class="fab fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" aria-label="Go to our Instagram page" target="_blank" class="social-media-icon" rel="noopener noreferer"><i class="fab fa-instagram-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" aria-label="Go to our YouTube page" target="_blank" class="social-media-icon" rel="noopener noreferer"><i class="fab fa-youtube-square"></i>
-                    </a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a
+                href="https://wa.me/+447399487430"
+                aria-label="Send a Whatsapp message to Marie"
+                target="_blank"
+                class="social-media-icon"
+                rel="noopener noreferer"
+                ><i class="fab fa-whatsapp-square"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://facebook.com"
+                aria-label="Go to our Facebook page"
+                target="_blank"
+                class="social-media-icon"
+                rel="noopener noreferer"
+                ><i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                aria-label="Go to our Instagram page"
+                target="_blank"
+                class="social-media-icon"
+                rel="noopener noreferer"
+                ><i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://youtube.com"
+                aria-label="Go to our YouTube page"
+                target="_blank"
+                class="social-media-icon"
+                rel="noopener noreferer"
+                ><i class="fab fa-youtube-square"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
