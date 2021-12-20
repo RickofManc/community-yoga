@@ -55,13 +55,9 @@ body {
   visibility: hidden;
 }
 
-.nav-menu-div {
-  background-color: #000;
-  width: 100%;
-}
-
 .nav-menu {
-  max-width: 2300px;
+    background-color: #000;
+    width: 100%;
 }
 
 .nav-list {
