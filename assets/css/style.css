@@ -2,6 +2,7 @@
 
 body {
   max-width: 2600px;
+  height: 100%;
   font-family: Roboto, sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -816,6 +817,10 @@ footer i:hover {
   }
 
   /* Footer */
+  footer {
+      height: 18rem;
+  }
+  
   .footer-contact-div,
   .footer-social-media-div {
     display: flex;
