@@ -508,7 +508,7 @@ footer {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     background-color: #000;
 }
 
@@ -529,8 +529,8 @@ footer {
 }
 
 .footer-contact-div h3 {
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
     margin: 0.5rem;
     color: #fff;
 }
@@ -828,7 +828,7 @@ footer i:hover {
 
     .footer-contact-div {
         width: 50%;
-        padding-left: 1rem;
+        padding-left: 4rem;
     }
 
     .footer-social-media-div:first-child {
@@ -902,7 +902,6 @@ footer i:hover {
         font-size: 80%;  
         border: none;  
     }
-
 }
 
 /* For small screens up to 980px wide */
@@ -1071,6 +1070,60 @@ footer i:hover {
     /* Stay Informed Sign Up Page */
     .stay-informed-form-div {
         margin: 0rem 2rem;
+    }
+
+        /* Footer */
+    footer {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .footer-section,    
+    .footer-contact-div, 
+    .footer-social-media-div {
+        display: block;
+        margin: 0 0 2rem 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-contact-div h3 {
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1.25rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .footer-contact-div a {
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 0.5rem 0.2rem 0 0.5rem;
+    }
+
+    .footer-contact-div p {
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 0.2rem 0;
+        vertical-align: middle;
+    }
+
+    .footer-social-media-div ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-social-media-div li {
+        margin: 0.5rem 0.5rem;
+        text-align: center;
+    }
+
+    .social-media-icon i {
+        font-size: 2rem;
+    }
+    
+    footer i {
+        font-size: 1rem;
+        vertical-align: middle;
     }
 
 }
@@ -1380,35 +1433,31 @@ footer i:hover {
     }
 
     /* Footer */
-    footer {
-        width: 100%;
-        display: block;
-        height: 12rem;
-    }
-
+    .footer-social-media-div, 
     .footer-contact-div {
-        margin: 0;
+        margin-bottom: 2rem;
     }
-
-    .footer-social-media-div {
-        margin: 0.2rem 0 2rem 0;
-    }
-
+    
     .footer-contact-div h3 {
         font-size: 1.1rem;
-        text-align: left;
-        margin: 1.25rem 0.5rem 0.5rem 0.5rem;
+        text-align: center;
+        margin: 1.25rem 0 0.5rem 0.5rem;
     }
 
     .footer-contact-div a {
-        font-size: 0.75rem;
-        text-align: left;
+        font-size: 0.55rem;
+        text-align: center;
         margin: 0.5rem 0.2rem 0 0.5rem;
     }
 
+    .footer-contact-div i {
+        font-size: 0.55rem;
+        vertical-align: middle;
+    }
+
     .footer-contact-div p {
-        font-size: 0.75rem;
-        text-align: left;
+        font-size: 0.65rem;
+        text-align: center;
         margin: 0.2rem 0;
         vertical-align: middle;
     }
@@ -1419,7 +1468,7 @@ footer i:hover {
     }
 
     .footer-social-media-div li {
-        margin: 1rem 0.5rem;
+        margin: 0.5rem 0.5rem;
         text-align: center;
     }
 
