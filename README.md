@@ -1,6 +1,6 @@
 # OT Yoga
 
-![Website Mockup](assets/readme-images/ot-yoga-site-mockups.PNG)
+![Website Mockup](readme-images/ot-yoga-site-mockups.PNG)
 
 [Link to Live Website](https://rickofmanc.github.io/old-trafford-yoga/)
 
@@ -58,7 +58,7 @@ The site will be targeted at all members of the community so accessibility in de
 
 The roadmap below highlights the high-level strategic opportunities versus the importance and viability/feasibility of development for the MVP (Minimal Viable Product):
 
-![Strategic Opportunities Roadmap](assets/readme-images/strategic-opportunities-roadmap.PNG)
+![Strategic Opportunities Roadmap](readme-images/strategic-opportunities-roadmap.PNG)
 
 
 
@@ -116,11 +116,11 @@ As part of this phase I built wireframes for all pages using [Balsamiq](https://
 
 #### Homepage Wireframe 
 
-![Homepage wireframe](assets/readme-images/ot-yoga-homepage-wireframe.png)
+![Homepage wireframe](readme-images/ot-yoga-homepage-wireframe.png)
 
 #### Stay Informed! Wireframe
 
-![Stay Informed! wireframe](assets/readme-images/ot-yoga-stay-informed-wireframe.png)
+![Stay Informed! wireframe](readme-images/ot-yoga-stay-informed-wireframe.png)
 
 
 
@@ -133,7 +133,7 @@ In consideration that accessibility was a key design criteria, I've developed a 
 
 Using [Color Hunt](https://colorhunt.co/) I researched for a colour that would offer a high contrast to the primarily monochrome theme. The light and bright Green selected offers that contrast whilst also being neutral in it's appeal to all genders. This was a key design consideration to ensure all genders within the community felt comfortable to join OT Yoga. 
 
-![OT Yoga Colour Palette](assets/readme-images/ot-yoga-color-palette.png)
+![OT Yoga Colour Palette](readme-images/ot-yoga-color-palette.png)
 
 
 #### Fonts
