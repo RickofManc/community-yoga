@@ -295,9 +295,10 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 * [W3schools](https://www.w3schools.com/) - Source of 'How to...' information throughout the build.
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
 * [FreeConvert](https://www.freeconvert.com/) - For compressing images to improve page load time.
+* [Wave](https://wave.webaim.org/) - Accessibility Testing to ensure content is readable for all users.
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
 * [CSS Validator](https://validator.w3.org/) - For validating CSS code, no errors found.
-* [Wave](https://wave.webaim.org/) - Accessibility Testing 
+* [Code Beautify](https://codebeautify.org/) - For validating the layout of HTML and CSS code.
 
 
 ### Code
