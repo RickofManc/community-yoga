@@ -227,8 +227,33 @@ Code has been tested using the [HTML Validator](https://validator.w3.org/) and [
 
 ### Browser
 
-TBC
-[IE NetREnderer](https://netrenderer.com/index.php) 
+To ensure site visitors can view and interact with OT Yoga's website, cross browser testing was performed on the test scenarios listed in the table below.
+
+To achieve a 'Pass' the following criteria had to be met across all website pages;
+1. All nav-menu links work as designed complete with hover feature
+2. All images are loaded and displayed correctly at the differing media queries
+3. All text uses 'Roboto' font style
+4. All external links activate when clicked, and open in a new tab or browser window
+5. The form as part of the 'Stay Informed!' page allows full completion and submission
+6. Header elements can be clicked to return users to the homepage from any site page
+7. All pages retain layout integrity throughout the Body and across the differing media queries
+8. 404.html Page could be found and users can navigate back to the main website pages
+
+| Browser                    | Version | Test Facility  | Pass | Partial Pass | Fail | Comments for Partial Pass and/or Fail                                                   |
+| -------------------------- | ------- | -------------- | ---- | ------------ | ---- | --------------------------------------------------------------------------------------- |
+| Internet Explorer          | 5.5     | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 6       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 7       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 8       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 9       | Netrender.com  |      |  - [x]       |      | Website loaded all text complete with CSS styles within 3s. Images and logo not loaded. |
+| Internet Explorer          | 10      | Netrender.com  |      |  - [x]       |      | Website loaded all text complete with CSS styles within 5s. Images and logo not loaded. |
+| Internet Explorer          | 11      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
+| Microsoft Edge (Win 11)    | 96      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
+| Google Chrome (Win 11)     | 96      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
+| Firefox                    | 95      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
+| Safari (macOS Mojave)      | 12      | lambdatext.com |  - [x] |              |      |                                                                                         |
+| Opera (macOS Sierra 10.12) | 74      | lambdatext.com |  - [x] |              |      |                                                                                         |
+
 
 ### Device
 
@@ -242,9 +267,6 @@ Each page of this website has been tested with [Wave (Web Accessibility Evaluati
 * **Aria-labels** with the same focus were used on the header logo and text elements. WAVE highlighted this was unnecessary duplication. As a result, the header element has been rewritten so the aria-label encompasses all the header elements.
 * **Collapsible nav-menu** element is without text. The HTML code uses a label element as the checkbox toggle for the burger style nav-menu on mobile devices. As such this produces a WAVE error. As recommended by WAVE, a title attribute has been added to the label element to ensure screen readers can inform of the elements purpose. However this hasn't cleared the error but can be considered acceptable according to WAVE.
  
-### OS Compatibility
-
-TBC
 
 ### Performance
 
@@ -279,7 +301,6 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 ***
 
 
-
 ## Credit
 
 ### People
@@ -300,6 +321,9 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 * [HTML Validator](https://validator.w3.org/) - For validating HMTL code, no errors found.
 * [CSS Validator](https://validator.w3.org/) - For validating CSS code, no errors found.
 * [Code Beautify](https://codebeautify.org/) - For validating the layout of HTML and CSS code.
+* [IE NetREnderer](https://netrenderer.com/index.php) - For testing website functionality on IE versions 5-10.
+* [LambdaTest](https://www.lambdatest.com/) - For cross browser testing on macOS versions of Safari and Opera.
+
 
 ### Code
 
