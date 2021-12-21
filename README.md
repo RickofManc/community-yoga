@@ -112,7 +112,7 @@ The homepage will be the hub of the website where essential information is displ
     * If I can't attend a class, can I practice at home? click 'Yoga at Home'.
     * How can I stay in touch with OT Yoga? click 'Stay Informed!'.
 
-As part of this phase wireframes for all pages have been produced using [Balsamiq](https://balsamiq.com/wireframes/) (see samples below). Consideration was given to both desktop and mobile users. The website is responsive through differing screen widths from  with the final design being responsive at screen widths from 320-640px, 980-1200px, 1200-1600px and 1600-5000px. This should ensure accessibility on any device or desktop monitor.
+As part of this phase wireframes for all pages have been produced using [Balsamiq](https://balsamiq.com/wireframes/) (see samples below - all wireframes can be found within the [Repo](wireframes)). Consideration was given to both desktop and mobile users. The website is responsive through differing screen widths from  with the final design being responsive at screen widths from 320-640px, 980-1200px, 1200-1600px and 1600-5000px. This should ensure accessibility on any device or desktop monitor.
 
 #### Homepage Wireframe 
 
@@ -259,7 +259,27 @@ To achieve a 'Pass' the following criteria had to be met across all website page
 
 ### Device
 
-TBC
+To ensure site visitors can view and interact with OT Yoga's website on differing devices, testing was performed on the test scenarios listed in the table below.
+
+To achieve a 'Pass' the following criteria had to be met across all website pages;
+1. All nav-menu links work as designed complete with hover feature
+2. All images are loaded and displayed correctly at the differing media queries
+3. All text uses 'Roboto' font style
+4. All external links activate when clicked, and open in a new tab or browser window
+5. The form as part of the 'Stay Informed!' page allows full completion and submission
+6. Header elements can be clicked to return users to the homepage from any site page
+7. All pages retain layout integrity throughout the Body and across the differing media queries
+8. 404.html Page could be found and users can navigate back to the main website pages
+
+
+| Device       | Type               | Pass | Partial Pass | Fail | Comments for Partial Pass and/or Fail                                                                                                                                                    |
+| ------------ | ------------------ | ---- | ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mobile Phone | iPhone SE          | ü    |              |      | Noted that paragraph text needed to increase slightly compared to other websites and space around main header content could reduce marginally to allow the hero image to be within sight |
+| Mobile Phone | Samsung Galaxy S21 | ü    |              |      |
+| Tablet       | iPad (2020)        | ü    |              |      |                                                                                                                                                                                          |
+| Tablet       | iPad 3 (2012)      | ü    |              |      |                                                                                                                                                                                          |
+| Laptop       | ASUS Zenbook 14"   | ü    |              |      |                                                                                                                                                                                          |
+
 
 ### Accessibility
 
@@ -312,7 +332,7 @@ Below is a summary of the test results.
 
 ## Deployment 
 
-This project was deployed with the following steps
+This project was deployed using the steps below with version releasing active. Please do not make any changes to files within this repository as any changes pushed to the main branch will be automatically reflected on the live website. Instead please follow the second set of steps which guide you to forking and cloning the website where changes can be made without impact to the live website. Thanks!
 
 1. Logged into [my GitHub repository](https://github.com/RickofManc/old-trafford-yoga)
 1. Clicked on the "Settings" button in the main Repository menu.
@@ -322,6 +342,15 @@ This project was deployed with the following steps
 1. Tested the link by clicking on the url.
 
 The live website can be found here https://rickofmanc.github.io/old-trafford-yoga/
+
+To fork this website to either propose changes or to use as an idea for another website, follow these steps:
+1. If you haven't yet, you should first set up Git. Don't forget to set up authentication to GitHub.com from Git as well.
+1. Navigate to the [OT Yoga GitHub repository](https://github.com/RickofManc/old-trafford-yoga).
+1. Click the 'Fork' button on the upper right part fo the page. It's in between 'Watch' and 'Star'.
+1. You will now have a fork of the OT Yoga repository added to your GitHub profile. Navigate to your own profile and find the forked repository to add the required files.
+1. Above the list of forked files click the 'Code' button.
+1. A drop-down menu will appear providing a choice of cloning options. Select the one which is applicable to your setup.
+Further details on completing the final step can be found on GitHubs ['Fork a Repo'](https://docs.github.com/en/get-started/quickstart/fork-a-repo) page.
 
 
 ***
