@@ -593,6 +593,7 @@ footer i:hover {
 
 .error-page-background-image {
   opacity: 0.5;
+  background: #000 no-repeat center;
   position: absolute;
   left: 0;
   top: 0;
@@ -608,7 +609,7 @@ footer i:hover {
 
 .error-page-heading h1,
 .error-page-heading h2 {
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 2rem 2rem;
 }
 
 .error-page-tile {
