@@ -44,7 +44,7 @@ OT Yoga is a newly formed yoga class in Old Trafford, South Manchester. The clas
 The website will be targeted at all members of the community so accessibility in design is key as yoga can benefit anyone, no matter age or physically ability. The website should clearly inform students when and where classes occur, what to expect and bring. Should a student be unable to attend a class there will be a page to support learning at home.
 
 #### Leading User Stories
-* As a student with accessibility needs, I want to intuitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
+* As a student with accessibility requirements, I want to intuitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
 * As a student, I want to learn when and where yoga occurs in Old Trafford, so that I can attend as part of regular exercise.
 * As a student, I want to learn how much a class costs and what I need to bring, so that I can be prepared when I attend a class.
 * As a student, I want to learn what type of yoga is practiced, so I can understand if it will be something I would like to learn, or have practiced before.
@@ -239,20 +239,22 @@ To achieve a 'Pass' the following criteria had to be met across all website page
 7. All pages retain layout integrity throughout the Body and across the differing media queries
 8. 404.html Page could be found and users can navigate back to the main website pages
 
+
+
 | Browser                    | Version | Test Facility  | Pass | Partial Pass | Fail | Comments for Partial Pass and/or Fail                                                   |
 | -------------------------- | ------- | -------------- | ---- | ------------ | ---- | --------------------------------------------------------------------------------------- |
-| Internet Explorer          | 5.5     | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 6       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 7       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 8       | Netrender.com  |      |              | - [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 9       | Netrender.com  |      |  - [x]       |      | Website loaded all text complete with CSS styles within 3s. Images and logo not loaded. |
-| Internet Explorer          | 10      | Netrender.com  |      |  - [x]       |      | Website loaded all text complete with CSS styles within 5s. Images and logo not loaded. |
-| Internet Explorer          | 11      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
-| Microsoft Edge (Win 11)    | 96      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
-| Google Chrome (Win 11)     | 96      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
-| Firefox                    | 95      | ASUS Zenbook   | - [x] |              |      |                                                                                         |
-| Safari (macOS Mojave)      | 12      | lambdatext.com |  - [x] |              |      |                                                                                         |
-| Opera (macOS Sierra 10.12) | 74      | lambdatext.com |  - [x] |              |      |                                                                                         |
+| Internet Explorer          | 5.5     | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 6       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 7       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 8       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 9       | Netrender.com  |     |  [x]       |      | Website loaded all text complete with CSS styles within 3s. Images and logo not loaded. |
+| Internet Explorer          | 10      | Netrender.com  |     |  [x]       |      | Website loaded all text complete with CSS styles within 5s. Images and logo not loaded. |
+| Internet Explorer          | 11      | ASUS Laptop   | [x] |              |      |                                                                                         |
+| Microsoft Edge (Win 11)    | 96      | ASUS Laptop   | [x] |              |      |                                                                                         |
+| Google Chrome (Win 11)     | 96      | ASUS Laptop   | [x] |              |      |                                                                                         |
+| Firefox (Win 11)           | 95      | ASUS Laptop   | [x] |              |      |                                                                                         |
+| Safari (macOS Mojave)      | 12      | lambdatext.com | [x] |              |      |                                                                                         |
+| Opera (macOS Sierra 10.12) | 74      | lambdatext.com | [x] |              |      |                                                                                         |
 
 
 ### Device
@@ -272,10 +274,34 @@ Each page of this website has been tested with [Wave (Web Accessibility Evaluati
 
 Using Lighthouse performance testing within Chrome Developer Tools, every pages performance has been tested on both Desktop and Mobile devices.
 
-[ADD screen shot of performance results]
+
+
+
+
 
 
 ### User Stories
+
+The leading user stories have been tested to ensure the priority aims of the website have been delivered. 
+Below is a summary of the test results.
+
+* As a student with accessibility requirements, I want to intuitively navigate the website to learn all about OT Yoga, so that I can attend as part of regular exercise.
+    * All pages score a consistent 100% when tested for Accessibility with Lighthouse. In addition no errors are recorded when tested with [Wave (Web Accessibility Evaluation Tool)](https://wave.webaim.org/). This would suggest the site can be navigated by those with accessibility requirements and/or using a screen reader.
+
+* As a student, I want to learn when and where yoga occurs in Old Trafford, so that I can attend as part of regular exercise.
+    * The homepage offers this key information within one vertical scroll. Furthermore the venue address is consistently displayed in the Footer, and can also be viewed as part of the FAQ's on the 'Yoga in Class' page. 
+
+* As a student, I want to learn how much a class costs and what I need to bring, so that I can be prepared when I attend a class.
+    * From either clicking to the 'Yoga in Class' page or from clicking the 'More Info on Classes' button on the homepage, users can access the FAQ's section where both parts of information can be found. Additionally, the cost is displayed as part of the key information on the homepage, alongside the day of the class, start time and duration.
+
+* As a student, I want to learn what type of yoga is practiced, so I can understand if it will be something I would like to learn, or have practiced before.
+    * This information is clearly displayed on the homepage within one vertical scroll. It is located alongside the day of the class, start time and cost. Further information on how the instructor came to practice this form of yoga is naturally found on the 'About Marie' page which can be navigated to from the main nav-menu.
+
+* As a student, I want to learn about the instructor, so I can gauge whether we would get along.
+    * Information on instructor Marie can be found on a dedicated page titled 'About Marie'. A link to this page is constantly visible to users in the nav-menu located under the website header. Should a student wish to get in touch, contact details are provided in page and also within the Footer. Appropriate links have been provided for the convenience of the user to start a conversation either by phone, Whatsapp or social media.
+
+* As a student, I would like to be kept informed of changes to classes, so I attend accordingly.
+    * A sign-up form has been created on a dedicated page titled 'Stay Informed!' which should act as a call to action from the nav-menu. Users can be informed of changes in classes from completing just 3 mandatory fields. However should users wish they could complete a further 4 optional questions which will help OT Yoga provide further yoga relating information to support students.
 
 
 ### Bugs / Issues
@@ -312,7 +338,7 @@ The live website can be found here https://rickofmanc.github.io/old-trafford-yog
 ### Software & Web Applications
 
 * [Balsamiq](https://balsamiq.com/) - Used to build wireframes in the Skelton phase. 
-* This website was coded using only HTML5 & CCS3, with [GitPod](https://gitpod.io/) used for an IDE and [GitHub](https://github.com/) as a hosting repository. 
+* This website was coded using HTML & CCS, with [GitPod](https://gitpod.io/) used for an IDE and [GitHub](https://github.com/) as a hosting repository. 
 * Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
 * [W3schools](https://www.w3schools.com/) - Source of 'How to...' information throughout the build.
 * [Stack Overflow](https://stackoverflow.com/questions/42199911/how-can-i-reorder-html-using-media-queries) - Source of information on reordering HTML when using media queries.
