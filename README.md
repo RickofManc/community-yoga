@@ -243,18 +243,18 @@ To achieve a 'Pass' the following criteria had to be met across all website page
 
 | Browser                    | Version | Test Facility  | Pass | Partial Pass | Fail | Comments for Partial Pass and/or Fail                                                   |
 | -------------------------- | ------- | -------------- | ---- | ------------ | ---- | --------------------------------------------------------------------------------------- |
-| Internet Explorer          | 5.5     | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 6       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 7       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 8       | Netrender.com  |     |              | [x] | Website could not render and therefore not loaded                                       |
-| Internet Explorer          | 9       | Netrender.com  |     |  [x]       |      | Website loaded all text complete with CSS styles within 3s. Images and logo not loaded. |
-| Internet Explorer          | 10      | Netrender.com  |     |  [x]       |      | Website loaded all text complete with CSS styles within 5s. Images and logo not loaded. |
-| Internet Explorer          | 11      | ASUS Laptop   | [x] |              |      |                                                                                         |
-| Microsoft Edge (Win 11)    | 96      | ASUS Laptop   | [x] |              |      |                                                                                         |
-| Google Chrome (Win 11)     | 96      | ASUS Laptop   | [x] |              |      |                                                                                         |
-| Firefox (Win 11)           | 95      | ASUS Laptop   | [x] |              |      |                                                                                         |
-| Safari (macOS Mojave)      | 12      | lambdatext.com | [x] |              |      |                                                                                         |
-| Opera (macOS Sierra 10.12) | 74      | lambdatext.com | [x] |              |      |                                                                                         |
+| Internet Explorer          | 5.5     | Netrender.com  |     |              | :heavy_check_mark: | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 6       | Netrender.com  |     |              | :heavy_check_mark: | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 7       | Netrender.com  |     |              | :heavy_check_mark: | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 8       | Netrender.com  |     |              | :heavy_check_mark: | Website could not render and therefore not loaded                                       |
+| Internet Explorer          | 9       | Netrender.com  |     | :heavy_check_mark: |      | Website loaded all text complete with CSS styles within 3s. Images and logo not loaded. |
+| Internet Explorer          | 10      | Netrender.com  |     | :heavy_check_mark: |      | Website loaded all text complete with CSS styles within 5s. Images and logo not loaded. |
+| Internet Explorer          | 11      | ASUS Laptop   | :heavy_check_mark: |              |      |                                                                                         |
+| Microsoft Edge (Win 11)    | 96      | ASUS Laptop   | :heavy_check_mark: |              |      |                                                                                         |
+| Google Chrome (Win 11)     | 96      | ASUS Laptop   | :heavy_check_mark: |              |      |                                                                                         |
+| Firefox (Win 11)           | 95      | ASUS Laptop   | :heavy_check_mark: |              |      |                                                                                         |
+| Safari (macOS Mojave)      | 12      | lambdatext.com | :heavy_check_mark: |              |      |                                                                                         |
+| Opera (macOS Sierra 10.12) | 74      | lambdatext.com | :heavy_check_mark: |              |      |                                                                                         |
 
 
 ### Device
@@ -274,11 +274,11 @@ To achieve a 'Pass' the following criteria had to be met across all website page
 
 | Device       | Type               | Pass | Partial Pass | Fail | Comments for Partial Pass and/or Fail                                                                                                                                                    |
 | ------------ | ------------------ | ---- | ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mobile Phone | iPhone SE          | ü    |              |      | Noted that paragraph text needed to increase slightly compared to other websites and space around main header content could reduce marginally to allow the hero image to be within sight |
-| Mobile Phone | Samsung Galaxy S21 | ü    |              |      |
-| Tablet       | iPad (2020)        | ü    |              |      |                                                                                                                                                                                          |
-| Tablet       | iPad 3 (2012)      | ü    |              |      |                                                                                                                                                                                          |
-| Laptop       | ASUS Zenbook 14"   | ü    |              |      |                                                                                                                                                                                          |
+| Mobile Phone | iPhone SE          | :heavy_check_mark: |              |      | Noted that paragraph text needed to increase slightly compared to other websites and space around main header content could reduce marginally to allow the hero image to be within sight |
+| Mobile Phone | Samsung Galaxy S21 | :heavy_check_mark: |              |      |
+| Tablet       | iPad (2020)        | :heavy_check_mark: |              |      |                                                                                                                                                                                          |
+| Tablet       | iPad 3 (2012)      | :heavy_check_mark: |              |      |                                                                                                                                                                                          |
+| Laptop       | ASUS Zenbook 14"   | :heavy_check_mark: |              |      |                                                                                                                                                                                          |
 
 
 ### Accessibility
