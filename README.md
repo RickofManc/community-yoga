@@ -292,12 +292,9 @@ Each page of this website has been tested with [Wave (Web Accessibility Evaluati
 
 ### Performance
 
-Using Lighthouse performance testing within Chrome Developer Tools, every pages performance has been tested on both Desktop and Mobile devices.
+Using Lighthouse performance testing within Chrome Developer Tools, every pages performance has been tested on both Desktop and Mobile devices. The results from this testing is outlined in the tables below. The tests highlighted a constant theme of image sizes being too large which in turn was impacting page loading time. All files have been appropriately right sized and formatted to improve the user experience.
 
-
-
-
-
+![Lighthouse Performance Testing Results](readme-images/ot-yoga-lighthouse-performance-results.png)
 
 
 ### User Stories
