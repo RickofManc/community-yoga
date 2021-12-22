@@ -19,12 +19,8 @@ body {
 /* Website header */
 
 .main-header {
-  margin: 2rem 0;
+  margin: 0.75rem 0;
   text-align: center;
-}
-
-.main-header img {
-  margin: 1rem 1rem 0rem 1rem;
 }
 
 .main-header a {
@@ -195,13 +191,14 @@ body {
 }
 
 .student-feedback {
-  display: inline-grid;
-  margin: 2rem 2rem;
-  width: 25%;
+  display: inline-block;
+  margin: 2rem 4rem;
+  width: 20%;
+  vertical-align: top;
 }
 
 .student-feedback img {
-  display: inline-block;
+  display: inherit;
   width: 15rem;
   height: 15rem;
   margin: 1rem;
@@ -648,7 +645,7 @@ footer i:hover {
 
 @media screen and (max-width: 1600px) {
   .main-header img {
-    width: 15%;
+    width: 13%;
     height: auto;
   }
 
@@ -1141,7 +1138,7 @@ footer i:hover {
   }
 
   .main-header img {
-      width: 30%;
+      width: 18%;
   }
 
   .main-header-h1 {
