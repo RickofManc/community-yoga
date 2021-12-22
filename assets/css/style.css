@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-html {
+/*html {
   height: 3000px;
-}
+}*/
 
 body {
   max-width: 2600px;
@@ -512,6 +512,7 @@ footer {
   width: 100%;
   height: 25rem;
   background-color: #000;
+  clear: both;
 }
 
 .footer-section {
@@ -1252,7 +1253,7 @@ footer i:hover {
   }
 
   .student-feedback p {
-    margin: 1rem 1rem;
+    margin: 1rem 4rem;
     font-size: 0.875rem;
     line-height: 1.3rem;
     padding: 0;
@@ -1274,14 +1275,14 @@ footer i:hover {
   }
 
   .site-pages-p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.4rem;
     text-align: left;
   }
 
   /* About Marie Page */
   .about-marie-div-1 li {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.4rem;
     margin-left: -2rem;
   }
