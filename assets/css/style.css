@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+html {
+  height: 3000px;
+}
+
 body {
   max-width: 2600px;
   height: 100%;
@@ -587,7 +591,6 @@ footer i:hover {
 
 .error-page-div {
   display: contents;
-  contain: content;
   position: relative;
 }
 
@@ -658,6 +661,10 @@ footer i:hover {
     height: auto;
     position: absolute;
     top: -250px;
+  }
+
+  footer {
+    height: 20rem;
   }
 
   .footer-contact-div {
@@ -818,10 +825,6 @@ footer i:hover {
   }
 
   /* Footer */
-  footer {
-      height: 18rem;
-  }
-  
   .footer-contact-div,
   .footer-social-media-div {
     display: flex;
