@@ -157,6 +157,8 @@ Where necessary images have been styled to display on differing devices with med
 
 ### Universal Features
 
+![Header & Nav Menu Screenshot](readme-images/ot-yoga-stay-header-nav-menu.png)
+
 ##### Header & Navigation Menu
 
 The centralized header element complete with OT Yoga logo and Navigation Menu (nav-menu) is a constant element throughout the website. The layout has been centrally aligned leading up to the logo which represent hands clasped, stretching up, incorporating into a house. This sense of home is aimed at providing a friendly comfortable feel. The logo and main header change colour when the user hovers over them, with a click on either intuitively returning the user to the homepage.
@@ -164,6 +166,9 @@ The centralized header element complete with OT Yoga logo and Navigation Menu (n
 The responsive nature of elements changing colour when hovered over is maintained to the nav-menu where each page title changes on hover. In addition, the page title remains lit when a user visits that page to help inform where they are within the website.
 
 For devices under 640px wide, the nav-menu reduces to a collapsible drop-down style, with menu options aligned to the left for ease of selection for the vast majority of users.
+
+
+![Footer Screenshot](readme-images/ot-yoga-footer.png)
 
 ##### Footer 
 
@@ -187,9 +192,15 @@ A '404 Not Found' page has been added to the website in the event of a failed li
 
 To assist new users in locating OT Yoga, a Google Map iFrame has been added to the homepage in parallel to the key information on when the classes occur. Text supporting the Map informs users they can click on the map to visit Google Maps and plan their journey to the venue.
 
+
+![FAQ's Vertical Accordion Screenshot](readme-images/ot-yoga-vertical-accordion.png)
+
 ##### FAQ's Vertical Accordion
 
 With 11 questions available to inform users on attending a class, it was important to ensure the page wasn't overloaded with content which may result in users being deterred and not finding the answer to their question. With this is mind, the vertical accordion provides a concise list of the questions, with answers available as a drop-down when required. This format of FAQ's can be amended with relative ease as OT Yoga require changes to information.
+
+
+![Sign-up Form Screenshot](readme-images/ot-yoga-color-sign-up-form.png)
 
 ##### Sign-up Form
 
@@ -321,7 +332,7 @@ Below is a summary of the test results.
     * A sign-up form has been created on a dedicated page titled 'Stay Informed!' which should act as a call to action from the nav-menu. Users can be informed of changes in classes from completing just 3 mandatory fields. However should users wish they could complete a further 4 optional questions which will help OT Yoga provide further yoga relating information to support students.
 
 
-### Bugs / Issues
+### Issues
 
 The issues listed in the table below remain at the end of the Testing phase for the MVP release in December 2021. Where indicated the issue has either been resolved or no further action will be taken at the present time.
 
