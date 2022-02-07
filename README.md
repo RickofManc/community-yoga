@@ -220,7 +220,7 @@ To deliver the strategic aim of "Introduce a method for the instructor to commun
 
 ## Testing 
 
-Throughout the Build phase Chrome Developer Tools are used to ensure all pages are being developed to remain intuitive, responsive and accessible across all device widths. Primarily the pages were designed at 1920px wide reducing to 320px for mobile devices. These tools and others were used for the Testing phase. Full details and results of this phase can be found within this document [ADD XLS TEST DOCUMENT LINK].
+Throughout the Build phase Chrome Developer Tools are used to ensure all pages are being developed to remain intuitive, responsive and accessible across all device widths. Primarily the pages were designed at 1920px wide reducing to 320px for mobile devices. These tools and others were used for the Testing phase. Full details and results of this phase can be found within a separate repo document.
 
 The following sections summarise the tests and results.
 
